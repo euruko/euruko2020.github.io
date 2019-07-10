@@ -7,7 +7,7 @@
     { name: "cfp", description: "The call for papers is open" },
     { name: "tickets", description: "Tickets are available" },
   ]
-  let selectedOptions = [];
+  let selectedOptions = options.map(option => option.name);
 
   async function postData(url, data={}) {
     return fetch(url, {
