@@ -5,26 +5,28 @@
   const options = [
     { name: "dates", description: "The dates are confirmed" },
     { name: "cfp", description: "The call for papers is open" },
-    { name: "tickets", description: "Tickets are available" },
-  ]
+    { name: "tickets", description: "Tickets are available" }
+  ];
   let selectedOptions = options.map(option => option.name);
 
-  async function postData(url, data={}) {
+  async function postData(url, data = {}) {
     return fetch(url, {
-      method: 'POST',
-      mode: 'cors',
-      cache: 'no-cache',
+      method: "POST",
+      mode: "cors",
+      cache: "no-cache",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json"
       },
-      body: JSON.stringify(data),
-    }).then((response) => {
-      loading = false;
-      return response.json();
-    }).catch((error) => {
-      loading = false;
-      throw error;
-    });
+      body: JSON.stringify(data)
+    })
+      .then(response => {
+        loading = false;
+        return response.json();
+      })
+      .catch(error => {
+        loading = false;
+        throw error;
+      });
   }
 
   function handleSubmit(event) {
@@ -42,31 +44,39 @@
 
 <style>
   h1 {
-  color: purple;
+    color: purple;
   }
 </style>
 
 <form on:submit|preventDefault={handleSubmit}>
-  <p>Get notified once we know more about the event</p>
-  <label>
-    Your email address
-    <input type="email" bind:value={email} readonly={loading} on:input={clearPromise}>
-  </label>
-  <p>Notify me when</p>
+  <h3 class="form-title">Get notified once we know more about the event</h3>
+  <input
+    class="form-email"
+    type="email"
+    placeholder="Your email address"
+    bind:value={email}
+    readonly={loading}
+    on:input={clearPromise} />
+  <div class="form-notices">
+    <p class="form-notices__title">Notify me when</p>
 
-  {#each options as option}
-    <label>
-      <input type=checkbox bind:group={selectedOptions} value={option.name}>
-      {option.description}
-    </label>
-  {/each}
+    {#each options as option}
+      <div class="form-checkbox">
+        <input
+          class="form-checkbox__input"
+          type="checkbox"
+          bind:group={selectedOptions}
+          value={option.name}
+          id={option.name} />
+        <label for={option.name} class="form-checkbox__text">
+           {option.description}
+        </label>
+      </div>
+    {/each}
+  </div>
 
-  <button type="submit" disabled={loading}>
-    {#if loading}
-      Sending
-    {:else}
-      Submit
-    {/if}
+  <button class="form-submit" type="submit" disabled={loading}>
+    {#if loading}Sending{:else}Submit{/if}
   </button>
 
   {#if promise}
