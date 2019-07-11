@@ -43,8 +43,8 @@
 </script>
 
 <style>
-  h1 {
-    color: purple;
+  .error {
+    color: red;
   }
 </style>
 
@@ -56,6 +56,7 @@
     placeholder="Your email address"
     bind:value={email}
     readonly={loading}
+    required
     on:input={clearPromise} />
   <div class="form-notices">
     <p class="form-notices__title">Notify me when</p>
@@ -84,12 +85,12 @@
       <p>...waiting</p>
     {:then result}
       {#if result.success}
-        <p>Success</p>
+        <p>Success! Check your inbox for the confirmation link.</p>
       {:else}
-        <p>{result.error}</p>
+        <p class="error">{result.error}</p>
       {/if}
     {:catch error}
-      <p style="color: red">{error.message}</p>
+      <p class="error">{error.message}</p>
     {/await}
   {/if}
 </form>
