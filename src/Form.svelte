@@ -37,6 +37,10 @@
     });
   }
 
+  function shouldDisableSubmit() {
+    return (loading || selectedOptions.length === 0 || email.length === 0);
+  }
+
   function clearPromise() {
     promise = null;
   }
@@ -76,7 +80,7 @@
     {/each}
   </div>
 
-  <button class="form-submit" type="submit" disabled={loading}>
+  <button class="form-submit" type="submit" disabled={loading || selectedOptions.length === 0 || email.length === 0}>
     {#if loading}Sending{:else}Submit{/if}
   </button>
 
