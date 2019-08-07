@@ -1,5 +1,8 @@
 {
-  "name": "svelte-app",
+  "name": "euruko2020",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "https://github.com/euruko/euruko2020.github.io",
   "version": "1.0.0",
   "devDependencies": {
     "gh-pages": "^2.0.1",
