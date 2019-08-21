@@ -3,6 +3,7 @@ const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const AssetsPlugin = require("assets-webpack-plugin");
+const SriPlugin = require("webpack-subresource-integrity");
 
 module.exports = {
   entry: {
@@ -11,6 +12,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, "dist"),
+    crossOriginLoading: "anonymous",
   },
 
   resolve: {
@@ -58,10 +60,16 @@ module.exports = {
   },
 
   plugins: [
+    new SriPlugin({
+      hashFuncNames: ["sha256", "sha384"],
+      enabled: process.env.NODE_ENV === "production",
+    }),
+
     new AssetsPlugin({
       filename: "webpack.json",
       path: path.join(process.cwd(), "site/data"),
       prettyPrint: true,
+      integrity: true,
     }),
 
     new CopyWebpackPlugin([

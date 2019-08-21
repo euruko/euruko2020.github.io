@@ -19,9 +19,18 @@
     <meta name="msapplication-TileColor" content="#f15a5b" />
     <meta name="theme-color" content="#f15a5b" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@euruko" />
+    <meta name="twitter:creator" content="@euruko" />
+    <meta property="twitter:title" content="Euruko 2020" />
+    <meta property="twitter:description" content="Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre" />
+    <!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->
+    <meta property="twitter:image" content="https://euruko2020.org{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).Permalink }}" />
+    <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
+
     {{ $stylesheet := .Site.Data.webpack.main }}
-    {{- with $stylesheet.css -}}
-      <link href="{{ relURL . }}" rel="stylesheet">
+    {{- with $stylesheet -}}
+      <link href="{{ relURL .css }}" rel="stylesheet"{{ if isset . "cssIntegrity" }} integrity="{{.cssIntegrity}}"{{ end }}>
     {{- end -}}
   </head>
   <body>
@@ -32,8 +41,8 @@
     {{- block "footer" . -}}{{- partial "footer" . -}}{{- end -}}
 
     {{- $script := .Site.Data.webpack.main -}}
-    {{ with $script.js }}
-      <script defer src="{{ relURL . }}"></script>
+    {{ with $script }}
+      <script defer src="{{ relURL .js }}"{{ if isset . "cssIntegrity" }} integrity="{{.jsIntegrity}}"{{ end }}></script>
     {{ end }}
   </body>
 </html>
