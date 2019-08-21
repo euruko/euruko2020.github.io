@@ -3,7 +3,6 @@
   let promise = null;
   let email = "";
   const options = [
-    { name: "dates", description: "The dates are confirmed" },
     { name: "cfp", description: "The call for papers is open" },
     { name: "tickets", description: "Tickets are available" }
   ];
