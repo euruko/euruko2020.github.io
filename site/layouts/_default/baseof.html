@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Euruko 2020" />
+    <meta name="author" content="Kisko Labs" />
+    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+    <title>{{ $.Site.Title }}</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "images/apple-touch-icon.png" | resources.Fingerprint).Permalink }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "images/favicon-16x16.png" | resources.Fingerprint).Permalink }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "images/favicon-32x32.png" | resources.Fingerprint).Permalink }}" />
+    <link rel="manifest" href="{{ (resources.Get "template.webmanifest" | resources.ExecuteAsTemplate "site.webmanifest" . | resources.Fingerprint).Permalink }}" />
+    <link rel="mask-icon" href="{{ (resources.Get "images/safari-pinned-tab.svg" | resources.Fingerprint).Permalink }}" color="#f15a5b" />
+    <meta name="msapplication-TileColor" content="#f15a5b" />
+    <meta name="theme-color" content="#f15a5b" />
+
+    {{ $stylesheet := .Site.Data.webpack.main }}
+    {{- with $stylesheet.css -}}
+      <link href="{{ relURL . }}" rel="stylesheet">
+    {{- end -}}
+  </head>
+  <body>
+    {{- block "header" . -}}{{- partial "header" . -}}{{- end -}}
+
+    {{- block "main" . -}}{{- end -}}
+
+    {{- block "footer" . -}}{{- partial "footer" . -}}{{- end -}}
+
+    {{- $script := .Site.Data.webpack.main -}}
+    {{ with $script.js }}
+      <script defer src="{{ relURL . }}"></script>
+    {{ end }}
+  </body>
+</html>

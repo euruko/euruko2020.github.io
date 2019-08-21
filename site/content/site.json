@@ -1,0 +1,19 @@
+{
+  "name": "Euruko 2020",
+  "short_name": "Euruko 2020",
+  "icons": [
+    {
+      "src": "{{ (resources.Get "images/android-chrome-192x192.png" | resources.Fingerprint).Permalink }}",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f15a5b",
+  "background_color": "#f15a5b",
+  "display": "standalone"
+}
