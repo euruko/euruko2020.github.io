@@ -8,14 +8,13 @@
     />
     <meta name="description" content="Euruko 2020" />
     <meta name="author" content="Kisko Labs" />
-    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
     <title>{{ $.Site.Title }}</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "images/apple-touch-icon.png" | resources.Fingerprint).Permalink }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "images/favicon-16x16.png" | resources.Fingerprint).Permalink }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "images/favicon-32x32.png" | resources.Fingerprint).Permalink }}" />
-    <link rel="manifest" href="{{ (resources.Get "template.webmanifest" | resources.ExecuteAsTemplate "site.webmanifest" . | resources.Fingerprint).Permalink }}" />
-    <link rel="mask-icon" href="{{ (resources.Get "images/safari-pinned-tab.svg" | resources.Fingerprint).Permalink }}" color="#f15a5b" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "images/apple-touch-icon.png" | resources.Fingerprint).RelPermalink }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "images/favicon-16x16.png" | resources.Fingerprint).RelPermalink }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "images/favicon-32x32.png" | resources.Fingerprint).RelPermalink }}" />
+    <link rel="manifest" href="{{ (resources.Get "template.webmanifest" | resources.ExecuteAsTemplate "site.webmanifest" . | resources.Fingerprint).RelPermalink }}" />
+    <link rel="mask-icon" href="{{ (resources.Get "images/safari-pinned-tab.svg" | resources.Fingerprint).RelPermalink }}" color="#f15a5b" />
     <meta name="msapplication-TileColor" content="#f15a5b" />
     <meta name="theme-color" content="#f15a5b" />
 
@@ -25,7 +24,7 @@
     <meta property="twitter:title" content="Euruko 2020" />
     <meta property="twitter:description" content="Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre" />
     <!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->
-    <meta property="twitter:image" content="https://euruko2020.org{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).Permalink }}" />
+    <meta property="twitter:image" content="{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
 
     {{ $stylesheet := .Site.Data.webpack.main }}
