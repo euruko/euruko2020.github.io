@@ -8,6 +8,8 @@ const common = require("./webpack.common.js");
 module.exports = merge(common, {
   mode: "production",
 
+  devtool: "source-map",
+
   output: {
     filename: "[name].[hash:5].js",
     chunkFilename: "[id].[hash:5].css",
@@ -17,14 +19,23 @@ module.exports = merge(common, {
     minimizer: [
       new TerserPlugin({
         parallel: true,
+        sourceMap: true,
       }),
 
       new MiniCssExtractPlugin({
         filename: "[name].[hash:5].css",
         chunkFilename: "[id].[hash:5].css",
+        sourceMap: true,
       }),
 
-      new OptimizeCSSAssetsPlugin({}),
+      new OptimizeCSSAssetsPlugin({
+        cssProcessorOptions: {
+          map: {
+            inline: false,
+            annotation: true,
+          },
+        },
+      }),
     ],
   },
 });
