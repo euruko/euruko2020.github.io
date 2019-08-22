@@ -23,7 +23,7 @@
     <meta name="twitter:creator" content="@euruko" />
     <meta property="twitter:title" content="Euruko 2020" />
     <meta property="twitter:description" content="Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre" />
-    <!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->
+    {{ "<!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->" | safeHTML }}
     <meta property="twitter:image" content="{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
 
