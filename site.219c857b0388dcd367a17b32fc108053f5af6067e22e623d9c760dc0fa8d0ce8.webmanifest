@@ -3,12 +3,12 @@
     "short_name": "Euruko 2020",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/images/android-chrome-192x192.bb629926d1ed3caa312f23b97c76ac58d18f0d571cce66fe12f2aba6fdaff0f7.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/images/android-chrome-512x512.d848aec89e6d905819487ad54255205c318ee1b2981960e2ab8271835cf2db6d.png",
             "sizes": "512x512",
             "type": "image/png"
         }
