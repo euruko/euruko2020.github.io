@@ -1,18 +1,22 @@
-# Victor Hugo
+# Euruko 2020
 
-**A Hugo boilerplate for creating truly epic websites**
+This is the website for Euruko 2020.
 
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
+## Overview
 
-Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
+Built using [Victor Hugo](https://github.com/netlify-templates/victor-hugo).
 
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+The site uses [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
 
 ## Usage
 
 ### :exclamation: Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+You should have the following installed:
+
+* [node](https://nodejs.org/en/download/) (the latest LTS version)
+* [yarn](https://yarnpkg.com/en/docs/install)
+* [hugo](https://gohugo.io/getting-started/installing/) (v0.57+)
 
 Next step, clone this repository and run:
 
@@ -20,11 +24,9 @@ Next step, clone this repository and run:
 yarn install
 ```
 
-This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
-
 ### :construction_worker: Development
 
-While developing your website, use:
+While developing the website, use:
 
 ```bash
 yarn start
@@ -58,6 +60,7 @@ See [package.json](package.json#L8) for all tasks.
 
 ```
 |--site                // Everything in here will be built with hugo
+|  |--assets           // Stores all the files which need be processed by Hugo Pipes
 |  |--content          // Pages and collections - ask if you need extra pages
 |  |--data             // YAML data files with any data for use in examples
 |  |--layouts          // This is where all templates go
@@ -65,8 +68,8 @@ See [package.json](package.json#L8) for all tasks.
 |  |  |--index.html    // The index page
 |  |--static           // Files in here ends up in the public folder
 |--src                 // Files that will pass through the asset pipeline
-|  |--css              // Webpack will bundle imported css seperately
-|  |--index.js         // index.js is the webpack entry for your css & js assets
+|  |--css              // Webpack will bundle imported css separately
+|  |--index.js         // index.js is the webpack entry for your CSS & JS assets
 ```
 
 ## Basic Concepts
@@ -79,12 +82,6 @@ The most useful page there is the one about the available functions:
 
 https://gohugo.io/templates/functions/
 
-For assets that are completely static and don't need to go through the asset pipeline,
-use the `site/static` folder. Images, font-files, etc, all go there.
-
-Files in the static folder end up in the web root. So a file called `site/static/favicon.ico`
-will end up being available as `/favicon.ico` and so on...
-
 The `src/index.js` file is the entrypoint for webpack and will be built to `/dist/main.js`
 
 You can use **ES6** and use both relative imports or import libraries from npm.
@@ -94,7 +91,7 @@ minified to `/dist/[name].[hash:5].css`. Import statements will be resolved as p
 
 ## Environment variables
 
-To separate the development and production _- aka build -_ stages, all gulp tasks run with a node environment variable named either `development` or `production`.
+To separate the development and production _- aka build -_ stages, all tasks run with a node environment variable named either `development` or `production`.
 
 You can access the environment variable inside the theme files with `getenv "NODE_ENV"`. See the following example for a conditional statement:
 
@@ -102,15 +99,7 @@ You can access the environment variable inside the theme files with `getenv "NOD
 
 All tasks starting with _build_ set the environment variable to `production` - the other will set it to `development`.
 
-## Deploying to Netlify
+## Deploying to GitHub Pages
 
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now Netlify will build and deploy your site whenever you push to git.
-
-You can also click this button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
-
-## Enjoy!! 😸
+1. Push your changes
+2. Run `yarn run deploy`, this will first build a production version of the site and then deploy to GitHub pages
