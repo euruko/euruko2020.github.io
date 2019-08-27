@@ -6,4 +6,12 @@
     <loc>https://euruko2020.org/</loc>
   </url>
   
+  <url>
+    <loc>https://euruko2020.org/failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://euruko2020.org/success/</loc>
+  </url>
+  
 </urlset>
