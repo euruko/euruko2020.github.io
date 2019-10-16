@@ -1,0 +1,158 @@
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  height: 100vh;
+  max-height: 1000px;
+  background: linear-gradient(
+    0deg,
+    $purple-1 0%,
+    $purple-1 35%,
+    $purple-2 100%
+  );
+  background: $purple-2;
+  overflow: hidden;
+
+  &__image-container {
+    position: absolute;
+    left: 90px;
+    top: calc(50% + (#{$header-height} / 2));
+    transform: translate(0, -50%);
+  }
+
+  &__image {
+    width: 600px;
+    height: auto;
+  }
+
+  &__info {
+    position: absolute;
+    top: calc(50% + (#{$header-height} / 2) + 7px);
+    left: 900px;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: $semibold;
+    color: $purple-3;
+
+    a {
+      color: #fff;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        color: #f767b3;
+      }
+    }
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-top: 30px;
+
+    & > span {
+      padding-bottom: 7px;
+      border-bottom: 3px solid $purple-3;
+    }
+
+    & > svg {
+      margin-left: 10px;
+      transform: translate(0, -11px);
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover > svg {
+      transform: translate(10px, -11px);
+    }
+  }
+
+  &__shadow {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: -50px;
+    left: 0;
+    box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.4);
+  }
+
+  @include mq($until: wide) {
+    &__image-container {
+      left: 40px;
+    }
+
+    &__info {
+      left: 700px;
+    }
+  }
+
+  @include mq($until: desktop) {
+    & {
+      min-height: 480px;
+      height: 480px;
+      max-height: 480px;
+    }
+
+    &__image-container {
+      left: 20px;
+      top: 110px;
+      transform: none;
+    }
+
+    &__image {
+      width: 400px;
+    }
+
+    &__info {
+      left: 480px;
+      top: 255px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    &__cta {
+      & > svg {
+        margin-left: 7px;
+        transform: translate(0, -8px);
+      }
+
+      &:hover > svg {
+        transform: translate(7px, -8px);
+      }
+    }
+  }
+
+  @include mq($until: largeTablet) {
+    & {
+      min-height: auto;
+      height: auto;
+      max-height: none;
+      padding-top: 70px;
+    }
+
+    &__image-container {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      padding: 40px 20px;
+    }
+
+    &__image {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    &__info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      top: auto;
+      left: auto;
+      padding: 30px 20px;
+      margin: 0 auto;
+      background: rgba($purple-2, 0.75);
+    }
+  }
+}

@@ -67,5 +67,7 @@
   "resolutions": {
     "natives": "1.1.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "sass-mq": "^5.0.1"
+  }
 }
