@@ -10,24 +10,76 @@ const app = new Form({
 
 export default app;
 
-const header = document.getElementById("header");
-const mobileToggle = document.getElementById("mobile-toggle");
-const heroImage = document.getElementById("hero-image");
-const langSelect = document.getElementById("lang-select");
+window.addEventListener("load", (event) => {
+  setClickListeners();
+  setScrollListener();
+  setIntersectionObserver();
+}, false);
 
-window.addEventListener("scroll", (e) => {
+const setScrollListener = () => {
+  const header = document.getElementById("header");
+  const heroImage = document.getElementById("hero-image");
+
   if (window.scrollY > 100) {
     header.classList.remove("header--not-scrolled");
-  } else {
-    header.classList.add("header--not-scrolled");
   }
-  heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
-});
 
-mobileToggle.addEventListener("click", (e) => {
-  header.classList.toggle("header--mobile-toggled");
-});
+  if (window.scrollY < 1000) {
+    heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
+  }
 
-langSelect.addEventListener("click", (e) => {
-  header.classList.toggle("header--language-toggled");
-});
+  window.addEventListener("scroll", (e) => {
+    if (window.scrollY > 100) {
+      header.classList.remove("header--not-scrolled");
+    } else {
+      header.classList.add("header--not-scrolled");
+    }
+    if (window.scrollY < 1000) {
+      heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
+    }
+  });
+};
+
+const setClickListeners = () => {
+  const header = document.getElementById("header");
+  const mobileToggle = document.getElementById("mobile-toggle");
+  const langSelect = document.getElementById("lang-select");
+
+  mobileToggle.addEventListener("click", (e) => {
+    header.classList.toggle("header--mobile-toggled");
+  });
+
+  langSelect.addEventListener("click", (e) => {
+    header.classList.toggle("header--language-toggled");
+  });
+};
+
+const setIntersectionObserver = () => {
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver(observerCallback, options);
+
+  document.querySelectorAll(".section").forEach((section) => {
+    observer.observe(section);
+  });
+};
+
+const observerCallback = (entries) => {
+  entries.forEach((entry) => {
+    const sectionIndex = entry.target.id[8];
+    const sectionHeading = document.getElementById("heading-" + sectionIndex);
+    const sectionLink = document.getElementById("link-" + sectionIndex);
+
+    if (entry.isIntersecting) {
+      if (sectionHeading) sectionHeading.classList.add("section__heading--active");
+      if (sectionLink) sectionLink.classList.add("header__link--active");
+    } else {
+      if (sectionHeading) sectionHeading.classList.remove("section__heading--active");
+      if (sectionLink) sectionLink.classList.remove("header__link--active");
+    }
+  });
+};

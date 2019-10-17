@@ -12,8 +12,8 @@
   Global styles and mixins
  */
 @import "imports/variables.scss";
-@import "imports/global.scss";
 @import "~sass-mq";
+@import "imports/global.scss";
 
 /*
   Blocks
@@ -21,3 +21,6 @@
 @import "blocks/form.scss";
 @import "blocks/header.scss";
 @import "blocks/hero.scss";
+@import "blocks/profile.scss";
+@import "blocks/section.scss";
+@import "blocks/speakers.scss";

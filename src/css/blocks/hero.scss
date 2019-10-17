@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 600px;
   height: 100vh;
-  max-height: 1000px;
+  max-height: 1200px;
   background: linear-gradient(
     0deg,
     $purple-1 0%,
@@ -39,7 +39,7 @@
       transition: all 0.1s ease-in-out;
 
       &:hover {
-        color: #f767b3;
+        color: $pink-light;
       }
     }
   }

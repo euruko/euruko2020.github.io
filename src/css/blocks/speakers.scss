@@ -1,0 +1,43 @@
+.speakers {
+  &__heading {
+    margin-bottom: 60px;
+  }
+
+  &__profiles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -60px -15px 0 -15px;
+  }
+
+  &__profile {
+    padding: 60px 15px 0 15px;
+    flex-basis: 20%;
+  }
+
+  @include mq($until: desktop) {
+    &__heading {
+      margin-bottom: 40px;
+    }
+
+    &__profile {
+      flex-basis: 25%;
+    }
+  }
+
+  @include mq($until: largeTablet) {
+    &__profiles {
+      margin: -40px -10px 0 -10px;
+    }
+
+    &__profile {
+      padding: 40px 10px 0 10px;
+      flex-basis: 33.3%;
+    }
+  }
+
+  @include mq($until: tablet) {
+    &__profile {
+      flex-basis: 50%;
+    }
+  }
+}

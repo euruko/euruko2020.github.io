@@ -1,0 +1,74 @@
+.section {
+  margin-top: -$header-height;
+  padding-top: $header-height;
+
+  &__container {
+    padding: 60px 40px;
+
+    @include mq($until: desktop) {
+      padding: 40px;
+    }
+
+    @include mq($until: tablet) {
+      padding: 20px;
+    }
+  }
+
+  &__inner-container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  &--blue &__container {
+    background: $blue-4;
+  }
+
+  &__heading {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: $bold;
+    font-style: italic;
+    padding-bottom: 8px;
+
+    @include mq($until: largeTablet) {
+      font-size: 30px;
+    }
+
+    &::before {
+      content: "";
+      display: none;
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 8px;
+      background: $grey-1;
+      transform: skew(-10deg);
+      animation: heading 1s cubic-bezier(0.72, 0, 0.32, 1) backwards;
+    }
+
+    &--orange::before {
+      background: $orange-light;
+    }
+
+    &--blue::before {
+      background: $blue-2;
+    }
+
+    &--active::before {
+      display: block;
+    }
+  }
+
+  @keyframes heading {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
