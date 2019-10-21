@@ -10,7 +10,7 @@
     }
 
     @include mq($until: tablet) {
-      padding: 20px;
+      padding: 40px 20px;
     }
   }
 
@@ -20,7 +20,7 @@
   }
 
   &--blue &__container {
-    background: $blue-4;
+    background: $blue-3;
   }
 
   &__heading {
@@ -58,17 +58,50 @@
       background: $blue-2;
     }
 
+    &--pink::before {
+      background: $pink-light;
+    }
+
     &--active::before {
       display: block;
     }
   }
 
-  @keyframes heading {
-    from {
-      width: 0px;
+  &__columns {
+    display: flex;
+  }
+
+  &__small-column {
+    flex-basis: 40%;
+    padding-right: 20px;
+  }
+
+  &__large-column {
+    flex-basis: 60%;
+  }
+
+  @include mq($until: largeTablet) {
+    &__columns {
+      flex-wrap: wrap;
     }
-    to {
-      width: 100%;
+
+    &__small-column {
+      flex-basis: 100%;
+      padding-right: 0;
     }
+
+    &__large-column {
+      flex-basis: 100%;
+      margin-top: 40px;
+    }
+  }
+}
+
+@keyframes heading {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
   }
 }

@@ -1,0 +1,32 @@
+.sponsors {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: -40px;
+
+    & img {
+      max-width: 200px;
+    }
+
+    &--organizer img {
+      max-width: 400px;
+    }
+
+    &--small img {
+      max-width: 100px;
+    }
+  }
+
+  &__link {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  @include mq($from: largeTablet) {
+    &__list {
+      justify-content: flex-end;
+      margin-left: 0;
+    }
+  }
+}

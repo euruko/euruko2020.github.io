@@ -10,16 +10,18 @@ const app = new Form({
 
 export default app;
 
-window.addEventListener("load", (event) => {
+const header = document.getElementById("header");
+const heroImage = document.getElementById("hero-image");
+const mobileToggle = document.getElementById("mobile-toggle");
+const langSelect = document.getElementById("lang-select");
+
+window.addEventListener("load", () => {
   setClickListeners();
   setScrollListener();
   setIntersectionObserver();
 }, false);
 
 const setScrollListener = () => {
-  const header = document.getElementById("header");
-  const heroImage = document.getElementById("hero-image");
-
   if (window.scrollY > 100) {
     header.classList.remove("header--not-scrolled");
   }
@@ -41,10 +43,6 @@ const setScrollListener = () => {
 };
 
 const setClickListeners = () => {
-  const header = document.getElementById("header");
-  const mobileToggle = document.getElementById("mobile-toggle");
-  const langSelect = document.getElementById("lang-select");
-
   mobileToggle.addEventListener("click", (e) => {
     header.classList.toggle("header--mobile-toggled");
   });
@@ -58,7 +56,7 @@ const setIntersectionObserver = () => {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.1
+    threshold: 0.3
   };
 
   const observer = new IntersectionObserver(observerCallback, options);
@@ -70,7 +68,7 @@ const setIntersectionObserver = () => {
 
 const observerCallback = (entries) => {
   entries.forEach((entry) => {
-    const sectionIndex = entry.target.id[8];
+    const sectionIndex = entry.target.id;
     const sectionHeading = document.getElementById("heading-" + sectionIndex);
     const sectionLink = document.getElementById("link-" + sectionIndex);
 
@@ -78,7 +76,6 @@ const observerCallback = (entries) => {
       if (sectionHeading) sectionHeading.classList.add("section__heading--active");
       if (sectionLink) sectionLink.classList.add("header__link--active");
     } else {
-      if (sectionHeading) sectionHeading.classList.remove("section__heading--active");
       if (sectionLink) sectionLink.classList.remove("header__link--active");
     }
   });

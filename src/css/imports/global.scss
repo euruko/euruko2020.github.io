@@ -51,11 +51,16 @@ html {
     "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.4;
   color: $grey-1;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @include mq($until: largeTablet) {
+    font-size: 16px;
+  }
 }
 
 img {
