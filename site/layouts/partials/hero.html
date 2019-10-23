@@ -3,20 +3,19 @@
     <img
       id="hero-image"
       class="hero__image"
-      src="images/hero.svg"
+      src="/images/hero.svg"
       alt="Welcome to Euruko 2020"
     />
   </div>
   <div class="hero__shadow"></div>
   <div class="hero__info">
-    <p>
-      21st–22nd August 2020<br />
-      <a href="http://www.savoyteatteri.fi/en/homepage">Savoy Theatre</a>,<br />
-      Helsinki, Finland.<br />
-      Keynote by <a href="https://twitter.com/yukihiro_matz">Matz</a>.
-    </p>
-    <a href="#" class="hero__cta"
-      ><span>Buy tickets</span>
+    <p>{{ range.Site.Data.hero.content }}{{ markdownify . }}<br />{{ end }}</p>
+    <a
+      href="{{ .Site.Data.hero.ctaLink }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="hero__cta"
+      ><span>{{ .Site.Data.hero.ctaText }}</span>
       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
         <path
           fill="#ffffff"

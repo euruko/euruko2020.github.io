@@ -1,0 +1,29 @@
+{
+  "sectionName": "Facts of Helsinki",
+  "facts": [
+    {
+      "name": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "images/tuomiokirkko.png",
+      "url": "https://google.com"
+    },
+    {
+      "name": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "images/tuomiokirkko.png",
+      "url": "https://google.com"
+    },
+    {
+      "name": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "images/tuomiokirkko.png",
+      "url": "https://google.com"
+    },
+    {
+      "name": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "images/tuomiokirkko.png",
+      "url": "https://google.com"
+    }
+  ]
+}

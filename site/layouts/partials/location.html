@@ -1,0 +1,36 @@
+<section id="location" class="section section--background">
+  <img
+    class="section__background"
+    src="{{ (resources.Get .Site.Data.location.backgroundImage | resources.Fingerprint).RelPermalink }}"
+    alt="{{ .Site.Data.location.backgroundImageAlt }}"
+  />
+  <div class="section__background-darken"></div>
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__columns">
+        <div class="section__small-column">
+          <h1
+            id="heading-location"
+            class="section__heading section__heading--green"
+          >
+            {{ .Site.Data.location.sectionName }}
+          </h1>
+        </div>
+        <div class="section__large-column">
+          <div class="section__content">
+            {{ range.Site.Data.location.textContent }}
+            <p>{{ markdownify . }}</p>
+            {{ end }}
+            <a
+              href="{{ .Site.Data.location.ctaLink }}"
+              class="section__cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{ .Site.Data.location.ctaText }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

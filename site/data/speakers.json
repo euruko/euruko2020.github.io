@@ -1,0 +1,36 @@
+{
+  "sectionName": "Speakers",
+  "keynoteSpeakers": [
+    {
+      "name": "Stanley Kubrick",
+      "url": "https://google.com",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+    },
+    {
+      "name": "Francis Ford Coppola",
+      "url": "https://google.com",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Wong Kar-Wai",
+      "url": "https://google.com",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+    },
+    {
+      "name": "Terrence Malick",
+      "url": "https://google.com",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+    },
+    {
+      "name": "Apichatpong Weerasethakul",
+      "url": "https://google.com",
+      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+    }
+  ]
+}

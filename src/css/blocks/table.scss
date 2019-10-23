@@ -29,13 +29,13 @@
     border-right: 2px solid $blue-2;
   }
 
-  &__value {
+  &__event {
     flex: 1 1 auto;
     padding: 12px;
     font-weight: $semibold;
+  }
 
-    & > p {
-      font-weight: $regular;
-    }
+  &__description {
+    font-weight: $regular;
   }
 }

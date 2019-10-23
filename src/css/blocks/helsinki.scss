@@ -1,0 +1,48 @@
+.helsinki {
+  &__heading {
+    margin-bottom: 60px;
+  }
+
+  &__facts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -60px -2% 0 -2%;
+  }
+
+  &__fact {
+    padding: 60px 2% 0 2%;
+    flex-basis: 25%;
+  }
+
+  @include mq($until: desktop) {
+    &__heading {
+      margin-bottom: 40px;
+    }
+
+    &__fact {
+      flex-basis: 50%;
+    }
+  }
+
+  @include mq($until: largeTablet) {
+    &__facts {
+      margin: -40px -10px 0 -10px;
+    }
+
+    &__fact {
+      padding: 40px 10px 0 10px;
+    }
+  }
+
+  @include mq($until: tablet) {
+    &__fact {
+      flex-basis: 50%;
+    }
+  }
+
+  &__description {
+    margin-top: 1em;
+    font-size: 14px;
+    text-align: center;
+  }
+}

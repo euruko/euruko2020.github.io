@@ -18,8 +18,10 @@
 /*
   Blocks
  */
+@import "blocks/factbox.scss";
 @import "blocks/form.scss";
 @import "blocks/header.scss";
+@import "blocks/helsinki.scss";
 @import "blocks/hero.scss";
 @import "blocks/profile.scss";
 @import "blocks/schedule.scss";

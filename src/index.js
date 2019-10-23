@@ -10,11 +10,6 @@ const app = new Form({
 
 export default app;
 
-const header = document.getElementById("header");
-const heroImage = document.getElementById("hero-image");
-const mobileToggle = document.getElementById("mobile-toggle");
-const langSelect = document.getElementById("lang-select");
-
 window.addEventListener("load", () => {
   setClickListeners();
   setScrollListener();
@@ -22,27 +17,34 @@ window.addEventListener("load", () => {
 }, false);
 
 const setScrollListener = () => {
-  if (window.scrollY > 100) {
+  const header = document.getElementById("header");
+  const heroImage = document.getElementById("hero-image");
+
+  if (header && window.scrollY > 100) {
     header.classList.remove("header--not-scrolled");
   }
 
-  if (window.scrollY < 1000) {
+  if (heroImage && window.scrollY < 1000) {
     heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
   }
 
   window.addEventListener("scroll", (e) => {
-    if (window.scrollY > 100) {
+    if (header && window.scrollY > 100) {
       header.classList.remove("header--not-scrolled");
     } else {
       header.classList.add("header--not-scrolled");
     }
-    if (window.scrollY < 1000) {
+    if (heroImage && window.scrollY < 1000) {
       heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
     }
   });
 };
 
 const setClickListeners = () => {
+  const mobileToggle = document.getElementById("mobile-toggle");
+  const langSelect = document.getElementById("lang-select");
+  const header = document.getElementById("header");
+
   mobileToggle.addEventListener("click", (e) => {
     header.classList.toggle("header--mobile-toggled");
   });

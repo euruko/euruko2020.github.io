@@ -1,0 +1,53 @@
+{
+  "organizerTitle": "Organizer",
+  "organizer": {
+    "name": "Kisko Labs",
+    "url": "https://kiskolabs.com",
+    "imageUrl": "/images/kisko.svg"
+  },
+  "sponsorsTitle": "Sponsors",
+  "sponsorsLarge": [
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    }
+  ],
+  "sponsorsSmall": [
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    },
+    {
+      "name": "Kisko Labs",
+      "url": "https://kiskolabs.com",
+      "imageUrl": "/images/kisko.svg"
+    }
+  ]
+}

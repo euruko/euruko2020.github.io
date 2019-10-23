@@ -1,11 +1,11 @@
-.profile {
+.factbox {
   position: relative;
   text-decoration: none;
 
   &__container {
     position: relative;
     width: 100%;
-    padding-top: 120%;
+    padding-top: 80%;
   }
 
   &__background,
@@ -16,11 +16,7 @@
     top: 0;
     left: 0;
     border-radius: 30%;
-    background: $orange;
-
-    .profile--keynote & {
-      background: $pink;
-    }
+    background: rgba($green-1, 0.5);
   }
 
   &__background {
@@ -31,11 +27,11 @@
     transition: all 0.15s ease-in-out;
     transform: translate(2px, -2px);
 
-    .profile:hover & {
+    .factbox:hover & {
       transform: translate(6px, -6px);
     }
 
-    .profile:active & {
+    .factbox:active & {
       transform: translate(-2px, 2px);
     }
 
@@ -47,20 +43,6 @@
     }
   }
 
-  &__keynote {
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: $pink-light;
-    color: #fff;
-    font-size: 10px;
-    font-weight: $semibold;
-    letter-spacing: 0.1em;
-    padding: 2px 6px;
-    border-radius: 20px;
-  }
-
   &__name {
     position: relative;
     display: block;
@@ -70,13 +52,7 @@
     margin-top: 16px;
     transition: all 0.15s ease-in-out;
 
-    & > svg {
-      width: 18px;
-      height: 18px;
-      transform: translateY(2px);
-    }
-
-    .profile:hover & {
+    .factbox:hover & {
       text-decoration: underline;
     }
   }

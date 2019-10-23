@@ -8,7 +8,7 @@
               id="heading-sponsors"
               class="section__heading section__heading--pink"
             >
-              Organizer
+              {{ .Site.Data.sponsors.organizerTitle }}
             </h1>
           </div>
         </div>
@@ -16,11 +16,14 @@
           <div class="sponsors__list sponsors__list--organizer">
             <a
               class="sponsors__link"
-              href="https://google.com"
+              href="{{ .Site.Data.sponsors.organizer.url }}"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
+              <img
+                src="{{ .Site.Data.sponsors.organizer.imageUrl }}"
+                alt="{{ .Site.Data.sponsors.organizer.name }}"
+              />
             </a>
           </div>
         </div>
@@ -38,78 +41,34 @@
               id="heading-sponsors-b"
               class="section__heading section__heading--pink"
             >
-              Sponsors
+              {{ .Site.Data.sponsors.sponsorsTitle }}
             </h1>
           </div>
         </div>
         <div class="section__large-column">
           <div class="sponsors__list">
+            {{ range.Site.Data.sponsors.sponsorsLarge }}
             <a
               class="sponsors__link"
-              href="https://google.com"
+              href="{{ .url }}"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
+              <img src="{{ .imageUrl }}" alt="{{ .name }}" />
             </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
+            {{ end }}
           </div>
           <div class="sponsors__list sponsors__list--small">
+            {{ range.Site.Data.sponsors.sponsorsSmall }}
             <a
               class="sponsors__link"
-              href="https://google.com"
+              href="{{ .url }}"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
+              <img src="{{ .imageUrl }}" alt="{{ .name }}" />
             </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
-            <a
-              class="sponsors__link"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/kisko.svg" alt="Kisko Labs" />
-            </a>
+            {{ end }}
           </div>
         </div>
       </div>

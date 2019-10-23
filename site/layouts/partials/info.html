@@ -1,0 +1,32 @@
+<section id="info" class="section">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__columns">
+        <div class="section__small-column">
+          <h1
+            id="heading-info"
+            class="section__heading section__heading--green"
+          >
+            {{ .Site.Data.info.sectionName }}
+          </h1>
+        </div>
+        <div class="section__large-column">
+          <div class="section__content">
+            {{ range.Site.Data.info.textContent }}
+            <p>{{ markdownify . }}</p>
+            {{ end }}
+            {{ range.Site.Data.info.links }}
+            <a
+              href="{{ .url }}"
+              class="section__cta section__cta--green"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{ .text }}</a
+            >
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

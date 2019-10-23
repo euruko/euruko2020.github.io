@@ -1,5 +1,22 @@
-{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<article class="content">
-  <main>{{- .Content -}}</main>
-</article>
+{{ define "main" }}
+<section class="section section--purple">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__single-header">
+        <h1>
+          {{- .Title -}}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <article class="section__content">
+        <main>{{- .Content -}}</main>
+      </article>
+    </div>
+  </div>
+</section>
 {{ end }}

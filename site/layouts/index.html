@@ -1,11 +1,17 @@
 {{ define "main" }}
 
-{{- block "hero" . -}}{{- partial "hero" . -}}{{- end -}}
+{{- partial "hero" . -}}
 
-{{- block "speakers" . -}}{{- partial "speakers" . -}}{{- end -}}
+{{- partial "speakers" . -}}
 
-{{- block "schedule" . -}}{{- partial "schedule" . -}}{{- end -}}
+{{- partial "schedule" . -}}
 
-{{- block "sponsors" . -}}{{- partial "sponsors" . -}}{{- end -}}
+{{- partial "sponsors" . -}}
+
+{{- partial "location" . -}}
+
+{{- partial "helsinki" . -}}
+
+{{- partial "info" . -}}
 
 {{ end }}

@@ -1,0 +1,58 @@
+{
+  "sectionName": "Schedule",
+  "sectionInfo": "The schedule is subject to change.",
+  "schedules": [
+    {
+      "title": "Friday, August 21",
+      "events": [
+        {
+          "time": "08:00",
+          "event": "Registrations"
+        },
+        {
+          "time": "09:45",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:00",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:30",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:50",
+          "event": "Matt’s speech",
+          "description": "We are currently transferring our 5 public Rails apps to 1 big monolith. All five of them are job boards with seemingly similar logic but historically grown exceptions and weird peculiarities. The perspective to have multiple data bases managed in 1 app in Rails 6 sparked our idea. The whole story!"
+        }
+      ]
+    },
+    {
+      "title": "Saturday, August 22",
+      "events": [
+        {
+          "time": "08:00",
+          "event": "Registrations"
+        },
+        {
+          "time": "09:45",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:00",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:30",
+          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+        },
+        {
+          "time": "10:50",
+          "event": "Matt’s speech",
+          "description": "We are currently transferring our 5 public Rails apps to 1 big monolith. All five of them are job boards with seemingly similar logic but historically grown exceptions and weird peculiarities. The perspective to have multiple data bases managed in 1 app in Rails 6 sparked our idea. The whole story!"
+        }
+      ]
+    }
+  ]
+}
