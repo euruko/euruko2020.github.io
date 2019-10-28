@@ -66,27 +66,22 @@ const setIntersectionObserver = () => {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.3
+    threshold: 1.0
   };
 
   const observer = new IntersectionObserver(observerCallback, options);
 
-  document.querySelectorAll(".section").forEach((section) => {
+  document.querySelectorAll(".section__heading").forEach((section) => {
     observer.observe(section);
   });
 };
 
 const observerCallback = (entries) => {
   entries.forEach((entry) => {
-    const sectionIndex = entry.target.id;
-    const sectionHeading = document.getElementById("heading-" + sectionIndex);
-    const sectionLink = document.getElementById("link-" + sectionIndex);
+    const sectionHeading = document.getElementById(entry.target.id);
 
     if (entry.isIntersecting) {
       if (sectionHeading) sectionHeading.classList.add("section__heading--active");
-      if (sectionLink) sectionLink.classList.add("header__link--active");
-    } else {
-      if (sectionLink) sectionLink.classList.remove("header__link--active");
     }
   });
 };
