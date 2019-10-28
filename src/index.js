@@ -24,7 +24,7 @@ const setScrollListener = () => {
     header.classList.remove("header--not-scrolled");
   }
 
-  if (heroImage && window.scrollY < 1000) {
+  if (heroImage && window.scrollY < 1600) {
     heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
   }
 
@@ -34,7 +34,7 @@ const setScrollListener = () => {
     } else {
       header.classList.add("header--not-scrolled");
     }
-    if (heroImage && window.scrollY < 1000) {
+    if (heroImage && window.scrollY < 1600) {
       heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
     }
   });
@@ -43,6 +43,8 @@ const setScrollListener = () => {
 const setClickListeners = () => {
   const mobileToggle = document.getElementById("mobile-toggle");
   const langSelect = document.getElementById("lang-select");
+  const continueButton = document.getElementById("continue-button");
+  const firstSection = document.querySelector(".section");
   const header = document.getElementById("header");
 
   mobileToggle.addEventListener("click", (e) => {
@@ -51,6 +53,12 @@ const setClickListeners = () => {
 
   langSelect.addEventListener("click", (e) => {
     header.classList.toggle("header--language-toggled");
+  });
+
+  continueButton.addEventListener("click", (e) => {
+    firstSection.scrollIntoView({
+      behavior: "smooth"
+    });
   });
 };
 

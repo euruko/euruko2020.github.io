@@ -216,11 +216,11 @@
 
     &--green {
       &:hover {
-        color: $green-2;
+        color: $green-3;
       }
       &::before,
       &::after {
-        background: $green-2;
+        background: $green-3;
       }
     }
 
@@ -350,6 +350,7 @@
         display: block;
         text-decoration: none;
         padding: 10px 0;
+        color: $grey-1;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
         &:last-of-type {

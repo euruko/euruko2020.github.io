@@ -1,8 +1,4 @@
 .speakers {
-  &__heading {
-    margin-bottom: 60px;
-  }
-
   &__profiles {
     display: flex;
     flex-wrap: wrap;
@@ -15,10 +11,6 @@
   }
 
   @include mq($until: desktop) {
-    &__heading {
-      margin-bottom: 40px;
-    }
-
     &__profile {
       flex-basis: 25%;
     }

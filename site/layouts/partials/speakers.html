@@ -1,14 +1,19 @@
 <section id="speakers" class="section speakers">
   <div class="section__container">
     <div class="section__inner-container">
-      <div class="speakers__heading">
-        <h1
-          id="heading-speakers"
-          class="section__heading section__heading--orange"
-        >
-          {{ .Site.Data.speakers.sectionName }}
-        </h1>
-      </div>
+      <h1
+        id="heading-speakers"
+        class="section__heading section__heading--orange"
+      >
+        {{ .Site.Data.speakers.sectionName }}
+      </h1>
+      {{ if .Site.Data.speakers.sectionDescription }}
+      <p class="section__info">
+        {{ range.Site.Data.speakers.sectionDescription }}
+        {{ markdownify . }}<br />
+        {{ end }}
+      </p>
+      {{ end }}
       <div class="speakers__profiles">
         {{ range.Site.Data.speakers.keynoteSpeakers }}
         <div class="speakers__profile">

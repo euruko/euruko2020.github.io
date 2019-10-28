@@ -1,12 +1,8 @@
 .schedule {
-  &__info {
-    margin-top: 20px;
-  }
-
   &__table {
     margin-top: 60px;
 
-    @include mq($until: desktop) {
+    @include mq($until: wide) {
       margin-top: 40px;
     }
   }

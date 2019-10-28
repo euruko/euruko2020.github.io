@@ -11,8 +11,9 @@ $blue-3: #d7eff7;
 $blue-4: #e9f4f8;
 
 $green-1: #599060;
-$green-2: #a8e5b1;
-$green-3: #d1e7d5;
+$green-2: #9fcba5;
+$green-3: #a8e5b1;
+$green-4: #d1e7d5;
 
 $orange: #f3931a;
 $pink: #d74090;
@@ -20,6 +21,7 @@ $teal: #6bc3c7;
 
 $orange-light: #ffd29a;
 $pink-light: #f767b3;
+$teal-light: #9be9ed;
 
 // Fonts
 $regular: 500;
@@ -45,7 +47,8 @@ $mq-breakpoints: (
   tablet: 640px,
   largeTablet: 768px,
   desktop: 992px,
-  wide: 1300px
+  wide: 1300px,
+  superwide: 1600px
 );
 
 // Define the breakpoint from the $mq-breakpoints list that should

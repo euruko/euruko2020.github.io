@@ -1,26 +1,47 @@
 .sponsors {
+  &__link {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 20px;
+    background: #eee;
+    padding: 15px 30px;
+    border-radius: 100px;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      box-shadow: inset 0 0 0 2px $teal;
+    }
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-left: -40px;
+    margin-left: -20px;
 
     & img {
       max-width: 200px;
     }
 
-    &--organizer img {
-      max-width: 400px;
+    &--organizer {
+      .sponsors__link {
+        background: none;
+        padding: 20px;
+      }
+
+      img {
+        max-width: 400px;
+      }
     }
 
-    &--small img {
-      max-width: 100px;
-    }
-  }
+    &--small {
+      .sponsors__link {
+        padding: 10px 20px;
+      }
 
-  &__link {
-    margin-top: 20px;
-    margin-left: 40px;
+      img {
+        max-width: 100px;
+      }
+    }
   }
 
   @include mq($from: largeTablet) {

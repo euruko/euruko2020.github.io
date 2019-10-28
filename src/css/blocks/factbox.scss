@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     border-radius: 30%;
-    background: rgba($green-1, 0.5);
+    background: $green-2;
   }
 
   &__background {
@@ -49,6 +49,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: $semibold;
+    color: $grey-1;
     margin-top: 16px;
     transition: all 0.15s ease-in-out;
 

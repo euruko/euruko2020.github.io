@@ -15,6 +15,13 @@
           >
             {{ .Site.Data.location.sectionName }}
           </h1>
+          {{ if .Site.Data.location.sectionDescription }}
+          <p class="section__info">
+            {{ range.Site.Data.location.sectionDescription }}
+            {{ markdownify . }}<br />
+            {{ end }}
+          </p>
+          {{ end }}
         </div>
         <div class="section__large-column">
           <div class="section__content">

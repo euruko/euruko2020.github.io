@@ -1,6 +1,6 @@
 {
   "sectionName": "Schedule",
-  "sectionInfo": "The schedule is subject to change.",
+  "sectionDescription": ["The schedule is subject to change."],
   "schedules": [
     {
       "title": "Friday, August 21",

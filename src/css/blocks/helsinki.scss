@@ -1,8 +1,4 @@
 .helsinki {
-  &__heading {
-    margin-bottom: 60px;
-  }
-
   &__facts {
     display: flex;
     flex-wrap: wrap;
@@ -15,10 +11,6 @@
   }
 
   @include mq($until: desktop) {
-    &__heading {
-      margin-bottom: 40px;
-    }
-
     &__fact {
       flex-basis: 50%;
     }

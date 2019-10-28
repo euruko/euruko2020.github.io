@@ -3,14 +3,19 @@
     <div class="section__inner-container">
       <div class="section__columns">
         <div class="section__small-column">
-          <div class="sponsors__heading">
-            <h1
-              id="heading-sponsors"
-              class="section__heading section__heading--pink"
-            >
-              {{ .Site.Data.sponsors.organizerTitle }}
-            </h1>
-          </div>
+          <h1
+            id="heading-sponsors"
+            class="section__heading section__heading--pink"
+          >
+            {{ .Site.Data.sponsors.organizerTitle }}
+          </h1>
+          {{ if .Site.Data.sponsors.organizerDescription }}
+          <p class="section__info">
+            {{ range.Site.Data.sponsors.organizerDescription }}
+            {{ markdownify . }}<br />
+            {{ end }}
+          </p>
+          {{ end }}
         </div>
         <div class="section__large-column">
           <div class="sponsors__list sponsors__list--organizer">
@@ -36,14 +41,19 @@
     <div class="section__inner-container">
       <div class="section__columns">
         <div class="section__small-column">
-          <div class="sponsors__heading">
-            <h1
-              id="heading-sponsors-b"
-              class="section__heading section__heading--pink"
-            >
-              {{ .Site.Data.sponsors.sponsorsTitle }}
-            </h1>
-          </div>
+          <h1
+            id="heading-sponsors-b"
+            class="section__heading section__heading--pink"
+          >
+            {{ .Site.Data.sponsors.sponsorsTitle }}
+          </h1>
+          {{ if .Site.Data.sponsors.sponsorsDescription }}
+          <p class="section__info">
+            {{ range.Site.Data.sponsors.sponsorsDescription }}
+            {{ markdownify . }}<br />
+            {{ end }}
+          </p>
+          {{ end }}
         </div>
         <div class="section__large-column">
           <div class="sponsors__list">

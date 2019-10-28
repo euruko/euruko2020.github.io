@@ -1,34 +1,35 @@
 .hero {
   position: relative;
   width: 100%;
-  min-height: 600px;
+  min-height: 800px;
   height: 100vh;
-  max-height: 1440px;
-  background: linear-gradient(
-    0deg,
-    $purple-1 0%,
-    $purple-1 35%,
-    $purple-2 100%
-  );
+  max-height: 1600px;
   background: $purple-2;
   overflow: hidden;
 
+  &__container {
+    position: relative;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
   &__image-container {
     position: absolute;
-    left: 90px;
+    left: 0px;
     top: calc(50% + (#{$header-height} / 2));
     transform: translate(0, -50%);
   }
 
   &__image {
-    width: 600px;
+    width: 800px;
     height: auto;
   }
 
   &__info {
     position: absolute;
-    top: calc(50% + (#{$header-height} / 2) + 7px);
-    left: 900px;
+    top: calc(50% + (#{$header-height} / 2) + 12px);
+    right: 0px;
     font-size: 22px;
     line-height: 31px;
     font-weight: $semibold;
@@ -75,36 +76,65 @@
     box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.4);
   }
 
-  @include mq($until: wide) {
+  &__continue {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    bottom: 10px;
+    width: 24px;
+    height: 24px;
+    transform: translateX(-50%);
+
+    &:focus {
+      & > .hero__continue-inner {
+        box-shadow: inset 0 0 0 1px $teal;
+      }
+      outline: none;
+    }
+
+    &-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      transition: all 0.15s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(#000, 0.1);
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  @include mq($until: superwide) {
+    & {
+      min-height: 600px;
+    }
+
     &__image-container {
       left: 40px;
     }
 
+    &__image {
+      width: 600px;
+    }
+
     &__info {
-      left: 700px;
+      top: calc(50% + (#{$header-height} / 2) + 7px);
+      right: 40px;
     }
   }
 
   @include mq($until: desktop) {
-    & {
-      min-height: 480px;
-      height: 480px;
-      max-height: 480px;
-    }
-
-    &__image-container {
-      left: 20px;
-      top: 110px;
-      transform: none;
-    }
-
     &__image {
       width: 400px;
     }
 
     &__info {
-      left: 480px;
-      top: 255px;
       font-size: 18px;
       line-height: 24px;
     }
@@ -134,7 +164,7 @@
       top: auto;
       left: auto;
       transform: none;
-      padding: 40px 20px;
+      padding: 40px;
     }
 
     &__image {
@@ -150,9 +180,20 @@
       position: relative;
       top: auto;
       left: auto;
-      padding: 30px 20px;
+      right: auto;
+      padding: 60px 40px 80px 40px;
       margin: 0 auto;
       background: rgba($purple-2, 0.75);
+    }
+  }
+
+  @include mq($until: tablet) {
+    &__image-container {
+      padding: 40px 20px;
+    }
+
+    &__info {
+      padding: 60px 20px 80px 20px;
     }
   }
 }

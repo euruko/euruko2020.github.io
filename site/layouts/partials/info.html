@@ -3,12 +3,16 @@
     <div class="section__inner-container">
       <div class="section__columns">
         <div class="section__small-column">
-          <h1
-            id="heading-info"
-            class="section__heading section__heading--green"
-          >
+          <h1 id="heading-info" class="section__heading section__heading--teal">
             {{ .Site.Data.info.sectionName }}
           </h1>
+          {{ if .Site.Data.info.sectionDescription }}
+          <p class="section__info">
+            {{ range.Site.Data.info.sectionDescription }}
+            {{ markdownify . }}<br />
+            {{ end }}
+          </p>
+          {{ end }}
         </div>
         <div class="section__large-column">
           <div class="section__content">
@@ -16,13 +20,15 @@
             <p>{{ markdownify . }}</p>
             {{ end }}
             {{ range.Site.Data.info.links }}
-            <a
-              href="{{ .url }}"
-              class="section__cta section__cta--green"
-              target="_blank"
-              rel="noopener noreferrer"
-              >{{ .text }}</a
-            >
+            <div>
+              <a
+                href="{{ .url }}"
+                class="section__cta section__cta--teal"
+                target="_blank"
+                rel="noopener noreferrer"
+                >{{ .text }}</a
+              >
+            </div>
             {{ end }}
           </div>
         </div>

@@ -2,13 +2,13 @@
   "sectionName": "Speakers",
   "keynoteSpeakers": [
     {
-      "name": "Stanley Kubrick",
+      "name": "Michel Foucault",
       "url": "https://google.com",
       "urlType": "twitter",
       "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
     },
     {
-      "name": "Francis Ford Coppola",
+      "name": "Jacques Derrida",
       "url": "https://google.com",
       "urlType": "twitter",
       "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
@@ -16,19 +16,19 @@
   ],
   "speakers": [
     {
-      "name": "Wong Kar-Wai",
+      "name": "Jean-François Lyotard",
       "url": "https://google.com",
       "urlType": "twitter",
       "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
     },
     {
-      "name": "Terrence Malick",
+      "name": "Gilles Deleuze",
       "url": "https://google.com",
       "urlType": "twitter",
       "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
     },
     {
-      "name": "Apichatpong Weerasethakul",
+      "name": "Jean Baudrillard",
       "url": "https://google.com",
       "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
     }

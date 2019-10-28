@@ -1,14 +1,19 @@
 <section id="helsinki" class="section section--green helsinki">
   <div class="section__container">
     <div class="section__inner-container">
-      <div class="helsinki__heading">
-        <h1
-          id="heading-helsinki"
-          class="section__heading section__heading--dark-green"
-        >
-          {{ .Site.Data.helsinki.sectionName }}
-        </h1>
-      </div>
+      <h1
+        id="heading-helsinki"
+        class="section__heading section__heading--dark-green"
+      >
+        {{ .Site.Data.helsinki.sectionName }}
+      </h1>
+      {{ if .Site.Data.helsinki.sectionDescription }}
+      <p class="section__info">
+        {{ range.Site.Data.helsinki.sectionDescription }}
+        {{ markdownify . }}<br />
+        {{ end }}
+      </p>
+      {{ end }}
       <div class="helsinki__facts">
         {{ range.Site.Data.helsinki.facts }}
         <div class="helsinki__fact">

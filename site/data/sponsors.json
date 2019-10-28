@@ -6,6 +6,9 @@
     "imageUrl": "/images/kisko.svg"
   },
   "sponsorsTitle": "Sponsors",
+  "sponsorsDescription": [
+    "<a href='https://kiskolabs.com' target='_blank' rel='noopener noreferrer'>Contact us</a> about sponsoring!"
+  ],
   "sponsorsLarge": [
     {
       "name": "Kisko Labs",

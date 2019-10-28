@@ -4,9 +4,9 @@
   padding-top: $header-height;
 
   &__container {
-    padding: 60px 40px;
+    padding: 60px;
 
-    @include mq($until: desktop) {
+    @include mq($until: wide) {
       padding: 40px;
     }
 
@@ -25,7 +25,7 @@
   }
 
   &--green &__container {
-    background: $green-3;
+    background: $green-4;
   }
 
   &--purple &__container {
@@ -37,6 +37,11 @@
     color: #fff;
     padding-top: 10%;
     padding-bottom: 10%;
+
+    @include mq($until: tablet) {
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
   }
 
   &__background,
@@ -61,8 +66,12 @@
     font-size: 40px;
     font-weight: $bold;
     font-style: italic;
-    margin: 0;
+    margin: 0 0 60px 0;
     padding-bottom: 8px;
+
+    @include mq($until: wide) {
+      margin-bottom: 40px;
+    }
 
     @include mq($until: largeTablet) {
       font-size: 30px;
@@ -95,15 +104,29 @@
     }
 
     &--green::before {
-      background: $green-2;
+      background: $green-3;
     }
 
     &--dark-green::before {
-      background: rgba($green-1, 0.5);
+      background: $green-2;
+    }
+
+    &--teal::before {
+      background: $teal-light;
     }
 
     &--active::before {
       display: block;
+    }
+  }
+
+  &__info {
+    margin-top: -40px;
+    margin-bottom: 60px;
+
+    @include mq($until: wide) {
+      margin-top: -20px;
+      margin-bottom: 40px;
     }
   }
 
@@ -118,7 +141,7 @@
 
   &__large-column {
     flex-basis: 60%;
-    margin-top: -1em;
+    margin-top: 10px;
   }
 
   @include mq($until: largeTablet) {
@@ -139,23 +162,39 @@
 
   &__single-header {
     padding-top: 100px;
+    margin-bottom: -20px;
+  }
+
+  &__single-content {
+    margin-top: -20px;
   }
 
   &__content {
     p {
       margin: 2em 0;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 
   &__cta {
+    display: inline-block;
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: $bold;
+    text-align: center;
     letter-spacing: 0.2em;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 20px;
+    margin-top: 40px;
     padding: 8px 16px;
     transition: all 0.15s ease-in-out;
 
@@ -169,7 +208,17 @@
       border: none;
 
       &:hover {
-        background: $green-2;
+        background: $green-3;
+        color: $grey-1;
+      }
+    }
+
+    &--teal {
+      background: $teal;
+      border: none;
+
+      &:hover {
+        background: $teal-light;
         color: $grey-1;
       }
     }

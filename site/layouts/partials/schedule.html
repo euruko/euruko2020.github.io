@@ -1,15 +1,16 @@
 <section id="schedule" class="section section--blue schedule">
   <div class="section__container">
     <div class="section__inner-container">
-      <div class="schedule__heading">
-        <h1
-          id="heading-schedule"
-          class="section__heading section__heading--blue"
-        >
-          {{ .Site.Data.schedule.sectionName }}
-        </h1>
-        <p class="schedule__info">{{ .Site.Data.schedule.sectionInfo }}</p>
-      </div>
+      <h1 id="heading-schedule" class="section__heading section__heading--blue">
+        {{ .Site.Data.schedule.sectionName }}
+      </h1>
+      {{ if .Site.Data.schedule.sectionDescription }}
+      <p class="section__info">
+        {{ range.Site.Data.schedule.sectionDescription }}
+        {{ markdownify . }}<br />
+        {{ end }}
+      </p>
+      {{ end }}
       {{ range.Site.Data.schedule.schedules }}
       <div class="schedule__table">
         <div class="table">

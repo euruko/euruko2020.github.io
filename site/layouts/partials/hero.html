@@ -1,27 +1,41 @@
 <section class="hero">
-  <div class="hero__image-container">
-    <img
-      id="hero-image"
-      class="hero__image"
-      src="/images/hero.svg"
-      alt="Welcome to Euruko 2020"
-    />
+  <div class="hero__container">
+    <div class="hero__image-container">
+      <img
+        id="hero-image"
+        class="hero__image"
+        src="/images/euruko_animaatio.svg"
+        alt="Welcome to Euruko 2020"
+      />
+    </div>
+    <div class="hero__info">
+      <p>
+        {{ range.Site.Data.hero.content }}{{ markdownify . }}<br />{{ end }}
+      </p>
+      <a
+        href="{{ .Site.Data.hero.ctaLink }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hero__cta"
+        ><span>{{ .Site.Data.hero.ctaText }}</span>
+        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path
+            fill="#ffffff"
+            d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+          />
+        </svg>
+      </a>
+    </div>
   </div>
   <div class="hero__shadow"></div>
-  <div class="hero__info">
-    <p>{{ range.Site.Data.hero.content }}{{ markdownify . }}<br />{{ end }}</p>
-    <a
-      href="{{ .Site.Data.hero.ctaLink }}"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="hero__cta"
-      ><span>{{ .Site.Data.hero.ctaText }}</span>
+  <button id="continue-button" class="hero__continue" tabindex="0">
+    <div class="hero__continue-inner" tabindex="-1">
       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
         <path
           fill="#ffffff"
-          d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+          d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
         />
       </svg>
-    </a>
-  </div>
+    </div>
+  </button>
 </section>
