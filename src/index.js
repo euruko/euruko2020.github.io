@@ -78,10 +78,8 @@ const setIntersectionObserver = () => {
 
 const observerCallback = (entries) => {
   entries.forEach((entry) => {
-    const sectionHeading = document.getElementById(entry.target.id);
-
     if (entry.isIntersecting) {
-      if (sectionHeading) sectionHeading.classList.add("section__heading--active");
+      entry.target.classList.add("section__heading--active");
     }
   });
 };
