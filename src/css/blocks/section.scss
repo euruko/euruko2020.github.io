@@ -2,9 +2,11 @@
   position: relative;
   margin-top: -$header-height;
   padding-top: $header-height;
+  pointer-events: none;
 
   &__container {
     padding: 60px;
+    pointer-events: auto;
 
     @include mq($until: wide) {
       padding: 40px;

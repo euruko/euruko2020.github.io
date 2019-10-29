@@ -47,15 +47,15 @@ const setClickListeners = () => {
   const firstSection = document.querySelector(".section");
   const header = document.getElementById("header");
 
-  mobileToggle.addEventListener("click", (e) => {
+  if (mobileToggle && header) mobileToggle.addEventListener("click", (e) => {
     header.classList.toggle("header--mobile-toggled");
   });
 
-  langSelect.addEventListener("click", (e) => {
+  if (langSelect && header) langSelect.addEventListener("click", (e) => {
     header.classList.toggle("header--language-toggled");
   });
 
-  continueButton.addEventListener("click", (e) => {
+  if (continueButton && firstSection) continueButton.addEventListener("click", (e) => {
     firstSection.scrollIntoView({
       behavior: "smooth"
     });

@@ -33,6 +33,11 @@ i {
   font-style: italic;
 }
 
+ul,
+ol {
+  padding-left: 40px;
+}
+
 // Removes touch input lag from tappable things
 a,
 button,
