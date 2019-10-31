@@ -3,9 +3,12 @@
   <div class="section__container">
     <div class="section__inner-container">
       <div class="section__single-header">
-        <h1>
-          404
-        </h1>
+        <img
+          id="hero-image"
+          class="hero__image"
+          src="{{ (resources.Get "images/404.svg" | resources.Fingerprint).RelPermalink }}"
+          alt="404"
+        />
         <h2>
           Page not found
         </h2>
