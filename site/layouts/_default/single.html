@@ -3,9 +3,18 @@
   <div class="section__container">
     <div class="section__inner-container">
       <div class="section__single-header">
-        <h1>
-          {{- .Title -}}
-        </h1>
+        {{ if isset .Params "title_image" }}
+          <img
+            id="hero-image"
+            class="hero__image"
+            src="{{ (resources.Get .Params.title_image | resources.Fingerprint).RelPermalink }}"
+            alt="{{- .Title -}}"
+          />
+        {{ else }}
+          <h1>
+            {{- .Title -}}
+          </h1>
+        {{ end }}
       </div>
     </div>
   </div>

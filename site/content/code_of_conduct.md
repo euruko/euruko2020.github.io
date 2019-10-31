@@ -2,6 +2,7 @@
 title: "Code of conduct"
 date: 2019-10-23T00:56:18+03:00
 draft: false
+title_image: images/code-of-conduct.svg
 ---
 
 ## Our Pledge
