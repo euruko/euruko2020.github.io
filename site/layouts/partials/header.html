@@ -3,12 +3,12 @@
     <a class="header__logo" href="/">
       <img
         class="header__logo-image header__logo-image--dark"
-        src="/images/logo_dark.svg"
+        src="{{ (resources.Get "images/logo_dark.svg" | resources.Fingerprint).RelPermalink }}"
         alt="Euruko 2020"
       />
       <img
         class="header__logo-image header__logo-image--light"
-        src="/images/logo.svg"
+        src="{{ (resources.Get "images/logo.svg" | resources.Fingerprint).RelPermalink }}"
         alt="Euruko 2020"
       />
     </a>

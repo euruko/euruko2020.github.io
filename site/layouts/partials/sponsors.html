@@ -26,7 +26,7 @@
               rel="noopener noreferrer"
             >
               <img
-                src="{{ .Site.Data.sponsors.organizer.imageUrl }}"
+                src="{{ (resources.Get .Site.Data.sponsors.organizer.imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .Site.Data.sponsors.organizer.name }}"
               />
             </a>
@@ -64,7 +64,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="{{ .imageUrl }}" alt="{{ .name }}" />
+              <img src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}" alt="{{ .name }}" />
             </a>
             {{ end }}
           </div>
@@ -76,7 +76,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="{{ .imageUrl }}" alt="{{ .name }}" />
+              <img src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}" alt="{{ .name }}" />
             </a>
             {{ end }}
           </div>
