@@ -135,10 +135,10 @@
   &__link {
     position: relative;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     padding-top: 5px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.25rem;
     line-height: 1;
     font-weight: $bold;
     color: $grey-1;
@@ -181,7 +181,7 @@
     }
 
     &--small {
-      font-size: 14px;
+      font-size: 0.75rem;
     }
 
     &--orange {
@@ -289,7 +289,7 @@
       &-inner {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        font-size: 0.75rem;
         line-height: 0.7;
         font-weight: $bold;
         color: $grey-1;
