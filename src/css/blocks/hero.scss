@@ -22,16 +22,16 @@
   }
 
   &__image {
-    width: 800px;
+    width: 900px;
     height: auto;
   }
 
   &__info {
     position: absolute;
     top: calc(50% + (#{$header-height} / 2) + 12px);
-    right: 0px;
-    font-size: 22px;
-    line-height: 31px;
+    right: -80px;
+    font-size: 1.5rem;
+    line-height: 1.4;
     font-weight: $semibold;
     color: $purple-3;
 
@@ -121,16 +121,16 @@
     }
 
     &__image-container {
-      left: 40px;
+      left: 0;
     }
 
     &__image {
-      width: 600px;
+      width: 850px;
     }
 
     &__info {
       top: calc(50% + (#{$header-height} / 2) + 7px);
-      right: 40px;
+      right: 0;
     }
   }
 
