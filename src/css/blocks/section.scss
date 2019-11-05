@@ -5,11 +5,11 @@
   pointer-events: none;
 
   &__container {
-    padding: 60px;
+    padding: 150px 80px 150px 80px;
     pointer-events: auto;
 
     @include mq($until: wide) {
-      padding: 40px;
+      padding: 80px 40px;
     }
 
     @include mq($until: tablet) {
@@ -25,7 +25,10 @@
   &--blue &__container {
     background: $blue-3;
   }
-
+  &--lightpurple &__container {
+    background: $purple-4;
+  }
+  
   &--green &__container {
     background: $green-4;
   }
@@ -58,7 +61,7 @@
   }
 
   &__background-darken {
-    background: rgba($grey-1, 0.75);
+    background: rgba($grey-1, 0.50);
   }
 
   &__heading {
