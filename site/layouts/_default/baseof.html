@@ -27,6 +27,7 @@
     <meta property="twitter:image" content="{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
 
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500,500i,700,700i,800,800i&display=swap" rel="stylesheet">
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{- with $stylesheet -}}
       <link href="{{ relURL .css }}" rel="stylesheet"{{ if isset . "cssIntegrity" }} integrity="{{.cssIntegrity}}"{{ end }}>
