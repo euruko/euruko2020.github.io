@@ -4,11 +4,6 @@
  */
 
 /*
-  Fonts
- */
-@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:500,500i,700,700i,800,800i&display=swap");
-
-/*
   Global styles and mixins
  */
 @import "imports/variables.scss";
