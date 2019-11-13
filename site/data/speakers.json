@@ -2,35 +2,18 @@
   "sectionName": "Speakers",
   "keynoteSpeakers": [
     {
-      "name": "Michel Foucault",
-      "url": "https://google.com",
+      "name": "Yukihiro Matsumoto",
+      "url": "https://twitter.com/yukihiro_matz",
       "urlType": "twitter",
-      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
-    },
-    {
-      "name": "Jacques Derrida",
-      "url": "https://google.com",
-      "urlType": "twitter",
-      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+      "imageUrl": "images/speakers/yukihiro_matsumoto.jpg"
     }
   ],
   "speakers": [
     {
-      "name": "Jean-François Lyotard",
-      "url": "https://google.com",
+      "name": "Linda Liukas",
+      "url": "https://twitter.com/lindaliukas",
       "urlType": "twitter",
-      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
-    },
-    {
-      "name": "Gilles Deleuze",
-      "url": "https://google.com",
-      "urlType": "twitter",
-      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
-    },
-    {
-      "name": "Jean Baudrillard",
-      "url": "https://google.com",
-      "imageUrl": "images/speakers/Hubert_Pierlot_1947.jpg"
+      "imageUrl": "images/speakers/linda_liukas.jpg"
     }
   ]
 }
