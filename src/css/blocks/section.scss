@@ -28,7 +28,7 @@
   &--lightpurple &__container {
     background: $purple-4;
   }
-  
+
   &--green &__container {
     background: $green-4;
   }
@@ -61,7 +61,7 @@
   }
 
   &__background-darken {
-    background: rgba($grey-1, 0.50);
+    background: rgba($grey-1, 0.5);
   }
 
   &__heading {
@@ -166,8 +166,15 @@
   }
 
   &__single-header {
-    // padding-top: 100px;
     margin-bottom: -20px;
+
+    @include mq($until: wide) {
+      padding-top: 40px;
+    }
+
+    @include mq($until: tablet) {
+      padding-top: 60px;
+    }
   }
 
   &__single-content {
