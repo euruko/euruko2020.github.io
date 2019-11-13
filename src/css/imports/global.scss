@@ -96,3 +96,29 @@ h3 {
 a {
   color: $pink;
 }
+
+th,
+td {
+  padding: 12px;
+}
+
+table {
+  border-spacing: 0;
+}
+
+thead {
+  tr {
+    background: $blue-2;
+    font-weight: $semibold;
+    padding: 12px;
+    text-align: left;
+  }
+}
+
+tbody {
+  tr {
+    &:nth-child(2n) {
+      background: $blue-4;
+    }
+  }
+}
