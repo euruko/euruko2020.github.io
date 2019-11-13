@@ -4,16 +4,15 @@
     <div class="section__inner-container">
       <div class="section__single-header">
         {{ if isset .Params "title_image" }}
-          <img
-            id="hero-image"
-            class="hero__image"
-            src="{{ (resources.Get .Params.title_image | resources.Fingerprint).RelPermalink }}"
-            alt="{{- .Title -}}"
-          />
+        <img
+          class="hero__image"
+          src="{{ (resources.Get .Params.title_image | resources.Fingerprint).RelPermalink }}"
+          alt="{{- .Title -}}"
+        />
         {{ else }}
-          <h1>
-            {{- .Title -}}
-          </h1>
+        <h1>
+          {{- .Title -}}
+        </h1>
         {{ end }}
       </div>
     </div>
