@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  min-height: 800px;
+  min-height: 900px;
   height: 100vh;
   max-height: 1600px;
   background: $purple-2;
@@ -9,7 +9,7 @@
 
   &__container {
     position: relative;
-    max-width: 1200px;
+    max-width: 1300px;
     height: 100%;
     margin: 0 auto;
   }
@@ -29,7 +29,7 @@
   &__info {
     position: absolute;
     top: calc(50% + (#{$header-height} / 2) + 12px);
-    right: -80px;
+    right: 0px;
     font-size: 1.5rem;
     line-height: 1.4;
     font-weight: $semibold;
@@ -117,20 +117,39 @@
 
   @include mq($until: superwide) {
     & {
-      min-height: 600px;
+      min-height: 800px;
     }
 
-    &__image-container {
-      left: 0;
+    &__container {
+      max-width: 1200px;
     }
 
     &__image {
-      width: 850px;
+      width: 800px;
     }
 
     &__info {
       top: calc(50% + (#{$header-height} / 2) + 7px);
       right: 0;
+    }
+  }
+
+  @include mq($until: wide) {
+    & {
+      min-height: 600px;
+    }
+
+    &__image-container {
+      left: 40px;
+    }
+
+    &__image {
+      width: 600px;
+    }
+
+    &__info {
+      font-size: 1.3rem;
+      right: 40px;
     }
   }
 
