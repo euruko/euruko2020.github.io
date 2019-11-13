@@ -44,6 +44,12 @@
     }
   }
 
+  &__text-right {
+    @include mq($from: largeTablet) {
+      text-align: right;
+    }
+  }
+
   @include mq($from: largeTablet) {
     &__list {
       justify-content: flex-end;

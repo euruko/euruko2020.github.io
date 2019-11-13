@@ -1,4 +1,4 @@
-<section id="sponsors" class="section sponsors">
+<section id="sponsors" class="section section--lightpink sponsors">
   <div class="section__container">
     <div class="section__inner-container">
       <div class="section__columns">
@@ -33,12 +33,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<section id="sponsors-b" class="section sponsors">
-  <div class="section__container">
-    <div class="section__inner-container">
       <div class="section__columns">
         <div class="section__small-column">
           <h1
@@ -56,7 +50,8 @@
           {{ end }}
         </div>
         <div class="section__large-column">
-          <div class="sponsors__list">
+          <h2 class="sponsors__text-right">Want to see your company's logo here? Consider <a href="/sponsoring">sponsoring us.</a></h2>
+          <!-- <div class="sponsors__list">
             {{ range.Site.Data.sponsors.sponsorsLarge }}
             <a
               class="sponsors__link"
@@ -64,7 +59,10 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}" alt="{{ .name }}" />
+              <img
+                src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                alt="{{ .name }}"
+              />
             </a>
             {{ end }}
           </div>
@@ -76,10 +74,13 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}" alt="{{ .name }}" />
+              <img
+                src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                alt="{{ .name }}"
+              />
             </a>
             {{ end }}
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

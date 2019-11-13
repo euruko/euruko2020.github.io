@@ -38,6 +38,10 @@
     color: #fff;
   }
 
+  &--lightpink &__container {
+    background: lighten($pink-light, 28%);
+  }
+
   &--background &__container {
     color: #fff;
     padding-top: 10%;
@@ -137,6 +141,10 @@
 
   &__columns {
     display: flex;
+
+    &:not(:first-of-type) {
+      padding-top: 60px;
+    }
   }
 
   &__small-column {
