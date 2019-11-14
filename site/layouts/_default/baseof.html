@@ -8,7 +8,7 @@
     />
     <meta name="description" content="Euruko 2020" />
     <meta name="author" content="Kisko Labs" />
-    <title>{{ $.Site.Title }}</title>
+    <title>{{ default $.Site.Title .Title }}</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "images/apple-touch-icon.png" | resources.Fingerprint).RelPermalink }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "images/favicon-16x16.png" | resources.Fingerprint).RelPermalink }}" />
