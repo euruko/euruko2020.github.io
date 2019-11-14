@@ -6,14 +6,13 @@
       "url": "https://twitter.com/yukihiro_matz",
       "urlType": "twitter",
       "imageUrl": "images/speakers/yukihiro_matsumoto.jpg"
-    }
-  ],
-  "speakers": [
+    },
     {
       "name": "Linda Liukas",
       "url": "https://twitter.com/lindaliukas",
       "urlType": "twitter",
       "imageUrl": "images/speakers/linda_liukas.jpg"
     }
-  ]
+  ],
+  "speakers": []
 }
