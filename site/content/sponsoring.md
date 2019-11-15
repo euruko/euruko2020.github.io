@@ -54,6 +54,11 @@ What's more, our sponsors are essential to keeping Euruko as affordable as possi
 
 If none of the packages appeal to you, we have a few other sponsorship opportunities available:
 
-* Livestream/video recording: extend your reach beyond the physical conference
-* Lunch: offer our attendees a tasty lunch, and they'll be sure to remember you
-* Party: offer our attendees a fun, relaxing time after the first day and make it a night to remember
+* **Livestream/video recording:** extend your reach beyond the physical conference
+* **Lunch:** offer our attendees a tasty lunch, and they'll be sure to remember you
+* **Party:** offer our attendees a fun, relaxing time after the first day and make it a night to remember
+* **Something else?** Do you have a fun idea? Let us know and we'll see what we can work out…
+
+# Contact us
+
+Email [contact@euruko2020.org](mailto:contact@euruko2020.org) to inquire about sponsorships.
