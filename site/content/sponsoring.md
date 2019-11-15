@@ -26,13 +26,13 @@ What's more, our sponsors are essential to keeping Euruko as affordable as possi
 
 # Sponsorship packages
 
-|                                                               | Bronze                         | Silver                | Gold                   | Platinum                  |
+|                                                               | Sapphire                         | Topaz                | Emerald                   | Ruby                  |
 |---------------------------------------------------------------|--------------------------------|-----------------------|------------------------|---------------------------|
 | Price (excl. VAT)                                             | €2,000                         | €5,000                | €8,000                 | €12,000                   |
 | Included tickets                                              | 1                              | 2                     | 4                      | 6                         |
-| Exhibit Space†                                                | ❌                              | ✅                  | ✅                    | ✅                        |
-| Roll-up banner in sponsors hall<sup>‡</sup>                   | +€1000                         | 1                     | 3                      | unlimited                 |
-| Roll-up banner near the main stage<sup>‡</sup>                | ❌                              | ❌                     | ❌                      | ✅                         |
+| Exhibit Space¹                                                | ❌                              | ✅                  | ✅                    | ✅                        |
+| Roll-up banner in sponsors hall²                              | +€1000                         | 1                     | 3                      | unlimited                 |
+| Roll-up banner near the main stage²                           | ❌                              | ❌                     | ❌                      | ✅                         |
 | Goodie bag inserts                                            | ❌                              | 1 (small)             | 2 (small, medium)      | 3 (small - large)         |
 | Dedicated slide during conference breaks                      | ❌                              | +€1000                | ✅                      | ✅                         |
 | Company logo on the screens before the talks                  | ❌                              | ❌                     | ❌                      | before every presentation |
@@ -46,8 +46,9 @@ What's more, our sponsors are essential to keeping Euruko as affordable as possi
 | Logo on sponsors slide in post-conference videos of the talks | ❌                              | ✅                     | ✅                      | ✅                         |
 | Logo included in the footer of all conference emails          | ❌                              | ❌                     | ❌                      | ✅                         |
 
-<sup>†</sup>Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2020 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.<br>
-<sup>‡</sup>Roll-ups to be supplied by the sponsor
+¹ Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2020 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.<br>
+
+² Roll-ups to be supplied by the sponsor
 
 # Other opportunities available
 
