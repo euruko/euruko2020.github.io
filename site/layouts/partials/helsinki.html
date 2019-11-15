@@ -26,8 +26,9 @@
             <div class="factbox__container">
               <div class="factbox__background"></div>
               <div class="factbox__image">
+                {{ $image := (resources.Get .imageUrl).Resize "524x" }}
                 <img
-                  src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                  src="{{ $image.RelPermalink }}"
                   alt="{{ .name }}"
                 />
               </div>

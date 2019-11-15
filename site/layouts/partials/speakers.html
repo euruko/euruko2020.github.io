@@ -26,8 +26,9 @@
             <div class="profile__container">
               <div class="profile__background"></div>
               <div class="profile__image">
+                {{ $image := (resources.Get .imageUrl).Resize "480x" }}
                 <img
-                  src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                  src="{{ $image.RelPermalink }}"
                   alt="{{ .name }}"
                 />
               </div>
