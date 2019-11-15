@@ -2,28 +2,28 @@
   "sectionName": "Facts about Helsinki",
   "facts": [
     {
-      "name": "Lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "images/tuomiokirkko.png",
-      "url": "https://google.com"
+      "name": "Coffee",
+      "description": "Did you know that Finns drink the most coffee per capita in the world? As a result, Helsinki has some great coffee shops and cafes…",
+      "imageUrl": "images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg",
+      "url": "https://www.myhelsinki.fi/en/eat-and-drink/caf%C3%A9s"
     },
     {
-      "name": "Lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "images/tuomiokirkko.png",
-      "url": "https://google.com"
+      "name": "Saunas",
+      "description": "Nobody saunas like the Finns do. If you want to give this a whirl, there are several public saunas in Helsinki that will give you a warm welcome.",
+      "imageUrl": "images/GE0A7702_.jpg",
+      "url": "https://www.myhelsinki.fi/en/see-and-do/activities/public-saunas-in-helsinki"
     },
     {
-      "name": "Lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "images/tuomiokirkko.png",
-      "url": "https://google.com"
+      "name": "Oodi",
+      "description": "If you have some spare time on your hands, you should go check out Oodi, Helsinki's new central library. It was recently chosen as the best new public library in the world.",
+      "imageUrl": "images/TU-181227-ala-oodi-018.jpg",
+      "url": "https://www.oodihelsinki.fi/en/"
     },
     {
-      "name": "Lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "images/tuomiokirkko.png",
-      "url": "https://google.com"
+      "name": "Beers and drinks",
+      "description": "Thanks to the recent craft beer boom, Helsinki has lots of bars with great beers.",
+      "imageUrl": "images/frank-luca-c-fbj_fTFUM-unsplash.jpg",
+      "url": "https://untappd.com/search?q=Helsinki&type=venues"
     }
   ]
 }
