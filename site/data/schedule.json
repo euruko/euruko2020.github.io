@@ -6,25 +6,91 @@
       "title": "Friday, August 21",
       "events": [
         {
-          "time": "08:00",
-          "event": "Registrations"
+          "start": "2020-08-21T10:00:00+03:00",
+          "end": "2020-08-21T11:00:00+03:00",
+          "event": "Doors open & registration"
         },
         {
-          "time": "09:45",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-21T11:00:00+03:00",
+          "end": "2020-08-21T11:15:00+03:00",
+          "event": "Opening"
         },
         {
-          "time": "10:00",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-21T11:15:00+03:00",
+          "end": "2020-08-21T12:00:00+03:00",
+          "event": "Keynote"
         },
         {
-          "time": "10:30",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-21T12:00:00+03:00",
+          "end": "2020-08-21T12:15:00+03:00",
+          "event": "Break"
         },
         {
-          "time": "10:50",
-          "event": "Matt’s speech",
-          "description": "We are currently transferring our 5 public Rails apps to 1 big monolith. All five of them are job boards with seemingly similar logic but historically grown exceptions and weird peculiarities. The perspective to have multiple data bases managed in 1 app in Rails 6 sparked our idea. The whole story!"
+          "start": "2020-08-21T12:15:00+03:00",
+          "end": "2020-08-21T12:45:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T12:45:00+03:00",
+          "end": "2020-08-21T14:00:00+03:00",
+          "event": "Lunch"
+        },
+        {
+          "start": "2020-08-21T14:00:00+03:00",
+          "end": "2020-08-21T14:30:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T14:30:00+03:00",
+          "end": "2020-08-21T14:45:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-21T14:45:00+03:00",
+          "end": "2020-08-21T15:15:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T15:15:00+03:00",
+          "end": "2020-08-21T15:30:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-21T15:30:00+03:00",
+          "end": "2020-08-21T16:00:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T16:00:00+03:00",
+          "end": "2020-08-21T16:15:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-21T16:15:00+03:00",
+          "end": "2020-08-21T16:45:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T16:45:00+03:00",
+          "end": "2020-08-21T17:00:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-21T17:00:00+03:00",
+          "end": "2020-08-21T17:30:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-21T17:30:00+03:00",
+          "end": "2020-08-21T17:45:00+03:00",
+          "event": "End of day one"
+        },
+        {
+          "start": "2020-08-21T20:00:00+03:00",
+          "end": "2020-08-21T23:59:59+03:00",
+          "event": "Party",
+          "location": "The Party Place, Helsinki, Finland",
+          "description": "Ends at midnight"
         }
       ]
     },
@@ -32,25 +98,95 @@
       "title": "Saturday, August 22",
       "events": [
         {
-          "time": "08:00",
-          "event": "Registrations"
+          "start": "2020-08-22T09:30:00+03:00",
+          "end": "2020-08-22T11:00:00+03:00",
+          "event": "Doors open"
         },
         {
-          "time": "09:45",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-22T10:30:00+03:00",
+          "end": "2020-08-22T10:45:00+03:00",
+          "event": "Opening of day two"
         },
         {
-          "time": "10:00",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-22T10:45:00+03:00",
+          "end": "2020-08-22T11:15:00+03:00",
+          "event": "Talk"
         },
         {
-          "time": "10:30",
-          "event": "Keynote: Functional (Future) Ruby - Yukihiro Matsumoto"
+          "start": "2020-08-22T11:15:00+03:00",
+          "end": "2020-08-22T11:30:00+03:00",
+          "event": "Break"
         },
         {
-          "time": "10:50",
-          "event": "Matt’s speech",
-          "description": "We are currently transferring our 5 public Rails apps to 1 big monolith. All five of them are job boards with seemingly similar logic but historically grown exceptions and weird peculiarities. The perspective to have multiple data bases managed in 1 app in Rails 6 sparked our idea. The whole story!"
+          "start": "2020-08-22T11:30:00+03:00",
+          "end": "2020-08-22T12:00:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-22T12:00:00+03:00",
+          "end": "2020-08-22T12:15:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-22T12:15:00+03:00",
+          "end": "2020-08-22T12:45:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-22T12:45:00+03:00",
+          "end": "2020-08-22T14:00:00+03:00",
+          "event": "Lunch"
+        },
+        {
+          "start": "2020-08-22T14:00:00+03:00",
+          "end": "2020-08-22T14:30:00+03:00",
+          "event": "Lighting talks"
+        },
+        {
+          "start": "2020-08-22T14:30:00+03:00",
+          "end": "2020-08-22T14:45:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-22T14:45:00+03:00",
+          "end": "2020-08-22T15:15:00+03:00",
+          "event": "City pitches",
+          "description": "Pitch for your city to be the next Euruko host"
+        },
+        {
+          "start": "2020-08-22T15:15:00+03:00",
+          "end": "2020-08-22T15:30:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-22T15:30:00+03:00",
+          "end": "2020-08-22T16:00:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-22T16:00:00+03:00",
+          "end": "2020-08-22T16:15:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-22T16:15:00+03:00",
+          "end": "2020-08-22T16:45:00+03:00",
+          "event": "Talk"
+        },
+        {
+          "start": "2020-08-22T16:45:00+03:00",
+          "end": "2020-08-22T17:00:00+03:00",
+          "event": "Break"
+        },
+        {
+          "start": "2020-08-22T17:00:00+03:00",
+          "end": "2020-08-22T17:45:00+03:00",
+          "event": "Keynote"
+        },
+        {
+          "start": "2020-08-22T17:45:00+03:00",
+          "end": "2020-08-22T18:00:00+03:00",
+          "event": "Closing & city reveal"
         }
       ]
     }
