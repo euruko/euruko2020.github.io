@@ -117,7 +117,7 @@
 
   @include mq($until: superwide) {
     & {
-      min-height: 800px;
+      min-height: 700px;
     }
 
     &__container {
@@ -125,7 +125,7 @@
     }
 
     &__image {
-      width: 800px;
+      width: 700px;
     }
 
     &__info {
