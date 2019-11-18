@@ -18,14 +18,21 @@
     <meta name="msapplication-TileColor" content="#f15a5b" />
     <meta name="theme-color" content="#f15a5b" />
 
+    <link rel="canonical" href="{{ .Permalink | absURL }}">
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@euruko" />
     <meta name="twitter:creator" content="@euruko" />
-    <meta property="twitter:title" content="Euruko 2020" />
-    <meta property="twitter:description" content="Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre" />
+    <meta property="twitter:title" content="{{ default $.Site.Title .Title }}" />
+    <meta property="twitter:description" content="{{default $.Site.Params.description .Description}}" />
     {{ "<!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->" | safeHTML }}
-    <meta property="twitter:image" content="{{ (resources.Get "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg" | resources.Fingerprint).RelPermalink | absURL }}" />
+    <meta property="twitter:image" content="{{ (resources.Get (default $.Site.Params.social_image .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
+
+    <meta property="og:title" content="{{ default $.Site.Title .Title }}">
+    <meta property="og:description" content="{{default $.Site.Params.description .Description}}">
+    <meta property="og:image" content="{{ (resources.Get (default $.Site.Params.social_image .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}">
+    <meta property="og:url" content="{{ .Permalink | absURL }}">
 
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500,500i,700,700i,800,800i&display=swap" rel="stylesheet">
     {{ $stylesheet := .Site.Data.webpack.main }}

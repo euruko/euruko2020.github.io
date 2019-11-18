@@ -1,5 +1,6 @@
 ---
 title: "Sponsor Euruko 2020"
+description: Sponsoring Euruko gets you the opportunity to reach an international group of talented and passionate developers
 date: 2019-11-11
 draft: false
 ---
