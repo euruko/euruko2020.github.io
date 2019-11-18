@@ -141,7 +141,8 @@ form {
 
 .form-submit {
   display: block;
-  min-width: 300px;
+  width: 300px;
+  max-width: 100%;
   padding: 0 24px;
 
   border-radius: 60px;
@@ -183,9 +184,6 @@ form {
   box-shadow: inset 0 0 0 2px rgba($purple-2, 0.4);
 }
 @media only screen and (max-width: 600px) {
-  form {
-    padding: 16px;
-  }
   .form-title {
     font-size: 24px;
     margin-bottom: 24px;
