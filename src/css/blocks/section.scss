@@ -190,16 +190,19 @@
   }
 
   &__content {
-    p {
+    margin: -2em 0;
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 2em;
+    }
+
+    p,
+    ul,
+    ol,
+    table {
       margin: 2em 0;
-
-      &:first-of-type {
-        margin-top: 0;
-      }
-
-      &:last-of-type {
-        margin-bottom: 0;
-      }
     }
   }
 
