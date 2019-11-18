@@ -1,9 +1,6 @@
 {
   "sectionName": "Additional info",
-  "textContent": [
-    "The tickets for the event will go on sale and the call for proposals will go live closer to the event.",
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  ],
+  "textContent": ["The tickets sales and the call for proposals will go live closer to the event."],
   "links": [
     {
       "url": "#about",
