@@ -28,6 +28,7 @@
     <meta property="twitter:image" content="{{ (resources.Get (default $.Site.Params.twitter_card .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
 
+    <meta property="og:type" content="website">
     <meta property="og:title" content="{{ default $.Site.Title .Title }}">
     <meta property="og:description" content="{{default $.Site.Params.description .Description}}">
     <meta property="og:image" content="{{ (resources.Get (default $.Site.Params.facebook_share .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}">
