@@ -25,13 +25,12 @@
     <meta name="twitter:creator" content="@euruko" />
     <meta property="twitter:title" content="{{ default $.Site.Title .Title }}" />
     <meta property="twitter:description" content="{{default $.Site.Params.description .Description}}" />
-    {{ "<!-- Photo by Tero Koistinen, Creative Commons Attribution-Share Alike 4.0 -->" | safeHTML }}
-    <meta property="twitter:image" content="{{ (resources.Get (default $.Site.Params.social_image .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}" />
+    <meta property="twitter:image" content="{{ (resources.Get (default $.Site.Params.twitter_card .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}" />
     <meta property="twitter:image:alt" content="The Savoy Theatre at night" />
 
     <meta property="og:title" content="{{ default $.Site.Title .Title }}">
     <meta property="og:description" content="{{default $.Site.Params.description .Description}}">
-    <meta property="og:image" content="{{ (resources.Get (default $.Site.Params.social_image .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}">
+    <meta property="og:image" content="{{ (resources.Get (default $.Site.Params.facebook_share .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
 
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500,500i,700,700i,800,800i&display=swap" rel="stylesheet">

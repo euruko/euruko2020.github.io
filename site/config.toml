@@ -16,4 +16,5 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
   description = "Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre"
-  social_image = "images/Tero-Koistinen-Savoy_Theatre_Helsinki-CC-BY-SA.jpg"
+  twitter_card = "images/twitter-card.png"
+  facebook_share = "images/facebook-share.png"
