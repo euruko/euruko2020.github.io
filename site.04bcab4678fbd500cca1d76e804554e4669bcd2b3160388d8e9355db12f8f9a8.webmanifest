@@ -1,0 +1,19 @@
+{
+    "name": "Euruko 2020",
+    "short_name": "Euruko 2020",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.36cccc42874a2921b653b42e4a0190b3f14b3038b4bdbf35f3aebeb495f5962e.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-384x384.1f8e199e5f64f22ce0645a3bbd9260ee8771a607ef393f64b11893b3920fd011.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4f3767",
+    "background_color": "#4f3767",
+    "display": "standalone"
+}
