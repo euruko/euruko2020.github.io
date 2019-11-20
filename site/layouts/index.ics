@@ -4,22 +4,20 @@ PRODID:-//euruko2020//schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Euruko 2020
-
 {{ range .Site.Data.schedule.schedules -}}
 {{ range .events -}}
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2020":mailto:contact@euruko2020.org
 SUMMARY:{{ .event }}
-UID:{{ dateFormat "2006-01-02T15:04:05-0700" .start | urlize }}@euruko2020.org
+UID:{{ (time .start).UTC.Unix }}@euruko2020.org
 SEQUENCE:{{ div (sub now.Unix (time "2019-06-21").Unix) 60 }}
 STATUS:CONFIRMED
-DTSTAMP:{{ dateFormat "2006-01-02T15:04:05-0700" .start }}
-DTSTART;TZID=Europe/Helsinki:{{ dateFormat "20060102T150405" .start }}
-DTEND;TZID=Europe/Helsinki:{{ dateFormat "20060102T150405" .end }}
+DTSTAMP:{{ dateFormat "20060102T150405Z" (now).UTC }}
+DTSTART:{{ dateFormat "20060102T150405Z" (time .start).UTC }}
+DTEND:{{ dateFormat "20060102T150405Z" (time .end).UTC }}
 LOCATION:{{with .location}}{{.}}{{else}}Savoy-teatteri, Kasarminkatu 46, Helsinki{{end}}
 DESCRIPTION:{{with .description}}{{.}}{{else}}{{end}}
 END:VEVENT
 {{end -}}
 {{end -}}
-
 END:VCALENDAR
