@@ -30,6 +30,7 @@
                 <img
                   src="{{ $image.RelPermalink }}"
                   alt="{{ .name }}"
+                  loading="lazy"
                 />
               </div>
               <div class="profile__keynote">
@@ -64,6 +65,7 @@
                 <img
                   src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
                   alt="{{ .name }}"
+                  loading="lazy"
                 />
               </div>
             </div>

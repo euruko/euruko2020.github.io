@@ -3,6 +3,7 @@
     class="section__background"
     src="{{ (resources.Get .Site.Data.location.backgroundImage | resources.Fingerprint).RelPermalink }}"
     alt="{{ .Site.Data.location.backgroundImageAlt }}"
+    loading="lazy"
   />
   <div class="section__background-darken"></div>
   <div class="section__container">

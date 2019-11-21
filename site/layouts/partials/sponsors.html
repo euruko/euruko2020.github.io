@@ -28,6 +28,7 @@
               <img
                 src="{{ (resources.Get .Site.Data.sponsors.organizer.imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .Site.Data.sponsors.organizer.name }}"
+                loading="lazy"
               />
             </a>
           </div>
@@ -62,6 +63,7 @@
               <img
                 src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .name }}"
+                loading="lazy"
               />
             </a>
             {{ end }}
@@ -77,6 +79,7 @@
               <img
                 src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .name }}"
+                loading="lazy"
               />
             </a>
             {{ end }}
