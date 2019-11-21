@@ -52,8 +52,9 @@
 </style>
 
 <form on:submit|preventDefault={handleSubmit}>
-  <h3 class="form-title">Get notified once we know more about the event</h3>
+  <label for="email-address" class="form-title">Get notified once we know more about the event</label>
   <input
+    id="email-address"
     class="form-email"
     type="email"
     placeholder="Your email address"
