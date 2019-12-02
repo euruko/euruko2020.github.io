@@ -13,7 +13,7 @@ Euruko is a Ruby conference organised annually, each year in a different Europea
 
 Sponsoring Euruko gets you the opportunity to reach an international group of talented and passionate developers. Euruko is the biggest Ruby conference in Europe and one of the biggest in the world.
 
-What's more, our sponsors are essential to keeping Euruko as affordable as possible. There's a long tradition to keep Euruko tickets as affordable as possible to offer everyone the opportunity to attend.
+There's a long tradition to keep Euruko tickets as affordable as possible to offer everyone the opportunity to attend and sponsors are essential part of this.
 
 # Facts about Euruko
 
