@@ -30,11 +30,11 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 |                                                               | Sapphire                         | Topaz                | Emerald                   | Ruby                  |
 |---------------------------------------------------------------|--------------------------------|-----------------------|------------------------|---------------------------|
 | Price (excl. VAT)                                             | €2,000                         | €5,000                | €8,000                 | €12,000                   |
-| Included tickets                                              | 1                              | 2                     | 4                      | 6                         |
-| Exhibit Space¹                                                | ❌                              | ✅                  | ✅                    | ✅                        |
-| Roll-up banner in sponsors hall²                              | +€1000                         | 1                     | 3                      | unlimited                 |
-| Roll-up banner near the main stage²                           | ❌                              | ❌                     | ❌                      | ✅                         |
-| Goodie bag inserts                                            | ❌                              | 1 (small)             | 2 (small, medium)      | 3 (small - large)         |
+| Total number available                                        | ∞                              | 8                     | 4                      | 2                         |
+| Included tickets¹                                             | 1                              | 2                     | 4                      | 6                         |
+| Exhibit Space²                                                | ❌                              | 1 table              | 1.5×1.5m               | 1.5×3m                    |
+| Roll-up banner near the main stage³                           | ❌                              | ❌                     | ❌                      | ✅                         |
+| Goodie bag inserts                                            | ❌                              | 1 (small)             | 2 (small - medium)      | 3 (small - large)         |
 | Dedicated slide during conference breaks                      | ❌                              | +€1000                | ✅                      | ✅                         |
 | Company logo on the screens before the talks                  | ❌                              | ❌                     | ❌                      | before every presentation |
 | Logo on home page                                             | ✅                              | ✅                     | ✅                      | ✅                         |
@@ -47,9 +47,11 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 | Logo on sponsors slide in post-conference videos of the talks | ❌                              | ✅                     | ✅                      | ✅                         |
 | Logo included in the footer of all conference emails          | ❌                              | ❌                     | ❌                      | ✅                         |
 
-¹ Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2020 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.<br>
+¹ If you don't need the tickets included in your sponsorship package, you can choose to let us distribute them via [Diversity Tickets](https://diversitytickets.org/).
 
-² Roll-ups to be supplied by the sponsor
+² Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2020 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.
+
+³ Roll-ups to be supplied by the sponsor
 
 # Other opportunities available
 
