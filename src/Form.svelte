@@ -4,7 +4,7 @@
   let email = "";
   const options = [
     { name: "cfp", description: "The call for papers is open" },
-    { name: "tickets", description: "Tickets are available" }
+    // { name: "tickets", description: "Tickets are available" }
   ];
   let selectedOptions = options.map(option => option.name);
 
