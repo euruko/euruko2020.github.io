@@ -64,4 +64,4 @@ If none of the packages appeal to you, we have a few other sponsorship opportuni
 
 # Contact us
 
-Email [contact@euruko2020.org](mailto:contact@euruko2020.org) to inquire about sponsorships.
+Email [sponsors@euruko.org](mailto:sponsors@euruko.org) to inquire about sponsorships.
