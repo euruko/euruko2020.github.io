@@ -57,9 +57,10 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 
 If none of the packages appeal to you, we have a few other sponsorship opportunities available:
 
-* **Livestream/video recording:** extend your reach beyond the physical conference
-* **Lunch:** offer our attendees a tasty lunch, and they'll be sure to remember you
-* **Party:** offer our attendees a fun, relaxing time after the first day and make it a night to remember
+* **Diversity tickets:** Help members of underrepresented groups get to Euruko. You can choose to pay either for full “scholarships” (ticket + travel + accommodation) or for just admission to the conference.
+* **Livestream/video recording:** Extend your reach beyond the physical conference
+* **Lunch:** Offer our attendees a tasty lunch, and they'll be sure to remember you
+* **Party:** Offer our attendees a fun, relaxing time after the first day and make it a night to remember
 * **Something else?** Do you have a fun idea? Let us know and we'll see what we can work out…
 
 # Contact us
