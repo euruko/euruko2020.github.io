@@ -3,8 +3,7 @@
   let promise = null;
   let email = "";
   const options = [
-    { name: "cfp", description: "The call for papers is open" },
-    { name: "tickets", description: "Tickets are available" }
+    { name: "cfp", description: "The call for papers is open" }
   ];
   let selectedOptions = options.map(option => option.name);
 

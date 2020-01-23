@@ -1,6 +1,9 @@
 {
   "sectionName": "Additional info",
-  "textContent": ["The tickets sales and the call for proposals will go live closer to the event."],
+  "textContent": [
+    "The normal, full priced, tickets to Euruko 2020 will go on sale on the 29th of January at 13:00 UTC. The tickets cost €120 and orders are limited to two tickets per order.",
+    "We are planning to open the call for proposals in March, though we don't have a precise date for it. If you buy a ticket and your talk gets accepted we will of course refund you for it (or you can transfer it to someone else yourself)."
+  ],
   "links": [
     {
       "url": "#about",
