@@ -1,0 +1,206 @@
+[
+  {
+    "count": 1,
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "name": "Bangladesh"
+  },
+  {
+    "count": 1,
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "name": "Serbia"
+  },
+  {
+    "count": 1,
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "name": "Australia"
+  },
+  {
+    "count": 1,
+    "alpha2": "RO",
+    "alpha3": "ROU",
+    "name": "Romania"
+  },
+  {
+    "count": 1,
+    "alpha2": "TW",
+    "alpha3": "TWN",
+    "name": "Taiwan, Province of China"
+  },
+  {
+    "count": 1,
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "name": "Belgium"
+  },
+  {
+    "count": 1,
+    "alpha2": "NO",
+    "alpha3": "NOR",
+    "name": "Norway"
+  },
+  {
+    "count": 2,
+    "alpha2": "US",
+    "alpha3": "USA",
+    "name": "United States of America"
+  },
+  {
+    "count": 2,
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "name": "Greece"
+  },
+  {
+    "count": 3,
+    "alpha2": "RU",
+    "alpha3": "RUS",
+    "name": "Russian Federation"
+  },
+  {
+    "count": 3,
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "name": "Brazil"
+  },
+  {
+    "count": 3,
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "name": "Slovakia"
+  },
+  {
+    "count": 3,
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "name": "Japan"
+  },
+  {
+    "count": 4,
+    "alpha2": "AT",
+    "alpha3": "AUT",
+    "name": "Austria"
+  },
+  {
+    "count": 4,
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "name": "Estonia"
+  },
+  {
+    "count": 4,
+    "alpha2": "IT",
+    "alpha3": "ITA",
+    "name": "Italy"
+  },
+  {
+    "count": 5,
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "name": "Bulgaria"
+  },
+  {
+    "count": 6,
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "name": "France"
+  },
+  {
+    "count": 6,
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "name": "Czech Republic"
+  },
+  {
+    "count": 7,
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "name": "Ireland"
+  },
+  {
+    "count": 8,
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "name": "Croatia"
+  },
+  {
+    "count": 8,
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "name": "Switzerland"
+  },
+  {
+    "count": 9,
+    "alpha2": "PT",
+    "alpha3": "PRT",
+    "name": "Portugal"
+  },
+  {
+    "count": 9,
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "name": "Sweden"
+  },
+  {
+    "count": 10,
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "name": "Canada"
+  },
+  {
+    "count": 14,
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "name": "Belarus"
+  },
+  {
+    "count": 15,
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "name": "Ukraine"
+  },
+  {
+    "count": 17,
+    "alpha2": "GB",
+    "alpha3": "GBR",
+    "name": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  {
+    "count": 22,
+    "alpha2": "PL",
+    "alpha3": "POL",
+    "name": "Poland"
+  },
+  {
+    "count": 24,
+    "alpha2": "ES",
+    "alpha3": "ESP",
+    "name": "Spain"
+  },
+  {
+    "count": 29,
+    "alpha2": "FI",
+    "alpha3": "FIN",
+    "name": "Finland"
+  },
+  {
+    "count": 29,
+    "alpha2": "NL",
+    "alpha3": "NLD",
+    "name": "Netherlands"
+  },
+  {
+    "count": 62,
+    "alpha2": null,
+    "alpha3": null,
+    "name": "Unknown"
+  },
+  {
+    "count": 130,
+    "alpha2": "DE",
+    "alpha3": "DEU",
+    "name": "Germany"
+  }
+]
