@@ -1,224 +1,224 @@
 [
   {
-    "count": 1,
-    "alpha2": "BD",
-    "alpha3": "BGD",
-    "name": "Bangladesh"
-  },
-  {
-    "count": 1,
     "alpha2": "AZ",
     "alpha3": "AZE",
-    "name": "Azerbaijan"
+    "name": "Azerbaijan",
+    "percentage": 1
   },
   {
-    "count": 1,
-    "alpha2": "BA",
-    "alpha3": "BIH",
-    "name": "Bosnia and Herzegovina"
-  },
-  {
-    "count": 1,
     "alpha2": "TW",
     "alpha3": "TWN",
-    "name": "Taiwan, Province of China"
+    "name": "Taiwan",
+    "percentage": 1
   },
   {
-    "count": 1,
     "alpha2": "NO",
     "alpha3": "NOR",
-    "name": "Norway"
+    "name": "Norway",
+    "percentage": 1
   },
   {
-    "count": 1,
-    "alpha2": "SI",
-    "alpha3": "SVN",
-    "name": "Slovenia"
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "name": "Bangladesh",
+    "percentage": 1
   },
   {
-    "count": 2,
-    "alpha2": "BE",
-    "alpha3": "BEL",
-    "name": "Belgium"
-  },
-  {
-    "count": 2,
-    "alpha2": "RS",
-    "alpha3": "SRB",
-    "name": "Serbia"
-  },
-  {
-    "count": 2,
-    "alpha2": "AU",
-    "alpha3": "AUS",
-    "name": "Australia"
-  },
-  {
-    "count": 2,
-    "alpha2": "US",
-    "alpha3": "USA",
-    "name": "United States of America"
-  },
-  {
-    "count": 2,
-    "alpha2": "GR",
-    "alpha3": "GRC",
-    "name": "Greece"
-  },
-  {
-    "count": 3,
     "alpha2": "RU",
     "alpha3": "RUS",
-    "name": "Russian Federation"
+    "name": "Russian Federation",
+    "percentage": 1
   },
   {
-    "count": 3,
-    "alpha2": "SK",
-    "alpha3": "SVK",
-    "name": "Slovakia"
-  },
-  {
-    "count": 3,
-    "alpha2": "BR",
-    "alpha3": "BRA",
-    "name": "Brazil"
-  },
-  {
-    "count": 4,
     "alpha2": "AT",
     "alpha3": "AUT",
-    "name": "Austria"
+    "name": "Austria",
+    "percentage": 1
   },
   {
-    "count": 4,
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "name": "Brazil",
+    "percentage": 1
+  },
+  {
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "name": "Belgium",
+    "percentage": 1
+  },
+  {
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "name": "Greece",
+    "percentage": 1
+  },
+  {
+    "alpha2": "US",
+    "alpha3": "USA",
+    "name": "United States of America",
+    "percentage": 1
+  },
+  {
     "alpha2": "IT",
     "alpha3": "ITA",
-    "name": "Italy"
+    "name": "Italy",
+    "percentage": 1
   },
   {
-    "count": 4,
     "alpha2": "RO",
     "alpha3": "ROU",
-    "name": "Romania"
+    "name": "Romania",
+    "percentage": 1
   },
   {
-    "count": 5,
-    "alpha2": "EE",
-    "alpha3": "EST",
-    "name": "Estonia"
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "name": "Slovakia",
+    "percentage": 1
   },
   {
-    "count": 5,
-    "alpha2": "JP",
-    "alpha3": "JPN",
-    "name": "Japan"
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "name": "Australia",
+    "percentage": 1
   },
   {
-    "count": 5,
-    "alpha2": "BG",
-    "alpha3": "BGR",
-    "name": "Bulgaria"
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "name": "Serbia",
+    "percentage": 1
   },
   {
-    "count": 6,
-    "alpha2": "FR",
-    "alpha3": "FRA",
-    "name": "France"
+    "alpha2": "BA",
+    "alpha3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "percentage": 1
   },
   {
-    "count": 7,
+    "alpha2": "SI",
+    "alpha3": "SVN",
+    "name": "Slovenia",
+    "percentage": 1
+  },
+  {
     "alpha2": "IE",
     "alpha3": "IRL",
-    "name": "Ireland"
+    "name": "Ireland",
+    "percentage": 2
   },
   {
-    "count": 7,
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "name": "Estonia",
+    "percentage": 2
+  },
+  {
     "alpha2": "CZ",
     "alpha3": "CZE",
-    "name": "Czech Republic"
+    "name": "Czech Republic",
+    "percentage": 2
   },
   {
-    "count": 9,
-    "alpha2": "CH",
-    "alpha3": "CHE",
-    "name": "Switzerland"
-  },
-  {
-    "count": 9,
-    "alpha2": "HR",
-    "alpha3": "HRV",
-    "name": "Croatia"
-  },
-  {
-    "count": 9,
     "alpha2": "SE",
     "alpha3": "SWE",
-    "name": "Sweden"
+    "name": "Sweden",
+    "percentage": 2
   },
   {
-    "count": 10,
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "name": "France",
+    "percentage": 2
+  },
+  {
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "name": "Switzerland",
+    "percentage": 2
+  },
+  {
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "name": "Croatia",
+    "percentage": 2
+  },
+  {
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "name": "Bulgaria",
+    "percentage": 2
+  },
+  {
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "name": "Japan",
+    "percentage": 2
+  },
+  {
     "alpha2": "CA",
     "alpha3": "CAN",
-    "name": "Canada"
+    "name": "Canada",
+    "percentage": 3
   },
   {
-    "count": 10,
     "alpha2": "PT",
     "alpha3": "PRT",
-    "name": "Portugal"
+    "name": "Portugal",
+    "percentage": 3
   },
   {
-    "count": 15,
-    "alpha2": "UA",
-    "alpha3": "UKR",
-    "name": "Ukraine"
-  },
-  {
-    "count": 16,
-    "alpha2": "BY",
-    "alpha3": "BLR",
-    "name": "Belarus"
-  },
-  {
-    "count": 19,
     "alpha2": "GB",
     "alpha3": "GBR",
-    "name": "United Kingdom of Great Britain and Northern Ireland"
+    "name": "United Kingdom",
+    "percentage": 4
   },
   {
-    "count": 23,
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "name": "Belarus",
+    "percentage": 4
+  },
+  {
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "name": "Ukraine",
+    "percentage": 4
+  },
+  {
     "alpha2": "PL",
     "alpha3": "POL",
-    "name": "Poland"
+    "name": "Poland",
+    "percentage": 5
   },
   {
-    "count": 29,
     "alpha2": "ES",
     "alpha3": "ESP",
-    "name": "Spain"
+    "name": "Spain",
+    "percentage": 6
   },
   {
-    "count": 31,
     "alpha2": "NL",
     "alpha3": "NLD",
-    "name": "Netherlands"
+    "name": "Netherlands",
+    "percentage": 7
   },
   {
-    "count": 36,
     "alpha2": "FI",
     "alpha3": "FIN",
-    "name": "Finland"
+    "name": "Finland",
+    "percentage": 8
   },
   {
-    "count": 69,
     "alpha2": null,
     "alpha3": null,
-    "name": "Unknown"
+    "name": "Unknown",
+    "percentage": 14
   },
   {
-    "count": 136,
     "alpha2": "DE",
     "alpha3": "DEU",
-    "name": "Germany"
+    "name": "Germany",
+    "percentage": 28
   }
 ]

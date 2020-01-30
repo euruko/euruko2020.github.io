@@ -18,12 +18,12 @@
     // Data and color scale
     let data = d3.map();
     let colorScale = d3.scaleThreshold()
-      .domain([1, 3, 6, 12, 24, 48, 96, 192])
-      .range(d3.schemePurples[9]);
+      .domain([1, 2, 4, 8, 16, 32])
+      .range(d3.schemePurples[7]);
 
     attendees.forEach((item, i) => {
       if (item.alpha3) {
-        data.set(item.alpha3, +item.count);
+        data.set(item.alpha3, item.percentage);
       }
     });
 
@@ -50,3 +50,20 @@
 </style>
 
 <svg bind:this={svgEl} viewBox={`0 0 ${width} ${height}`}></svg>
+
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Attendees</th>
+    </tr>
+  </thead>
+  <tbody>
+    {#each attendees.reverse() as country}
+    <tr>
+      <th>{country.name}</th>
+      <th>{country.percentage === 1 ? "≤1" : country.percentage}%</th>
+    </tr>
+    {/each}
+  </tbody>
+</table>

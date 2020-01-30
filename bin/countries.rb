@@ -41,7 +41,15 @@ stats = rows.reduce({}) do |hash, row|
   hash
 end
 
-counts = stats.values
-counts.sort_by! { |c| c[:count] }
+total = stats.values.reduce(0) { |t, c| t += c[:count] }
 
-puts JSON.pretty_generate(counts)
+percentages = stats.values.map do |row|
+  count = row.delete(:count)
+  row[:percentage] = ((count.to_f / total) * 100).ceil
+  row
+end
+
+percentages.sort_by! {|p| p[:percentage]}
+percentages
+
+puts JSON.pretty_generate(percentages)
