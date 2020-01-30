@@ -70,7 +70,6 @@
   "dependencies": {
     "d3": "^5.15.0",
     "d3-geo": "^1.11.9",
-    "json-loader": "^0.5.7",
     "sass-mq": "^5.0.1",
     "topojson-client": "^3.1.0",
     "world-atlas": "^2.0.2"

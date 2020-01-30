@@ -4,7 +4,7 @@ require "bundler/inline"
 
 gemfile do
   source "https://rubygems.org"
-  gem "countries"
+  gem "countries", "~> 3.0"
 end
 
 require "csv"
