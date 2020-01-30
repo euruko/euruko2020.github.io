@@ -18,8 +18,8 @@
     // Data and color scale
     let data = d3.map();
     let colorScale = d3.scaleThreshold()
-      .domain([1, 40, 80, 120, 160, 200])
-      .range(d3.schemeBlues[7]);
+      .domain([1, 3, 6, 12, 24, 48, 96, 192])
+      .range(d3.schemeBlues[9]);
 
     attendees.forEach((item, i) => {
       if (item.alpha3) {
