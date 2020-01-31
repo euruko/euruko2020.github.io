@@ -6,7 +6,8 @@
     "imageUrl": "images/kisko.svg"
   },
   "sponsorsTitle": "Sponsors",
-  "sponsorsLarge": [
+  "sponsorsRuby": [],
+  "sponsorsEmerald": [
     {
       "name": "Cookpad",
       "url": "https://apply.workable.com/cookpad/",
@@ -14,5 +15,5 @@
       "description": "With around 100 million average monthly users in over 70 countries and 30+ languages, Cookpad operates at a unique scale as not only the largest recipe sharing community in the world but also one of the biggest Rails sites too. Always looking for Rubyists to help us make everyday cooking fun!"
     }
   ],
-  "sponsorsSmall": []
+  "sponsorsOther": []
 }
