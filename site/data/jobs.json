@@ -1,0 +1,25 @@
+{
+  "companies": [
+    {
+      "companyName": "Cookpad",
+      "companyLogo": "images/sponsors/cookpad.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Ruby on Rails Developers",
+          "jobDescription": "Cookpad is the worlds largest recipe community with around 100 million monthly users. We're also huge Ruby fans with core team members on staff and a growing team in our HQ in Bristol, UK. If you want to help us make everyday cooking fun get in touch! We're a UK Visa sponsor, offer a generous relocation package.",
+          "jobLink": "https://apply.workable.com/cookpad/j/8829ECE51E/"
+        },
+        {
+          "jobTitle": "Senior Site Reliability Engineer",
+          "jobDescription": "Cookpad is looking for software engineers to join our Site Reliability Engineering team. Our SREs use systems engineering and software development skills to build and operate the platform behind the largest recipe sharing community in the world. You will be building the systems and tools that enable our engineers to operate and develop Cookpad's global service.",
+          "jobLink": "https://apply.workable.com/cookpad/j/6B53AF891D/"
+        },
+        {
+          "jobTitle": "Product Manager",
+          "jobDescription": "Cookpad’s product vision is focused on creating a more collaborative and rewarding environment for our community of home cooks. You’ll have shared ownership of the holistic product view. You will be expected to use an insight driven approach to prioritise what it important and ensure we focus on the right things. We also want to move fast and you will need to ensure we are frequently testing and gathering feedback.",
+          "jobLink": "https://apply.workable.com/cookpad/j/0500C4B8D9/"
+        }
+      ]
+    }
+  ]
+}
