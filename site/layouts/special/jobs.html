@@ -1,0 +1,61 @@
+{{ define "main" }}
+<section class="section section--purple">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__single-header">
+        {{ if isset .Params "title_image" }}
+        <img
+          class="hero__image"
+          src="{{ (resources.Get .Params.title_image | resources.Fingerprint).RelPermalink }}"
+          alt="{{- .Title -}}"
+        />
+        {{ else }}
+        <h1>
+          {{- .Title -}}
+        </h1>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__single-content">
+        <article class="section__content">
+          <main>
+            {{ range .Site.Data.jobs.companies }}
+              <div class="jobs">
+                <div class="jobs__company-logo">
+                  <img
+                    src="{{ (resources.Get .companyLogo | resources.Fingerprint).RelPermalink }}"
+                    alt="{{ .companyName }}"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="jobs__company-jobs">
+                  {{ range .companyJobs }}
+                    <div class="jobs__company-job">
+                      <h2 class="jobs__job-heading">{{ .jobTitle }}</h2>
+                      <p class="jobs__job-description">{{ .jobDescription }}</p>
+                      <div class="jobs__cta">
+                        <a
+                          href="{{ .jobLink }}"
+                          class="section__cta section__cta--large section__cta--teal section__cta--no-margin"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Join us</a
+                        >
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
+          </main>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

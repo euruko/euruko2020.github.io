@@ -236,6 +236,15 @@
       color: $grey-1;
     }
 
+    &--large {
+      font-size: 14px;
+      padding: 12px 20px;
+    }
+
+    &--no-margin {
+      margin: 0;
+    }
+
     &--green {
       background: $green-1;
       border: none;

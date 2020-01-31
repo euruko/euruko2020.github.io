@@ -1,0 +1,48 @@
+.jobs {
+  margin-top: 80px;
+
+  &__company-logo {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      height: 80px;
+      width: auto;
+    }
+  }
+
+  &__company-jobs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    margin-top: 40px;
+  }
+
+  &__company-job {
+    flex-basis: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 40px;
+    padding-bottom: 30px;
+    background: #F7F8FB;
+    border: 1px solid #E5EAF1;
+
+    @include mq($until: largeTablet) {
+      flex-basis: calc(100% - 20px);
+    }
+  }
+
+  &__job-heading {
+    margin: 0 !important;
+  }
+
+  &__job-description {
+    flex: 1 1 auto;
+  }
+
+  &__cta {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
