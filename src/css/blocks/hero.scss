@@ -16,7 +16,7 @@
 
   &__image-container {
     position: absolute;
-    left: -20px;
+    left: 0px;
     top: calc(50% + (#{$header-height} / 2));
     transform: translate(0, -50%);
   }
@@ -28,7 +28,7 @@
 
   &__info {
     position: absolute;
-    top: calc(51% + (#{$header-height} / 2) + 12px);
+    top: calc(51% + (#{$header-height} / 2) + 5px);
     right: 0px;
     font-size: 1.5rem;
     line-height: 1.4;
@@ -117,7 +117,7 @@
 
   @include mq($until: superwide) {
     & {
-      min-height: 700px;
+      min-height: 850px;
     }
 
     &__container {
@@ -134,6 +134,25 @@
     }
   }
 
+  @include mq($until: extrawide) {
+    & {
+      min-height: 650px;
+    }
+
+    &__image-container {
+      left: 40px;
+    }
+
+    &__image {
+      width: 700px;
+    }
+
+    &__info {
+      font-size: 1.3rem;
+      right: 40px;
+    }
+  }
+
   @include mq($until: wide) {
     & {
       min-height: 600px;
@@ -144,7 +163,7 @@
     }
 
     &__image {
-      width: 650px;
+      width: 600px;
     }
 
     &__info {

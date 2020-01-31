@@ -6,7 +6,6 @@ $purple-2: #503469;
 $purple-3: #d7aaff;
 $purple-4: lighten($purple-1, 65%);
 
-
 $blue-1: #4b9bbe;
 $blue-2: #93c3d8;
 $blue-3: #d7eff7;
@@ -50,6 +49,7 @@ $mq-breakpoints: (
   largeTablet: 768px,
   desktop: 992px,
   wide: 1300px,
+  extrawide: 1450px,
   superwide: 1600px
 );
 
