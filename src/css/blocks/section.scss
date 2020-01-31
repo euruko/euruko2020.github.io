@@ -157,17 +157,27 @@
     margin-top: 10px;
   }
 
+  &__very-small-column {
+    flex-basis: 250px;
+    padding-right: 20px;
+  }
+
+  &__very-large-column {
+    flex-basis: calc(100% - 250px);
+    margin-top: 10px;
+  }
+
   @include mq($until: largeTablet) {
     &__columns {
       flex-wrap: wrap;
     }
 
-    &__small-column {
+    &__small-column, &__very-small-column {
       flex-basis: 100%;
       padding-right: 0;
     }
 
-    &__large-column {
+    &__large-column, &__very-large-column {
       flex-basis: 100%;
       margin-top: 0;
     }

@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="section__columns">
-        <div class="section__small-column">
+        <div class="section__very-small-column">
           <h1
             id="heading-sponsors-b"
             class="section__heading section__heading--pink"
@@ -50,25 +50,49 @@
           </p>
           {{ end }}
         </div>
-        <div class="section__large-column">
-          <div class="sponsors__list">
-            {{ range.Site.Data.sponsors.sponsorsLarge }}
+        <div class="section__very-large-column">
+          <div class="sponsors__list sponsors__list--ruby">
+            {{ range.Site.Data.sponsors.sponsorsRuby }}
             <a
               class="sponsors__link"
               href="{{ .url }}"
               target="_blank"
               rel="noopener noreferrer"
             >
+            <div class="sponsors__tag">RUBY</div>
               <img
                 src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .name }}"
                 loading="lazy"
               />
+              <div class="sponsors__sponsor-description">
+                {{ .description }}
+              </div>
+            </a>
+            {{ end }}
+          </div>
+          <div class="sponsors__list sponsors__list--emerald">
+            {{ range.Site.Data.sponsors.sponsorsEmerald }}
+            <a
+              class="sponsors__link"
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <div class="sponsors__tag">EMERALD</div>
+              <img
+                src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                alt="{{ .name }}"
+                loading="lazy"
+              />
+              <div class="sponsors__sponsor-description">
+                {{ .description }}
+              </div>
             </a>
             {{ end }}
           </div>
           <div class="sponsors__list sponsors__list--small">
-            {{ range.Site.Data.sponsors.sponsorsSmall }}
+            {{ range.Site.Data.sponsors.sponsorsOther }}
             <a
               class="sponsors__link"
               href="{{ .url }}"

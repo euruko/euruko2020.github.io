@@ -10,3 +10,4 @@ hugo.linux
 node_modules/
 dist/
 site/data/webpack.json
+.DS_Store
