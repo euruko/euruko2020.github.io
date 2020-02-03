@@ -5,6 +5,7 @@ require "bundler/inline"
 gemfile do
   source "https://rubygems.org"
   gem "countries", "~> 3.0"
+  gem "pry"
 end
 
 require "csv"
@@ -31,7 +32,9 @@ stats = rows.reduce({}) do |hash, row|
 
   if country_name && country_name.length > 0
     country = ISO3166::Country.find_country_by_name(country_name)
-    hash[country.alpha3.to_sym] ||= { count: 0, alpha2: country.alpha2, alpha3: country.alpha3, name: country.name }
+    unofficial = country.unofficial_names.first
+    name = unofficial.length < country.name.length ? unofficial : country.name
+    hash[country.alpha3.to_sym] ||= { count: 0, alpha2: country.alpha2, alpha3: country.alpha3, name: name }
     hash[country.alpha3.to_sym][:count] += 1
   else
     hash[:other] ||= { count: 0, alpha2: nil, alpha3: nil, name: "Unknown" }
@@ -45,7 +48,8 @@ total = stats.values.reduce(0) { |t, c| t += c[:count] }
 
 percentages = stats.values.map do |row|
   count = row.delete(:count)
-  row[:percentage] = ((count.to_f / total) * 100).ceil
+  percentage = ((count.to_f / total) * 100)
+  row[:percentage] = percentage < 4 ? percentage.ceil : percentage.round
   row
 end
 
