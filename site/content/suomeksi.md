@@ -9,6 +9,8 @@ lang: fi
 
 **Euruko** on vuodesta 2003 järjestetty eri kaupunkeja kiertävä Ruby-konferenssi, jonka kävijät valitsevat tapahtuman seuraavan vuoden järjestäjän. Helsinki valikoitui järjestäjäkaupungiksi viime vuonna Rotterdamissa järjestetyn konferenssin yleisöäänestyksessä. Tänä vuonna saadaan nauttia kaikkien aikojen pohjoisimmasta Eurukosta.
 
+Edellisinä vuosina Euruko on järjestetty Saksassa, Itävallassa, Alankomaissa, Espanjassa, Tšekissä, Kreikassa, Bulgariassa ja Unkarissa.
+
 Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa** ja liput tulevat myymään nopeasti loppuun.
 
 Euruko 2020:n pääpuhujavieraat ovat:
