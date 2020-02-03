@@ -11,7 +11,7 @@ lang: fi
 
 Edellisinä vuosina Euruko on järjestetty Saksassa, Itävallassa, Alankomaissa, Espanjassa, Tšekissä, Kreikassa, Bulgariassa ja Unkarissa.
 
-Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa** ja liput tulevat myymään nopeasti loppuun.
+Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa**.
 
 Euruko 2020:n pääpuhujavieraat ovat:
 
@@ -24,6 +24,6 @@ Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 20
 
 ## Meistä
 
-[Kisko Labs](https://kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Rails-talo.
+[Kisko Labs](https://kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Ruby on Rails -teknologialla verkkosovelluksia toteuttanut ohjelmistotalo.
 
 Olemme myös Suomen ensimmäisen ja ainoan Ruby-konferenssi Frozen Railsin järjestäjä.
