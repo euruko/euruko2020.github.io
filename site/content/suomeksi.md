@@ -20,7 +20,7 @@ Euruko 2020:n pääpuhujavieraat ovat:
 
 Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 2020.
 
-**Mikäli olette kiinnostuneita, tutustukaa yhteistyömahdollisuuksiin: [https://euruko2020.org/sponsoring/](https://euruko2020.org/sponsoring/)**
+**Mikäli olette kiinnostuneita, tutustukaa [yhteistyömahdollisuuksiin](https://euruko2020.org/sponsoring/)**
 
 ## Meistä
 
