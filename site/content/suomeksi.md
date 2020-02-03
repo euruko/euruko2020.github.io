@@ -9,7 +9,7 @@ lang: fi
 
 **Euruko** on vuodesta 2003 järjestetty eri kaupunkeja kiertävä Ruby-konferenssi, jonka kävijät valitsevat tapahtuman seuraavan vuoden järjestäjän. Helsinki valikoitui järjestäjäkaupungiksi viime vuonna Rotterdamissa järjestetyn konferenssin yleisöäänestyksessä. Tänä vuonna saadaan nauttia kaikkien aikojen pohjoisimmasta Eurukosta.
 
-Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa** ja liput tulevat myymään nopeasti loppuun.
+Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa**.
 
 Euruko 2020:n pääpuhujavieraat ovat:
 
@@ -22,6 +22,6 @@ Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 20
 
 ## Meistä
 
-[Kisko Labs](https://kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Rails-talo.
+[Kisko Labs](https://kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Ruby on Rails -teknologialla verkkosovelluksia toteuttanut ohjelmistotalo. 
 
 Olemme myös Suomen ensimmäisen ja ainoan Ruby-konferenssi Frozen Railsin järjestäjä.
