@@ -3,12 +3,17 @@
 import "./css/main.css";
 
 import Form from "./Form.svelte";
+import Map from "./Map.svelte";
 
-const app = new Form({
+export const form = new Form({
   target: document.querySelector("#form"),
 });
 
-export default app;
+export const map = new Map({
+  target: document.querySelector("#map"),
+});
+
+// export default form;
 
 window.addEventListener("load", () => {
   setClickListeners();
