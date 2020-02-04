@@ -4,9 +4,7 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 12.x
@@ -21,6 +19,19 @@ jobs:
       run: yarn install
     - name: Build site
       run: yarn build
+    - name: Upload build
+      uses: actions/upload-artifact@master
+      with:
+        name: site-build
+        path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    - uses: actions/download-artifact@master
+      with:
+        name: site-build
+        path: dist/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
@@ -28,4 +39,4 @@ jobs:
         EXTERNAL_REPOSITORY: euruko/euruko2020.github.io
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
-      if: success()
+      if: github.ref =='master' && success()
