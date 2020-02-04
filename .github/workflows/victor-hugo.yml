@@ -22,4 +22,4 @@ jobs:
     - name: Install dependencies with Yarn
       run: yarn install
     - name: Build site
-      run: yarn run build    
+      run: yarn build
