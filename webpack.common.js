@@ -21,6 +21,10 @@ module.exports = {
     },
     extensions: [".mjs", ".js", ".svelte"],
     mainFields: ["svelte", "browser", "module", "main"],
+    modules: [
+      path.join(__dirname, "src"),
+      "node_modules"
+    ]
   },
 
   module: {
