@@ -1,6 +1,10 @@
 <script>
   import { onMount } from "svelte";
-  import * as d3 from "d3";
+  import { select } from "d3-selection";
+  import { geoPath, geoEqualEarth } from "d3-geo";
+  import { scaleThreshold } from "d3-scale";
+  import { schemePurples } from "d3-scale-chromatic";
+  import { map } from "d3-collection";
   import attendees from "./data/countries.json";
   import world from "./data/world.json";
 
@@ -9,17 +13,17 @@
   const height = 1080;
 
   function renderSVG() {
-    const svg = d3.select(svgEl);
+    const svg = select(svgEl);
 
     // Map and projection
-    let path = d3.geoPath();
-    let projection = d3.geoEqualEarth().fitSize([width, height], world);
+    let path = geoPath();
+    let projection = geoEqualEarth().fitSize([width, height], world);
 
     // Data and color scale
-    let data = d3.map();
-    let colorScale = d3.scaleThreshold()
+    let data = map();
+    let colorScale = scaleThreshold()
       .domain([1, 2, 4, 8, 16, 32])
-      .range(d3.schemePurples[7]);
+      .range(schemePurples[7]);
 
     attendees.forEach((item, i) => {
       if (item.alpha3) {
@@ -32,7 +36,7 @@
       .data(world.features)
       .enter()
       .append("path")
-        .attr("d", d3.geoPath()
+        .attr("d", geoPath()
           .projection(projection)
         )
         .attr("fill", function (d) {
