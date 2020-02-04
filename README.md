@@ -8,6 +8,10 @@ Built using [Victor Hugo](https://github.com/netlify-templates/victor-hugo).
 
 The site uses [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
 
+## Deployments
+
+⚠️ The `master` branch is deployed automatically! If you make changes to the `master` branch, they *WILL* go live on the internet.
+
 ## Usage
 
 ### :exclamation: Prerequisites
