@@ -1,4 +1,4 @@
-name: Build site
+name: Build (and deploy)
 
 on: [push]
 
@@ -33,6 +33,7 @@ jobs:
       with:
         name: site-build
         path: dist/
+    - run: ls -lh dist/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
