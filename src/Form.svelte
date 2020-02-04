@@ -1,4 +1,6 @@
 <script>
+  import "whatwg-fetch";
+
   let loading = false;
   let promise = null;
   let email = "";

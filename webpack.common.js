@@ -7,7 +7,7 @@ const SriPlugin = require("webpack-subresource-integrity");
 
 module.exports = {
   entry: {
-    main: ["whatwg-fetch", path.join(__dirname, "src", "index.js")],
+    main: path.join(__dirname, "src", "index.js"),
   },
 
   output: {
