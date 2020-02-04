@@ -28,3 +28,4 @@ jobs:
         EXTERNAL_REPOSITORY: euruko/euruko2020.github.io
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
+      if: success()
