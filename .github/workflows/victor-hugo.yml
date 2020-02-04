@@ -17,8 +17,6 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.64.0'
-    - name: Install Yarn
-      run: npm install -g yarn@berry
     - name: Install dependencies with Yarn
       run: yarn install
     - name: Build site
