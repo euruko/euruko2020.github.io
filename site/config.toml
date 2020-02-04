@@ -4,6 +4,8 @@ languageLang = "en"
 title = "Euruko 2020"
 baseURL = "https://euruko2020.org/"
 
+disableHugoGeneratorInject = true
+
 enableRobotsTXT = true
 
 # RSS, categories and tags disabled for an easy start
