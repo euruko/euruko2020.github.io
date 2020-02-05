@@ -3,6 +3,7 @@ title: "Mikä on Euruko?"
 date: 2020-02-03
 draft: false
 lang: fi
+description: "Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 21.–22.8.2020 Helsingin Savoy-teatterissa."
 ---
 
 ## Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 21.–22.8.2020 Helsingin Savoy-teatterissa.
