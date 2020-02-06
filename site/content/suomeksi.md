@@ -25,6 +25,6 @@ Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 20
 
 ## Meistä
 
-[Kisko Labs](https://kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Ruby on Rails -teknologialla verkkosovelluksia toteuttanut ohjelmistotalo.
+[Kisko Labs](https://www.kiskolabs.com/) on helsinkiläinen ohjelmistoyritys, joka on rakentanut verkkopalveluita Ruby on Railsilla vuodesta 2007 – olemme Suomen kokenein Ruby on Rails -teknologialla verkkosovelluksia toteuttanut ohjelmistotalo.
 
 Olemme myös Suomen ensimmäisen ja ainoan Ruby-konferenssi Frozen Railsin järjestäjä.
