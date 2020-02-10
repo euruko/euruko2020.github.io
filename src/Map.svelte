@@ -65,8 +65,8 @@
   <tbody>
     {#each attendees.reverse() as country}
     <tr>
-      <th>{country.name}</th>
-      <th>{country.percentage === 1 ? "≤1" : country.percentage}%</th>
+      <td>{country.name}</td>
+      <td>{country.percentage === 1 ? "≤1" : country.percentage}%</td>
     </tr>
     {/each}
   </tbody>
