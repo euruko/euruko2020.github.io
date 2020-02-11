@@ -15,5 +15,11 @@
       "description": "With around 100 million average monthly users in over 70 countries and 30+ languages, Cookpad operates at a unique scale as not only the largest recipe sharing community in the world but also one of the biggest Rails sites too. Always looking for Rubyists to help us make everyday cooking fun!"
     }
   ],
-  "sponsorsOther": []
+  "sponsorsOther": [
+    {
+      "name": "Taktsoft",
+      "url": "https://www.taktsoft.com/",
+      "imageUrl": "images/sponsors/taktsoft.svg"
+    }
+  ]
 }
