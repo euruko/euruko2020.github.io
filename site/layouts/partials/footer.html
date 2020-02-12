@@ -4,7 +4,7 @@
       <div class="footer__content">
         <div class="footer__text">
           {{ range.Site.Data.footer.footerText }}
-          <span>{{ markdownify . }}</span>
+          <span>{{ safeHTML . }}</span>
           {{ end }}
         </div>
         <div class="footer__social-media">
