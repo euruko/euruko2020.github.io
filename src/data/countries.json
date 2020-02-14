@@ -114,21 +114,9 @@
     "percentage": 1
   },
   {
-    "alpha2": "EE",
-    "alpha3": "EST",
-    "name": "Estonia",
-    "percentage": 2
-  },
-  {
-    "alpha2": "HR",
-    "alpha3": "HRV",
-    "name": "Croatia",
-    "percentage": 2
-  },
-  {
-    "alpha2": "CZ",
-    "alpha3": "CZE",
-    "name": "Czech Republic",
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "name": "France",
     "percentage": 2
   },
   {
@@ -138,9 +126,21 @@
     "percentage": 2
   },
   {
-    "alpha2": "FR",
-    "alpha3": "FRA",
-    "name": "France",
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "name": "Ireland",
+    "percentage": 2
+  },
+  {
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "name": "Czech Republic",
+    "percentage": 2
+  },
+  {
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "name": "Japan",
     "percentage": 2
   },
   {
@@ -150,22 +150,22 @@
     "percentage": 2
   },
   {
-    "alpha2": "CA",
-    "alpha3": "CAN",
-    "name": "Canada",
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "name": "Croatia",
     "percentage": 2
   },
   {
-    "alpha2": "IE",
-    "alpha3": "IRL",
-    "name": "Ireland",
-    "percentage": 2
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "name": "Estonia",
+    "percentage": 3
   },
   {
-    "alpha2": "JP",
-    "alpha3": "JPN",
-    "name": "Japan",
-    "percentage": 2
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "name": "Sweden",
+    "percentage": 3
   },
   {
     "alpha2": "BY",
@@ -180,9 +180,9 @@
     "percentage": 3
   },
   {
-    "alpha2": "SE",
-    "alpha3": "SWE",
-    "name": "Sweden",
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "name": "Canada",
     "percentage": 3
   },
   {
@@ -192,28 +192,28 @@
     "percentage": 4
   },
   {
-    "alpha2": "UA",
-    "alpha3": "UKR",
-    "name": "Ukraine",
-    "percentage": 5
-  },
-  {
     "alpha2": "PL",
     "alpha3": "POL",
     "name": "Poland",
     "percentage": 5
   },
   {
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "name": "Ukraine",
+    "percentage": 5
+  },
+  {
     "alpha2": "NL",
     "alpha3": "NLD",
     "name": "Netherlands",
-    "percentage": 6
+    "percentage": 5
   },
   {
     "alpha2": "ES",
     "alpha3": "ESP",
     "name": "Spain",
-    "percentage": 6
+    "percentage": 5
   },
   {
     "alpha2": "FI",
