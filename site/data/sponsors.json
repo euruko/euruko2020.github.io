@@ -12,7 +12,13 @@
       "name": "Cookpad",
       "url": "https://apply.workable.com/cookpad/",
       "imageUrl": "images/sponsors/cookpad.svg",
-      "description": "With around 100 million average monthly users in over 70 countries and 30+ languages, Cookpad operates at a unique scale as not only the largest recipe sharing community in the world but also one of the biggest Rails sites too. Always looking for Rubyists to help us make everyday cooking fun!"
+      "description": "With around 100 million average monthly users in over 70 countries and 30+ languages, Cookpad operates at a unique scale as not only the largest recipe sharing community in the world but also one of the biggest Rails sites too. We're always looking for Rubyists to help us make everyday cooking fun!"
+    },
+    {
+      "name": "Woolman",
+      "url": "https://woolman.co/",
+      "imageUrl": "images/sponsors/woolman.svg",
+      "description": "Woolman helps European brands succeed in global commerce. We do it by utilising global cloud-services and using our strong commerce experience. Woolman is an eCommerce Agency with offices in various locations in Finland, Stockholm and Amsterdam. The team consists of 40 designers, programmers and eCommerce specialists being the largest Shopify Plus agency in mainland Europe."
     }
   ],
   "sponsorsOther": [
