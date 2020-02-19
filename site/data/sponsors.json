@@ -6,7 +6,14 @@
     "imageUrl": "images/kisko.svg"
   },
   "sponsorsTitle": "Sponsors",
-  "sponsorsRuby": [],
+  "sponsorsRuby": [
+    {
+      "name": "Shopify",
+      "url": "https://www.shopify.com/",
+      "imageUrl": "images/sponsors/shopify.svg",
+      "description": "Shopify is a platform built for independent business owners of all shapes and sizes to start, sell, market and manage their businesses online, in-store, and everywhere between."
+    }
+  ],
   "sponsorsEmerald": [
     {
       "name": "Cookpad",
