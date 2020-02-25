@@ -1,6 +1,17 @@
 {
   "companies": [
     {
+      "companyName": "Shopify",
+      "companyLogo": "images/sponsors/shopify.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Careers and Jobs at Shopify",
+          "jobDescription": "Find out more about opportunities at Shopify on the Shopify careers page",
+          "jobLink": "https://www.shopify.com/careers"
+        }
+      ]
+    },
+    {
       "companyName": "Cookpad",
       "companyLogo": "images/sponsors/cookpad.svg",
       "companyJobs": [
