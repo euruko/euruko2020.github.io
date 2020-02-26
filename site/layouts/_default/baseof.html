@@ -52,7 +52,7 @@
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script> -->
   </head>
-  <body>
+  <body data-world="{{ (resources.Get "data/world.json" | resources.Fingerprint).RelPermalink }}" data-countries="{{ (resources.Get "data/countries.json" | resources.Fingerprint).RelPermalink }}">
     {{- block "header" . -}}{{- partial "header" . -}}{{- end -}}
 
     {{- block "main" . -}}{{- end -}}
