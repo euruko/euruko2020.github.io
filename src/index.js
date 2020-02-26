@@ -15,11 +15,15 @@ export const map = new Map({
 
 // export default form;
 
-window.addEventListener("load", () => {
-  setClickListeners();
-  setScrollListener();
-  setIntersectionObserver();
-}, false);
+window.addEventListener(
+  "load",
+  () => {
+    setClickListeners();
+    setScrollListener();
+    setIntersectionObserver();
+  },
+  false
+);
 
 const setScrollListener = () => {
   const header = document.getElementById("header");
@@ -33,14 +37,15 @@ const setScrollListener = () => {
     heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
   }
 
-  window.addEventListener("scroll", (e) => {
+  window.addEventListener("scroll", e => {
     if (header && window.scrollY > 100) {
       header.classList.remove("header--not-scrolled");
     } else {
       header.classList.add("header--not-scrolled");
     }
     if (heroImage && window.scrollY < 1600) {
-      heroImage.style.cssText = "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
+      heroImage.style.cssText =
+        "transform: translateY(" + (window.scrollY * 0.3).toFixed(0) + "px);";
     }
   });
 };
@@ -52,37 +57,40 @@ const setClickListeners = () => {
   const firstSection = document.querySelector(".section");
   const header = document.getElementById("header");
 
-  if (mobileToggle && header) mobileToggle.addEventListener("click", (e) => {
-    header.classList.toggle("header--mobile-toggled");
-  });
-
-  if (langSelect && header) langSelect.addEventListener("click", (e) => {
-    header.classList.toggle("header--language-toggled");
-  });
-
-  if (continueButton && firstSection) continueButton.addEventListener("click", (e) => {
-    firstSection.scrollIntoView({
-      behavior: "smooth"
+  if (mobileToggle && header)
+    mobileToggle.addEventListener("click", e => {
+      header.classList.toggle("header--mobile-toggled");
     });
-  });
+
+  if (langSelect && header)
+    langSelect.addEventListener("click", e => {
+      header.classList.toggle("header--language-toggled");
+    });
+
+  if (continueButton && firstSection)
+    continueButton.addEventListener("click", e => {
+      firstSection.scrollIntoView({
+        behavior: "smooth",
+      });
+    });
 };
 
 const setIntersectionObserver = () => {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 1.0
+    threshold: 1.0,
   };
 
   const observer = new IntersectionObserver(observerCallback, options);
 
-  document.querySelectorAll(".section__heading").forEach((section) => {
+  document.querySelectorAll(".section__heading").forEach(section => {
     observer.observe(section);
   });
 };
 
-const observerCallback = (entries) => {
-  entries.forEach((entry) => {
+const observerCallback = entries => {
+  entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add("section__heading--active");
     }

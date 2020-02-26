@@ -33,6 +33,7 @@
     <meta property="og:image" content="{{ (resources.Get (default $.Site.Params.facebook_share .Params.social_image) | resources.Fingerprint).RelPermalink | absURL }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500,500i,700,700i,800,800i&display=swap" rel="stylesheet">
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{- with $stylesheet -}}

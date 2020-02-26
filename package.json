@@ -67,11 +67,8 @@
     "natives": "1.1.6"
   },
   "dependencies": {
-    "d3-collection": "^1.0.7",
-    "d3-geo": "^1.11.9",
-    "d3-scale": "^3.2.1",
-    "d3-scale-chromatic": "^1.5.0",
-    "d3-selection": "^1.4.1",
+    "chroma-js": "^2.1.0",
+    "leaflet": "^1.6.0",
     "sass-mq": "^5.0.1",
     "whatwg-fetch": "^3.0.0"
   }
