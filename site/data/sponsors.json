@@ -30,6 +30,11 @@
   ],
   "sponsorsOther": [
     {
+      "name": "Talented",
+      "url": "https://talented.fi/en/",
+      "imageUrl": "images/sponsors/talented.png"
+    },
+    {
       "name": "Taktsoft",
       "url": "https://www.taktsoft.com/",
       "imageUrl": "images/sponsors/taktsoft.svg"
