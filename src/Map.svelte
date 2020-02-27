@@ -36,7 +36,7 @@
     let geojson = L.geoJson(filtered, {
       style: style,
       onEachFeature: (feature, layer) => {
-        layer.bindPopup(`${feature.properties.percentage === 1 ? "≤1" : feature.properties.percentage}&percnt; from ${feature.properties.name}`);
+        layer.bindTooltip(`${feature.properties.percentage === 1 ? "≤1" : feature.properties.percentage}&percnt; from ${feature.properties.name}`);
         layer.on({
           mouseover: event => {
             let layer = event.target;
