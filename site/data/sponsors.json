@@ -22,6 +22,12 @@
       "description": "With around 100 million average monthly users in over 70 countries and 30+ languages, Cookpad operates at a unique scale as not only the largest recipe sharing community in the world but also one of the biggest Rails sites too. We're always looking for Rubyists to help us make everyday cooking fun!"
     },
     {
+      "name": "Smartly.io",
+      "url": "https://www.smartly.io/",
+      "imageUrl": "images/sponsors/smartly.svg",
+      "description": "Powering beautifully effective ads. We are a global team of over 350 Smartlies, building a platform that automates every step of social advertising to unlock greater performance and creativity. With footholds in 13 cities, we are serving 650+ brands worldwide, including eBay, Uber and TechStyle."
+    },
+    {
       "name": "Woolman",
       "url": "https://woolman.co/",
       "imageUrl": "images/sponsors/woolman.svg",
