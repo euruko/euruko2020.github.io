@@ -1,6 +1,6 @@
-# Euruko 2020
+# Euruko 2020-2021
 
-This is the website for Euruko 2020.
+This is the website for Euruko 2020-2021.
 
 ## Overview
 

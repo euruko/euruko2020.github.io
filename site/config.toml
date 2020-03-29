@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Euruko 2020"
+title = "Euruko 2020-2021"
 baseURL = "https://euruko2020.org/"
 
 disableHugoGeneratorInject = true
@@ -17,6 +17,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   home = ["HTML", "Calendar"]
 
 [params]
-  description = "Euruko 2020 will be held on the 21st and 22nd of August at the Savoy Theatre"
+  description = "Euruko 2021 will be held on the 28th and 29th of May at the Savoy Theatre"
   twitter_card = "images/twitter-card.png"
   facebook_share = "images/facebook-share.png"
