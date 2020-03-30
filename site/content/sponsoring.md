@@ -1,5 +1,5 @@
 ---
-title: "Sponsor Euruko 2020"
+title: "Sponsor Euruko 2021"
 description: Sponsoring Euruko gets you the opportunity to reach an international group of talented and passionate developers
 date: 2019-11-11
 draft: false
@@ -7,7 +7,7 @@ draft: false
 
 # What is Euruko?
 
-Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants. In 2020 it travels to Helsinki, Finland.
+Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants. In 2021 it travels to Helsinki, Finland.
 
 # Keep Euruko affordable
 
@@ -49,7 +49,7 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 
 ¹ If you don't need the tickets included in your sponsorship package, you can choose to let us distribute them via [Diversity Tickets](https://diversitytickets.org/).
 
-² Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2020 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.
+² Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2021 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.
 
 ³ Roll-ups to be supplied by the sponsor
 

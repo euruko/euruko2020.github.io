@@ -31,6 +31,17 @@
           "jobLink": "https://apply.workable.com/cookpad/j/0500C4B8D9/"
         }
       ]
+    },
+    {
+      "companyName": "Woolman",
+      "companyLogo": "images/sponsors/woolman.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Careers at Woolman",
+          "jobDescription": "Find out more about open positions at Woolman on the Woolman careers page (in Finnish)",
+          "jobLink": "https://career.woolman.io"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-    "name": "Euruko 2020",
-    "short_name": "Euruko 2020",
+    "name": "Euruko 2021",
+    "short_name": "Euruko 2021",
     "icons": [
         {
             "src": "{{ (resources.Get "images/android-chrome-192x192.png" | resources.Fingerprint).RelPermalink }}",

@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//euruko2020//schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Euruko 2020
+X-WR-CALNAME:Euruko 2021
 {{ range .Site.Data.schedule.schedules -}}
 {{ range .events -}}
 BEGIN:VEVENT
-ORGANIZER;CN="Euruko 2020":mailto:contact@euruko2020.org
+ORGANIZER;CN="Euruko 2021":mailto:contact@euruko2020.org
 SUMMARY:{{ .event }}
 UID:{{ (time .start).UTC.Unix }}@euruko2020.org
 SEQUENCE:{{ div (sub now.Unix (time "2019-06-21").Unix) 60 }}

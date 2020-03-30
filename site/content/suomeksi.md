@@ -1,12 +1,12 @@
 ---
 title: "Mikä on Euruko?"
-date: 2020-02-03
+date: 2020-03-29
 draft: false
 lang: fi
-description: "Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 21.–22.8.2020 Helsingin Savoy-teatterissa."
+description: "Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 28.–29.5.2021 Helsingin Savoy-teatterissa."
 ---
 
-## Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 21.–22.8.2020 Helsingin Savoy-teatterissa.
+## Euroopan suurin vuosittainen Ruby-konferenssi järjestetään 28.–29.5.2021 Helsingin Savoy-teatterissa.
 
 **Euruko** on vuodesta 2003 järjestetty eri kaupunkeja kiertävä Ruby-konferenssi, jonka kävijät valitsevat tapahtuman seuraavan vuoden järjestäjän. Helsinki valikoitui järjestäjäkaupungiksi viime vuonna Rotterdamissa järjestetyn konferenssin yleisöäänestyksessä. Tänä vuonna saadaan nauttia kaikkien aikojen pohjoisimmasta Eurukosta.
 
@@ -14,14 +14,14 @@ Edellisinä vuosina Euruko on järjestetty Saksassa, Itävallassa, Alankomaissa,
 
 Paikalle odotetaan **yli 700 ohjelmistoalan huippuosaajaa ympäri maailmaa**.
 
-Euruko 2020:n pääpuhujavieraat ovat:
+Euruko 2021:n pääpuhujavieraat ovat:
 
 - **Yukihiro “Matz” Matsumoto**: Ruby-kielen kehittäjä
 - **Linda Liukas**: Koodauksen ja tietotekniikan maailmaan sijoittuvista Hello Ruby -lastenkirjoista tunnettu kirjailija ja kuvittaja. Kansainvälisen, yli 270:ssa kaupungissa toimivan, nuorille naisille koodaustaitoja opettavan Rails Girls -liikkeen perustaja.
 
-Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 2020.
+Konferenssin muut puhujat valitaan esitelmäpyyntöjen avauduttua keväällä 2021.
 
-**Mikäli olette kiinnostuneita, tutustukaa [yhteistyömahdollisuuksiin](https://euruko2020.org/sponsoring/)**
+**Mikäli olette kiinnostuneita, tutustukaa [yhteistyömahdollisuuksiin](/sponsoring/)**
 
 ## Meistä
 
