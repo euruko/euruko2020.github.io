@@ -1,0 +1,49 @@
+<section id="helsinki" class="section section--green helsinki">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <h1
+        id="heading-helsinki"
+        class="section__heading section__heading--dark-green"
+      >
+        {{ .Site.Data.benefits.sectionName }}
+      </h1>
+      {{ if .Site.Data.benefits.sectionDescription }}
+      <p class="section__info">
+        {{ range.Site.Data.benefits.sectionDescription }}
+        {{ markdownify . }}<br />
+        {{ end }}
+      </p>
+      {{ end }}
+      <div class="helsinki__facts">
+        {{ range.Site.Data.benefits.facts }}
+        <div class="helsinki__fact">
+          <a
+            href="{{ .url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="factbox"
+          >
+            <div class="factbox__container">
+              <div class="factbox__background"></div>
+              <div class="factbox__image">
+                {{ $image := (resources.Get .imageUrl).Resize "524x" }}
+                <img
+                  src="{{ $image.RelPermalink }}"
+                  alt="{{ .name }}"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <span class="factbox__name">
+              {{ .name }}
+            </span>
+          </a>
+          <p class="helsinki__description">
+            {{ .description }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

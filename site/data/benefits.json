@@ -1,0 +1,29 @@
+{
+  "sectionName": "Euruko ticket benefits",
+  "facts": [
+    {
+      "name": "Livestreaming and conference platform",
+      "description": "Lorem ipsum...",
+      "imageUrl": "images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg",
+      "url": "https://www.myhelsinki.fi/en/eat-and-drink/caf%C3%A9s"
+    },
+    {
+      "name": "Discord",
+      "description": "Lorem ipsum...",
+      "imageUrl": "images/GE0A7702_.jpg",
+      "url": "https://www.myhelsinki.fi/en/see-and-do/activities/public-saunas-in-helsinki"
+    },
+    {
+      "name": "Minecraft",
+      "description": "Lorem ipsum...",
+      "imageUrl": "images/TU-181227-ala-oodi-018.jpg",
+      "url": "https://www.oodihelsinki.fi/en/"
+    },
+    {
+      "name": "Goodie bag",
+      "description": "Lorem ipsum...",
+      "imageUrl": "images/frank-luca-c-fbj_fTFUM-unsplash.jpg",
+      "url": "https://untappd.com/search?q=Helsinki&type=venues"
+    }
+  ]
+}
