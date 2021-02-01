@@ -3,27 +3,27 @@
   "facts": [
     {
       "name": "Livestreaming and conference platform",
-      "description": "Lorem ipsum...",
-      "imageUrl": "images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg",
-      "url": "https://www.myhelsinki.fi/en/eat-and-drink/caf%C3%A9s"
+      "description": "Access to an interactive conference platform with speaker Q&As and more…",
+      "imageUrl": "images/sam-mcghee-KieCLNzKoBo-unsplash.jpg",
+      "url": null
     },
     {
       "name": "Discord",
-      "description": "Lorem ipsum...",
-      "imageUrl": "images/GE0A7702_.jpg",
-      "url": "https://www.myhelsinki.fi/en/see-and-do/activities/public-saunas-in-helsinki"
+      "description": "Access to a Euruko Discord server where you can talk with fellow attendees, speakers, and sponsors.",
+      "imageUrl": "images/discord.png",
+      "url": null
     },
     {
       "name": "Minecraft",
-      "description": "Lorem ipsum...",
-      "imageUrl": "images/TU-181227-ala-oodi-018.jpg",
-      "url": "https://www.oodihelsinki.fi/en/"
+      "description": "Access to a private Minecraft server with your fellow attendees. Griefing strictly forbidden! MINASWAN all the way.",
+      "imageUrl": "images/nina-photolab-6eL_lMJDwjM-unsplash.jpg",
+      "url": null
     },
     {
       "name": "Goodie bag",
-      "description": "Lorem ipsum...",
-      "imageUrl": "images/frank-luca-c-fbj_fTFUM-unsplash.jpg",
-      "url": "https://untappd.com/search?q=Helsinki&type=venues"
+      "description": "A Euruko goodie bag shipped to you, wherever you are in the world (as long as our fullfilment partner delivers to your country). We're still finalising the exact contents of the goodie bag.",
+      "imageUrl": "images/goodie-bag.png",
+      "url": null
     }
   ]
 }

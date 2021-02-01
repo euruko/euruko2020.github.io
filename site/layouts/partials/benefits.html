@@ -9,8 +9,7 @@
       </h1>
       {{ if .Site.Data.benefits.sectionDescription }}
       <p class="section__info">
-        {{ range.Site.Data.benefits.sectionDescription }}
-        {{ markdownify . }}<br />
+        {{ range.Site.Data.benefits.sectionDescription }} {{ markdownify . }}<br />
         {{ end }}
       </p>
       {{ end }}
@@ -26,7 +25,7 @@
             <div class="factbox__container">
               <div class="factbox__background"></div>
               <div class="factbox__image">
-                {{ $image := (resources.Get .imageUrl).Resize "524x" }}
+                {{ $image := (resources.Get .imageUrl).Resize "1048x" }}
                 <img
                   src="{{ $image.RelPermalink }}"
                   alt="{{ .name }}"
@@ -34,13 +33,9 @@
                 />
               </div>
             </div>
-            <span class="factbox__name">
-              {{ .name }}
-            </span>
+            <span class="factbox__name"> {{ .name }} </span>
           </a>
-          <p class="helsinki__description">
-            {{ .description }}
-          </p>
+          <p class="helsinki__description">{{ .description }}</p>
         </div>
         {{ end }}
       </div>
