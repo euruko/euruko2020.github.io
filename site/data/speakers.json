@@ -14,5 +14,12 @@
       "imageUrl": "images/speakers/linda_liukas.jpg"
     }
   ],
-  "speakers": []
+  "speakers": [
+    {
+      "name": "You?",
+      "url": "https://sessionize.com/euruko-2021/",
+      "urlType": "cfp",
+      "imageUrl": "images/speakers/sessionize.png"
+    }
+  ]
 }

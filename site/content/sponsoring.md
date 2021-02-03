@@ -7,7 +7,7 @@ draft: false
 
 # What is Euruko?
 
-Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants. In 2021 it travels to Helsinki, Finland.
+Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants. In 2021 it will be organized online, and in 2022 in Helsinki, Finland.
 
 # Keep Euruko affordable
 
@@ -20,47 +20,40 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 * 750 participants from Europe and elsewhere
 * A two day, single track conference
 * Well established in the community; it has been held since 2003 in Amsterdam, Athens, Barcelona, Berlin, Budapest, Karlsruhe, Krakow, Munich, Prague, Rotterdam, Salzburg, Sofia, and Vienna
-* Helsinki will be the most northern Euruko ever
 * Some of the very best speakers from the Ruby community
 * All talks will be recorded and published afterwards
-* Professional photography of the event
 
 # Sponsorship packages
 
-|                                                               | Sapphire                         | Topaz                | Emerald                   | Ruby                  |
-|---------------------------------------------------------------|--------------------------------|-----------------------|------------------------|---------------------------|
-| Price (excl. VAT)                                             | €2,000                         | €5,000                | €8,000                 | €12,000                   |
-| Total number available                                        | ∞                              | 8                     | 4                      | 2                         |
-| Included tickets¹                                             | 1                              | 2                     | 4                      | 6                         |
-| Exhibit Space²                                                | ❌                              | 1 table              | 1.5×1.5m               | 1.5×3m                    |
-| Roll-up banner near the main stage³                           | ❌                              | ❌                     | ❌                      | ✅                         |
-| Goodie bag inserts                                            | ❌                              | 1 (small)             | 2 (small - medium)      | 3 (small - large)         |
-| Dedicated slide during conference breaks                      | ❌                              | +€1000                | ✅                      | ✅                         |
-| Company logo on the screens before the talks                  | ❌                              | ❌                     | ❌                      | before every presentation |
-| Logo on home page                                             | ✅                              | ✅                     | ✅                      | ✅                         |
-| Company description on home page                              | ❌                              | ❌                     | ✅                      | ✅                         |
-| Link included in the footer of all conference emails          | ✅                              | ✅                     | ✅                      | ✅                         |
-| Twitter promotion (from @euruko)                              | shared tweet                   | shared tweet          | 1 dedicated tweet      | 3 dedicated tweets        |
-| Facebook promotion                                            | shared post                    | shared post           | 1 dedicated post       | 3 dedicated posts         |
-| Logo on the Facebook page                                     | ❌                              | ❌                     | ✅                      | ✅                         |
-| Job ads on the conference website                             | +€1000 (1 job, 200 characters) | 1 job, 200 characters | 3 jobs, 200 characters | 5 jobs, 600 characters    |
-| Logo on sponsors slide in post-conference videos of the talks | ❌                              | ✅                     | ✅                      | ✅                         |
-| Logo included in the footer of all conference emails          | ❌                              | ❌                     | ❌                      | ✅                         |
+|                                                                 | Sapphire                       | Topaz                 | Emerald                | Ruby                   |
+|-----------------------------------------------------------------|--------------------------------|-----------------------|------------------------|------------------------|
+| Price (excl. VAT)                                               | €2,000                         | €5,000                | €8,000                 | €12,000                |
+| Total number available                                          | ∞                              | 8                     | 4                      | 2                      |
+| Included attendee passes¹                                       | 5                              | 10                    | 25                     | 50                     |
+| Dedicated Discord Channel                                       | ❌                              | ❌                     | ✅                      | ✅                      |
+| Access to the #sponsors channel on Discord                      | ✅                              | ✅                     | ✅                      | ✅                      |
+| Custom @YourCompany role on Discord for company representatives | ❌                              | ❌                     | ✅                      | ✅                      |
+| Sponsored Lightning Talk²                                       | ❌                              | ❌                     | ✅  (5min)              | ✅ (15 min)             |
+| Goodie bag inserts³                                             | ❌                              | ✅                     | ✅                      | ✅                      |
+| Dedicated slide during conference breaks                        | ❌                              | +€1000                | ✅                      | ✅                      |
+| Logo or animated logo at the beginning of each talk             | ❌                              | ✅ (static)            | ✅ (animated)           | ✅ (animated)           |
+| Logo on home page                                               | ✅                              | ✅                     | ✅                      | ✅                      |
+| Company description on home page                                | ❌                              | ❌                     | ✅                      | ✅                      |
+| Twitter promotion (from @euruko)                                | shared tweet                   | shared tweet          | 1 dedicated tweet      | 3 dedicated tweets     |
+| Job ads on the conference website                               | +€1000 (1 job, 200 characters) | 1 job, 200 characters | 3 jobs, 200 characters | 5 jobs, 600 characters |
+| Logo on sponsors slide in post-conference videos of the talks   | ✅                              | ✅                     | ✅                      | ✅                      |
 
-¹ If you don't need the tickets included in your sponsorship package, you can choose to let us distribute them via [Diversity Tickets](https://diversitytickets.org/).
+¹ Excluding goodie bags
 
-² Higher sponsorship levels get premium placement for their exhibit space. Location assignments will be on a first-come, first-served basis, and will be made solely at the discretion of the Euruko 2021 organisers. All exhibit space furnishing and signage (aside from basic tables) must be provided by the sponsor. Displays or monitors may be provided by the event venue (if available), but the costs for these must be paid by the sponsor.
+² Prerecorded
 
-³ Roll-ups to be supplied by the sponsor
+³ Paid for by the sponsor. A product from the Printful catalog or a Printful compliant pack-in (see https://www.printful.com/branded-packaging-inserts)
 
 # Other opportunities available
 
 If none of the packages appeal to you, we have a few other sponsorship opportunities available:
 
-* **Diversity tickets:** Help members of underrepresented groups get to Euruko. You can choose to pay either for full “scholarships” (ticket + travel + accommodation) or for just admission to the conference.
-* **Livestream/video recording:** Extend your reach beyond the physical conference
-* **Lunch:** Offer our attendees a tasty lunch, and they'll be sure to remember you
-* **Party:** Offer our attendees a fun, relaxing time after the first day and make it a night to remember
+* **Diversity tickets:** Help members of underrepresented groups get full access to the Euruko online conference.
 * **Something else?** Do you have a fun idea? Let us know and we'll see what we can work out…
 
 # Contact us

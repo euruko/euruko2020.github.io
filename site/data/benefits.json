@@ -1,0 +1,29 @@
+{
+  "sectionName": "Euruko ticket benefits",
+  "facts": [
+    {
+      "name": "Livestreaming and conference platform",
+      "description": "Access to an interactive conference platform with speaker Q&As and more…",
+      "imageUrl": "images/sam-mcghee-KieCLNzKoBo-unsplash.jpg",
+      "url": null
+    },
+    {
+      "name": "Discord",
+      "description": "Access to a Euruko Discord server where you can talk with fellow attendees, speakers, and sponsors.",
+      "imageUrl": "images/discord.png",
+      "url": null
+    },
+    {
+      "name": "Minecraft",
+      "description": "Access to a private Minecraft server with your fellow attendees. Griefing strictly forbidden! MINASWAN all the way.",
+      "imageUrl": "images/nina-photolab-6eL_lMJDwjM-unsplash.jpg",
+      "url": null
+    },
+    {
+      "name": "Goodie bag",
+      "description": "A Euruko goodie bag shipped to you, wherever you are in the world (as long as our fullfilment partner delivers to your country). We're still finalising the exact contents of the goodie bag.",
+      "imageUrl": "images/keagan-henman-xPJYL0l5Ii8-unsplash-edited.jpg",
+      "url": null
+    }
+  ]
+}
