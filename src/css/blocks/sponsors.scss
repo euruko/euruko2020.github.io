@@ -22,7 +22,7 @@
   }
 
   &__sponsor-description {
-    border-top: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     color: $grey-1;
     padding: 20px 0 10px 0;
     margin-top: 20px;
@@ -72,7 +72,17 @@
 
     &--emerald {
       .sponsors__link {
-        background: linear-gradient(rgba($green-2, 0.15) ,rgba(0, 0, 0, 0.05));
+        background: linear-gradient(rgba($green-2, 0.15), rgba(0, 0, 0, 0.05));
+      }
+
+      .sponsors__tag {
+        background: $green-2;
+      }
+    }
+
+    &--platform {
+      .sponsors__link {
+        background: linear-gradient(rgba($green-2, 0.15), rgba(0, 0, 0, 0.05));
       }
 
       .sponsors__tag {
@@ -83,7 +93,7 @@
     &--ruby {
       .sponsors__link {
         padding: 20px 40px;
-        background: linear-gradient(rgba(#e35050, 0.1) ,rgba(0, 0, 0, 0.05));
+        background: linear-gradient(rgba(#e35050, 0.1), rgba(0, 0, 0, 0.05));
       }
 
       img {
@@ -91,7 +101,6 @@
       }
 
       .sponsors__sponsor-description {
-        
         font-size: 16px;
       }
     }

@@ -42,6 +42,22 @@
           "jobLink": "https://career.woolman.io"
         }
       ]
+    },
+    {
+      "companyName": "Brella",
+      "companyLogo": "images/sponsors/brella.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Back-end Developer",
+          "jobDescription": "**Remote-friendly in Finland.**\\n\\nWe want you to be a key player in a team that is building the product required to handle our rapid global growth. In other words, we are now looking for a Back-end Developer. Our multidisciplinary team combines design, frontend and backend engineering, quality assurance, and project management.\\n\\nYou’ll be part of Brella’s Product team, based in Helsinki HQ or the Jyväskylä office. Brella has no bureaucracy, a flat organisation; your direct line manager will be the CTO. Also, there is a possibility for fully remote work. In your role, you’ll get an opportunity to build the next big thing for a $26 billion market that is growing steadily and nowadays also virtually: the event industry.",
+          "jobLink": "https://www.brella.io/career/senior-back-end-developer-1"
+        },
+        {
+          "jobTitle": "Front-end Developer",
+          "jobDescription": "**Remote-friendly in Finland.**\\n\\nWe are creating a new hybrid event-industry and need your help to make it happen. That’s why we are now looking for an experienced Front End Developer and/or Senior Front End Developer to join our product team and to help us develop a top-notch product for Brella’s customers and end-users around the world. In exchange, we offer independent working methods backed by an experienced team.\\n\\nIn this role, you will have the responsibility for our product development both with the product team and with your heart. You’ll get a chance to work together with our highly talented, international tech talents to build beautiful, scalable, modern and innovative UI.",
+          "jobLink": "https://www.brella.io/career/senior-front-end-developer"
+        }
+      ]
     }
   ]
 }

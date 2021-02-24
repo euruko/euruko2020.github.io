@@ -37,7 +37,13 @@
                   {{ range .companyJobs }}
                     <div class="jobs__company-job">
                       <h2 class="jobs__job-heading">{{ .jobTitle }}</h2>
-                      <p class="jobs__job-description">{{ .jobDescription }}</p>
+                      <div class="jobs__job-description">
+                        {{ if in (string .jobDescription) "\\n" }}
+                          {{ replace .jobDescription "\\n" "\n" | markdownify }}
+                        {{ else }}
+                          <p>{{ .jobDescription }}</p>
+                        {{ end }}
+                      </div>
                       <div class="jobs__cta">
                         <a
                           href="{{ .jobLink }}"

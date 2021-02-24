@@ -5,6 +5,12 @@
     "url": "https://www.kiskolabs.com/en",
     "imageUrl": "images/kisko.svg"
   },
+  "platform": {
+    "name": "Brella",
+    "url": "https://www.brella.io",
+    "imageUrl": "images/sponsors/brella.svg",
+    "description": "Brella is the leading event platform for virtual, physical, and hybrid events. The world’s leading conferences and exhibitions trust Brella to power their events with relevant content, quality networking and multiple revenue generating opportunities, based on 5 solid years of virtual event experience.And with meticulous reporting and analytics on meetings, trending topics and buyer intent, event organizers can deliver measurable exposure and transparent return on investment (ROI) for all their exhibitors, sponsors and partners – consistently and easily."
+  },
   "sponsorsTitle": "Sponsors",
   "sponsorsRuby": [
     {
