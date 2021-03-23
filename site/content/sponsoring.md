@@ -47,14 +47,11 @@ There's a long tradition to keep Euruko tickets as affordable as possible to off
 
 ² Prerecorded
 
-³ Paid for by the sponsor. A product from the Printful catalog or a Printful compliant pack-in (see https://www.printful.com/branded-packaging-inserts)
+³ Paid for by the sponsor. A product from the Printful catalog or a [Printful compliant pack-in](https://www.printful.com/branded-packaging-inserts).
 
 # Other opportunities available
 
-If none of the packages appeal to you, we have a few other sponsorship opportunities available:
-
-* **Diversity tickets:** Help members of underrepresented groups get full access to the Euruko online conference.
-* **Something else?** Do you have a fun idea? Let us know and we'll see what we can work out…
+Do you have a fun idea? Let us know and we'll see what we can work out…
 
 # Contact us
 
