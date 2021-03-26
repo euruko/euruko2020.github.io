@@ -14,6 +14,14 @@
       "imageUrl": "images/speakers/linda_liukas.jpg"
     }
   ],
+  "mc": [
+    {
+      "name": "Milja Köpsi",
+      "url": "https://twitter.com/miljakopsi",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/milja_köpsi.jpg"
+    }
+  ],
   "speakers": [
     {
       "name": "You?",

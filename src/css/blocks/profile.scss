@@ -21,6 +21,10 @@
     .profile--keynote & {
       background: $pink;
     }
+
+    .profile--mc & {
+      background: $purple-2;
+    }
   }
 
   &__background {
@@ -59,6 +63,11 @@
     letter-spacing: 0.1em;
     padding: 2px 6px;
     border-radius: 20px;
+  }
+
+  &__mc {
+    @extend .profile__keynote;
+    background: $purple-1;
   }
 
   &__name {
