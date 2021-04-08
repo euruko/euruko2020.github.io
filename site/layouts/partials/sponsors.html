@@ -17,22 +17,24 @@
           </p>
           {{ end }}
         </div>
-        <div class="section__large-column">
-          <div class="sponsors__list sponsors__list--organizer">
-            <a
-              class="sponsors__link"
-              href="{{ .Site.Data.sponsors.organizer.url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="{{ (resources.Get .Site.Data.sponsors.organizer.imageUrl | resources.Fingerprint).RelPermalink }}"
-                alt="{{ .Site.Data.sponsors.organizer.name }}"
-                loading="lazy"
-              />
-            </a>
+        {{ range.Site.Data.sponsors.organizers }}
+          <div class="section__large-column">
+            <div class="sponsors__list sponsors__list--organizer">
+              <a
+                class="sponsors__link"
+                href="{{ .url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                  alt="{{ .name }}"
+                  loading="lazy"
+                />
+              </a>
+            </div>
           </div>
-        </div>
+        {{ end }}
       </div>
       <div class="section__columns">
         <div class="section__very-small-column">

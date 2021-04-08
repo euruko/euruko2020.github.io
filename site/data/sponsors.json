@@ -1,5 +1,17 @@
 {
-  "organizerTitle": "Organizer",
+  "organizerTitle": "Organizers",
+  "organizers": [
+    {
+      "name": "Kisko Labs",
+      "url": "https://www.kiskolabs.com/en",
+      "imageUrl": "images/kisko.svg"
+    },
+    {
+      "name": "Kaiku Health",
+      "url": "https://kaikuhealth.com",
+      "imageUrl": "images/kaiku.svg"
+    }
+  ],
   "organizer": {
     "name": "Kisko Labs",
     "url": "https://www.kiskolabs.com/en",
