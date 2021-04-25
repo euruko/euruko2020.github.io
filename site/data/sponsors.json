@@ -17,12 +17,21 @@
     "url": "https://www.kiskolabs.com/en",
     "imageUrl": "images/kisko.svg"
   },
-  "platform": {
-    "name": "Brella",
-    "url": "https://www.brella.io",
-    "imageUrl": "images/sponsors/brella.svg",
-    "description": "Brella is the leading event platform for virtual, physical, and hybrid events. The world’s leading conferences and exhibitions trust Brella to power their events with relevant content, quality networking and multiple revenue generating opportunities, based on 5 solid years of virtual event experience.And with meticulous reporting and analytics on meetings, trending topics and buyer intent, event organizers can deliver measurable exposure and transparent return on investment (ROI) for all their exhibitors, sponsors and partners – consistently and easily."
-  },
+  "platform": [
+    {
+      "name": "Brella",
+      "url": "https://www.brella.io",
+      "imageUrl": "images/sponsors/brella.svg",
+      "description": "Brella is the leading event platform for virtual, physical, and hybrid events. The world’s leading conferences and exhibitions trust Brella to power their events with relevant content, quality networking and multiple revenue generating opportunities, based on 5 solid years of virtual event experience.And with meticulous reporting and analytics on meetings, trending topics and buyer intent, event organizers can deliver measurable exposure and transparent return on investment (ROI) for all their exhibitors, sponsors and partners – consistently and easily."
+    },
+    {
+      "name": "Apex Hosting",
+      "url": "https://billing.apexminecrafthosting.com/aff.php?aff=5580",
+      "imageUrl": "images/sponsors/apex-hosting.svg",
+      "description": "Apex Hosting is an American owned company that was founded in 2013 to deliver the highest level of customer support to their Minecraft server hosting clients. They understand that starting a Minecraft server is a new idea to many people, so they have built the hosting infrastructure and support team to help you every step of the way.",
+      "tag": "MINECRAFT HOST"
+    }
+  ],
   "sponsorsTitle": "Sponsors",
   "sponsorsRuby": [
     {

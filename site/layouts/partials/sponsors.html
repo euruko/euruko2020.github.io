@@ -94,24 +94,26 @@
             {{ end }}
           </div>
           <div class="sponsors__list sponsors__list--platform">
-            <a
-              class="sponsors__link"
-              href="{{ .Site.Data.sponsors.platform.url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="sponsors__tag">
-                PLATFORM PROVIDER
-              </div>
-              <img
-                src="{{ (resources.Get .Site.Data.sponsors.platform.imageUrl | resources.Fingerprint).RelPermalink }}"
-                alt="{{ .Site.Data.sponsors.platform.name }}"
-                loading="lazy"
-              />
-              <div class="sponsors__sponsor-description">
-                {{.Site.Data.sponsors.platform.description}}
-              </div>
-            </a>
+            {{ range.Site.Data.sponsors.platform }}
+              <a
+                class="sponsors__link"
+                href="{{ .url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="sponsors__tag">
+                  {{ default "PLATFORM PROVIDER" .tag }}
+                </div>
+                <img
+                  src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                  alt="{{ .name }}"
+                  loading="lazy"
+                />
+                <div class="sponsors__sponsor-description">
+                  {{.description}}
+                </div>
+              </a>
+            {{ end }}
           </div>
           <div class="sponsors__list sponsors__list--small">
             {{ range.Site.Data.sponsors.sponsorsOther }}
