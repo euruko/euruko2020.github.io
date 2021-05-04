@@ -58,6 +58,17 @@
           "jobLink": "https://www.brella.io/career/senior-front-end-developer"
         }
       ]
+    },
+    {
+      "companyName": "Orbit",
+      "companyLogo": "images/sponsors/orbit.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Software Engineer",
+          "jobDescription": "Orbit is hiring a software engineer to help build the main Orbit application. The technology stack is Ruby and Rails with JavaScript on the front end. This role is for an engineer who is a strong, senior individual contributor and looking for the opportunity to build out significant new parts of an application while helping maintain a high-quality, well-tested codebase. All that while being surrounded by supportive colleagues and with the opportunity for a lot of personal growth.",
+          "jobLink": "https://orbit.love/careers/software-engineer/"
+        }
+      ]
     }
   ]
 }

@@ -63,6 +63,11 @@
   ],
   "sponsorsOther": [
     {
+      "name": "Orbit",
+      "url": "https://orbit.love",
+      "imageUrl": "images/sponsors/orbit.svg"
+    },
+    {
       "name": "Taktsoft",
       "url": "https://www.taktsoft.com/",
       "imageUrl": "images/sponsors/taktsoft.svg"
