@@ -5,6 +5,8 @@ import "./css/main.css";
 import Form from "./Form.svelte";
 import Map from "./Map.svelte";
 
+import "lite-youtube-embed";
+
 export const form = new Form({
   target: document.querySelector("#form"),
 });

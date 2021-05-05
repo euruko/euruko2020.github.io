@@ -1,0 +1,32 @@
+<section id="video" class="section">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__columns">
+        <div class="section__small-column">
+          <h1 id="heading-video" class="section__heading section__heading--teal">
+            {{ .Site.Data.video.sectionName }}
+          </h1>
+          {{ if .Site.Data.video.sectionDescription }}
+          <p class="section__video">
+            {{ range.Site.Data.video.sectionDescription }}
+            {{ markdownify . }}<br />
+            {{ end }}
+          </p>
+          {{ end }}
+        </div>
+        <div class="section__large-column">
+          <div class="section__content">
+            {{ range.Site.Data.video.textContent }}
+            <p>{{ markdownify . }}</p>
+            {{ end }}
+            {{ range.Site.Data.video.videos }}
+            <div>
+              <lite-youtube videoid="{{.id}}" playlabel="{{.label}}"></lite-youtube>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
