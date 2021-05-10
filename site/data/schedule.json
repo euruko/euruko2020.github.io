@@ -1,192 +1,151 @@
 {
-  "sectionName": "Schedule",
+  "sectionName": "Draft Schedule",
   "sectionDescription": ["The schedule is subject to change."],
   "schedules": [
     {
-      "title": "Friday, August 21",
+      "title": "Friday, May 28",
       "events": [
         {
-          "start": "2020-08-21T10:00:00+03:00",
-          "end": "2020-08-21T11:00:00+03:00",
-          "event": "Doors open & registration"
+          "start": "2021-05-28T10:30:00+03:00",
+          "end": "2021-05-28T10:45:00+03:00",
+          "event": "Opening",
+          "description": ""
         },
         {
-          "start": "2020-08-21T11:00:00+03:00",
-          "end": "2020-08-21T11:15:00+03:00",
-          "event": "Opening"
+          "start": "2021-05-28T10:45:00+03:00",
+          "end": "2021-05-28T11:30:00+03:00",
+          "event": "Keynote: Matz",
+          "description": ""
         },
         {
-          "start": "2020-08-21T11:15:00+03:00",
-          "end": "2020-08-21T12:00:00+03:00",
-          "event": "Keynote"
+          "start": "2021-05-28T12:00:00+03:00",
+          "end": "2021-05-28T12:30:00+03:00",
+          "event": "Don't Develop Just for Yourself - A Developer's Checklist to Accessibility",
+          "description": "Eeva-Jonna Panula"
         },
         {
-          "start": "2020-08-21T12:00:00+03:00",
-          "end": "2020-08-21T12:15:00+03:00",
-          "event": "Break"
+          "start": "2021-05-28T12:45:00+03:00",
+          "end": "2021-05-28T13:30:00+03:00",
+          "event": "Lunch break",
+          "description": ""
         },
         {
-          "start": "2020-08-21T12:15:00+03:00",
-          "end": "2020-08-21T12:45:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-28T13:30:00+03:00",
+          "end": "2021-05-28T13:45:00+03:00",
+          "event": "How to stop breaking other people's things",
+          "description": "Lisa Karlin Curtis"
         },
         {
-          "start": "2020-08-21T12:45:00+03:00",
-          "end": "2020-08-21T14:00:00+03:00",
-          "event": "Lunch"
+          "start": "2021-05-28T13:45:00+03:00",
+          "end": "2021-05-28T14:15:00+03:00",
+          "event": "Talk",
+          "description": ""
         },
         {
-          "start": "2020-08-21T14:00:00+03:00",
-          "end": "2020-08-21T14:30:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-28T14:25:00+03:00",
+          "end": "2021-05-28T14:30:00+03:00",
+          "event": "TBA",
+          "description": ""
         },
         {
-          "start": "2020-08-21T14:30:00+03:00",
-          "end": "2020-08-21T14:45:00+03:00",
-          "event": "Break"
+          "start": "2021-05-28T14:30:00+03:00",
+          "end": "2021-05-28T15:00:00+03:00",
+          "event": "Building high–performance GraphQL APIs",
+          "description": "Dmitry Tsepelev"
         },
         {
-          "start": "2020-08-21T14:45:00+03:00",
-          "end": "2020-08-21T15:15:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-28T15:10:00+03:00",
+          "end": "2021-05-28T15:15:15+03:00",
+          "event": "TBA"
         },
         {
-          "start": "2020-08-21T15:15:00+03:00",
-          "end": "2020-08-21T15:30:00+03:00",
-          "event": "Break"
+          "start": "2021-05-28T15:15:00+03:00",
+          "end": "2021-05-28T15:45:00+03:00",
+          "event": "Talk",
+          "description": "TBA"
         },
         {
-          "start": "2020-08-21T15:30:00+03:00",
-          "end": "2020-08-21T16:00:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-28T16:00:00+03:00",
+          "end": "2021-05-28T16:30:00+03:00",
+          "event": "Optimizing Ruby's memory layout",
+          "description": "Peter Zhu + Matthew Valentine-House"
         },
         {
-          "start": "2020-08-21T16:00:00+03:00",
-          "end": "2020-08-21T16:15:00+03:00",
-          "event": "Break"
-        },
-        {
-          "start": "2020-08-21T16:15:00+03:00",
-          "end": "2020-08-21T16:45:00+03:00",
-          "event": "Talk"
-        },
-        {
-          "start": "2020-08-21T16:45:00+03:00",
-          "end": "2020-08-21T17:00:00+03:00",
-          "event": "Break"
-        },
-        {
-          "start": "2020-08-21T17:00:00+03:00",
-          "end": "2020-08-21T17:30:00+03:00",
-          "event": "Talk"
-        },
-        {
-          "start": "2020-08-21T17:30:00+03:00",
-          "end": "2020-08-21T17:45:00+03:00",
-          "event": "End of day one"
-        },
-        {
-          "start": "2020-08-21T20:00:00+03:00",
-          "end": "2020-08-21T23:59:59+03:00",
-          "event": "Party",
-          "location": "The Party Place, Helsinki, Finland",
-          "description": "Ends at midnight"
+          "start": "2021-05-28T16:30:00+03:00",
+          "end": "2021-05-28T17:00:00+03:00",
+          "event": "End of day one stream",
+          "description": ""
         }
       ]
     },
     {
-      "title": "Saturday, August 22",
+      "title": "Saturday, May 29",
       "events": [
         {
-          "start": "2020-08-22T09:30:00+03:00",
-          "end": "2020-08-22T11:00:00+03:00",
-          "event": "Doors open"
+          "start": "2021-05-29T10:30:00+03:00",
+          "end": "2021-05-29T10:45:00+03:00",
+          "event": "Opening of day two",
+          "description": ""
         },
         {
-          "start": "2020-08-22T10:30:00+03:00",
-          "end": "2020-08-22T10:45:00+03:00",
-          "event": "Opening of day two"
+          "start": "2021-05-29T10:45:00+03:00",
+          "end": "2021-05-29T11:15:00+03:00",
+          "event": "Building a Ruby web app using Ruby Standard Library",
+          "description": "Maple Ong"
         },
         {
-          "start": "2020-08-22T10:45:00+03:00",
-          "end": "2020-08-22T11:15:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-29T11:45:00+03:00",
+          "end": "2021-05-29T12:00:00+03:00",
+          "event": "TBA",
+          "description": ""
         },
         {
-          "start": "2020-08-22T11:15:00+03:00",
-          "end": "2020-08-22T11:30:00+03:00",
-          "event": "Break"
+          "start": "2021-05-29T12:00:00+03:00",
+          "end": "2021-05-29T12:30:00+03:00",
+          "event": "IDE development with Ruby",
+          "description": "Soutaro Matsumoto"
         },
         {
-          "start": "2020-08-22T11:30:00+03:00",
-          "end": "2020-08-22T12:00:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-29T12:45:00+03:00",
+          "end": "2021-05-29T13:30:00+03:00",
+          "event": "Lunch break",
+          "description": ""
         },
         {
-          "start": "2020-08-22T12:00:00+03:00",
-          "end": "2020-08-22T12:15:00+03:00",
-          "event": "Break"
+          "start": "2021-05-29T13:30:00+03:00",
+          "end": "2021-05-29T13:35:00+03:00",
+          "event": "TBA",
+          "description": ""
         },
         {
-          "start": "2020-08-22T12:15:00+03:00",
-          "end": "2020-08-22T12:45:00+03:00",
-          "event": "Talk"
+          "start": "2021-05-29T13:35:00+03:00",
+          "end": "2021-05-29T14:20:00+03:00",
+          "event": "Lightning talks",
+          "description": ""
         },
         {
-          "start": "2020-08-22T12:45:00+03:00",
-          "end": "2020-08-22T14:00:00+03:00",
-          "event": "Lunch"
+          "start": "2021-05-29T14:30:00+03:00",
+          "end": "2021-05-29T15:00:00+03:00",
+          "event": "Delivering fast and slow - Ethics of quality",
+          "description": "Lena Wiberg"
         },
         {
-          "start": "2020-08-22T14:00:00+03:00",
-          "end": "2020-08-22T14:30:00+03:00",
-          "event": "Lighting talks"
+          "start": "2021-05-29T15:15:00+03:00",
+          "end": "2021-05-29T15:45:00+03:00",
+          "event": "Why a Diverse Team is Crucial to Startup Success",
+          "description": "Melissa Jurkoic"
         },
         {
-          "start": "2020-08-22T14:30:00+03:00",
-          "end": "2020-08-22T14:45:00+03:00",
-          "event": "Break"
+          "start": "2021-05-29T16:00:00+03:00",
+          "end": "2021-05-29T16:45:00+03:00",
+          "event": "Closing keynote",
+          "description": ""
         },
         {
-          "start": "2020-08-22T14:45:00+03:00",
-          "end": "2020-08-22T15:15:00+03:00",
-          "event": "City pitches",
-          "description": "Pitch for your city to be the next Euruko host"
-        },
-        {
-          "start": "2020-08-22T15:15:00+03:00",
-          "end": "2020-08-22T15:30:00+03:00",
-          "event": "Break"
-        },
-        {
-          "start": "2020-08-22T15:30:00+03:00",
-          "end": "2020-08-22T16:00:00+03:00",
-          "event": "Talk"
-        },
-        {
-          "start": "2020-08-22T16:00:00+03:00",
-          "end": "2020-08-22T16:15:00+03:00",
-          "event": "Break"
-        },
-        {
-          "start": "2020-08-22T16:15:00+03:00",
-          "end": "2020-08-22T16:45:00+03:00",
-          "event": "Talk"
-        },
-        {
-          "start": "2020-08-22T16:45:00+03:00",
-          "end": "2020-08-22T17:00:00+03:00",
-          "event": "Break"
-        },
-        {
-          "start": "2020-08-22T17:00:00+03:00",
-          "end": "2020-08-22T17:45:00+03:00",
-          "event": "Keynote"
-        },
-        {
-          "start": "2020-08-22T17:45:00+03:00",
-          "end": "2020-08-22T18:00:00+03:00",
-          "event": "Closing & city reveal"
+          "start": "2021-05-29T16:45:00+03:00",
+          "end": "2021-05-29T17:00:00+03:00",
+          "event": "End of Euruko 2021",
+          "description": ""
         }
       ]
     }
