@@ -24,10 +24,58 @@
   ],
   "speakers": [
     {
-      "name": "You?",
-      "url": "https://sessionize.com/euruko-2021/",
-      "urlType": "cfp",
-      "imageUrl": "images/speakers/sessionize.png"
+      "name": "Maple Ong",
+      "url": "https://mapleong.me/",
+      "urlType": "website",
+      "imageUrl": "images/speakers/Maple_Ong.jpg"
+    },
+    {
+      "name": "Lena Wiberg",
+      "url": "http://www.pejgan.se",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Lena_Wiberg.jpg"
+    },
+    {
+      "name": "Peter Zhu",
+      "url": "https://peterzhu.ca",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Peter_Zhu.jpg"
+    },
+    {
+      "name": "Matthew Valentine-House",
+      "url": "https://www.eightbitraptor.com",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Matthew_Valentine-House.jpg"
+    },
+    {
+      "name": "Dmitry Tsepelev",
+      "url": "https://twitter.com/dmitrytsepelev",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Dmitry_Tsepelev.jpg"
+    },
+    {
+      "name": "Melissa Jurkoic",
+      "url": "https://twitter.com/melissa_jurkoic",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Melissa_Jurkoic.jpg"
+    },
+    {
+      "name": "Eeva-Jonna Panula",
+      "url": "https://eevis.codes",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Eeva-Jonna_Panula.jpg"
+    },
+    {
+      "name": "Lisa Karlin Curtis",
+      "url": "https://paprikati.github.io",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Lisa_Karlin_Curtis.jpg"
+    },
+    {
+      "name": "Soutaro Matsumoto",
+      "url": "https://github.com/soutaro",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Soutaro_Matsumoto.jpg"
     }
   ]
 }
