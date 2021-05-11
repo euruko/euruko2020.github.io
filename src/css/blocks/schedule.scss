@@ -1,9 +1,13 @@
 .schedule {
-  &__table {
+  &__table, &__calendar {
     margin-top: 60px;
 
     @include mq($until: wide) {
       margin-top: 40px;
     }
+  }
+
+  &__calendar {
+    margin-bottom: 1em;
   }
 }

@@ -58,6 +58,7 @@ const setClickListeners = () => {
   const continueButton = document.getElementById("continue-button");
   const firstSection = document.querySelector(".section");
   const header = document.getElementById("header");
+  const calendarUrl = document.getElementById("calendarUrl");
 
   if (mobileToggle && header)
     mobileToggle.addEventListener("click", e => {
@@ -75,6 +76,12 @@ const setClickListeners = () => {
         behavior: "smooth",
       });
     });
+
+  if (calendarUrl) {
+    calendarUrl.addEventListener("click", e => {
+      e.target.select();
+    });
+  }
 };
 
 const setIntersectionObserver = () => {

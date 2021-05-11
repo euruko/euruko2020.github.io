@@ -11,6 +11,7 @@
         {{ end }}
       </p>
       {{ end }}
+
       {{ range.Site.Data.schedule.schedules }}
       <div class="schedule__table">
         <div class="table">
@@ -37,6 +38,47 @@
         </div>
       </div>
       {{ end }}
+
+      <p class="schedule__calendar">
+        To subscribe to the calendar feed, copy-paste the following URL to your calendar:
+      </p>
+
+      <input id="calendarUrl" class="form-url" value="https://euruko2021.org/index.ics" type="url" readonly>
+
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://support.google.com/calendar/answer/37100?hl=en">
+            Google Calendar instructions
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://support.apple.com/en-us/HT202361">
+            macOS Calendar instructions
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://support.apple.com/guide/iphone/use-multiple-calendars-iph3d1110d4/ios#iph30203de42">
+            iOS Calendar instructions
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df">
+            Outlook instructions (subscribe, don't import)
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
