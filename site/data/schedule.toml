@@ -20,8 +20,8 @@ speaker = "Yukihiro Matsumoto"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-28T12:00:00+03:00"
-end = "2021-05-28T12:30:00+03:00"
+start = "2021-05-28T11:45:00+03:00"
+end = "2021-05-28T12:15:00+03:00"
 event = """Don't Develop Just for Yourself - A Developer's Checklist to Accessibility"""
 speaker = "Eeva-Jonna Panula"
 description = """Developer, are you (unconsciously) developing sites for users just like yourself? It often means a sighted mouse user with good fine motor skills and who is proficient with computers. But not every user is like that.
@@ -30,21 +30,21 @@ Many projects have automated accessibility checkers, and that is a good start. H
 """
 
 [[schedules.events]]
-start = "2021-05-28T12:45:00+03:00"
-end = "2021-05-28T13:30:00+03:00"
+start = "2021-05-28T12:30:00+03:00"
+end = "2021-05-28T13:15:00+03:00"
 event = "Lunch break"
 description = ""
 
 [[schedules.events]]
 start = "2021-05-28T13:30:00+03:00"
-end = "2021-05-28T13:45:00+03:00"
+end = "2021-05-28T14:00:00+03:00"
 event = """How to stop breaking other people's things"""
 speaker = "Lisa Karlin Curtis"
 description = """Breaking changes are sad. We’ve all been there; someone else changes their API in a way you weren’t expecting, and now you have a live-ops incident you need to fix urgently to get your software working again. Of course, many of us are on the other side too: we build APIs that other people’s software relies on."""
 
 [[schedules.events]]
-start = "2021-05-28T13:45:00+03:00"
-end = "2021-05-28T14:15:00+03:00"
+start = "2021-05-28T14:15:00+03:00"
+end = "2021-05-28T14:45:00+03:00"
 event = "Delivering fast and slow - Ethics of quality"
 speaker = "Lena Wiberg"
 description = """
@@ -54,14 +54,14 @@ Delivering something new, better, faster than our competition can mean incredibl
 """
 
 [[schedules.events]]
-start = "2021-05-28T14:25:00+03:00"
-end = "2021-05-28T14:30:00+03:00"
+start = "2021-05-28T14:55:00+03:00"
+end = "2021-05-28T15:00:00+03:00"
 event = "TBA"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-28T14:30:00+03:00"
-end = "2021-05-28T15:00:00+03:00"
+start = "2021-05-28T15:00:00+03:00"
+end = "2021-05-28T15:30:00+03:00"
 event = "Building high–performance GraphQL APIs"
 speaker = "Dmitry Tsepelev"
 description = """
@@ -71,13 +71,13 @@ We’ll discuss how queries are executed and what makes processing slower. After
 """
 
 [[schedules.events]]
-start = "2021-05-28T15:10:00+03:00"
-end = "2021-05-28T15:15:15+03:00"
+start = "2021-05-28T15:45:00+03:00"
+end = "2021-05-28T15:50:15+03:00"
 event = "TBA"
 
 [[schedules.events]]
-start = "2021-05-28T15:15:00+03:00"
-end = "2021-05-28T15:45:00+03:00"
+start = "2021-05-28T15:50:00+03:00"
+end = "2021-05-28T16:20:00+03:00"
 event = "Lockdown: The Mother of Invention"
 speaker = "Amy Wall"
 description = """
@@ -89,8 +89,8 @@ I will also share my own experience with staying busy, including my adventure bu
 """
 
 [[schedules.events]]
-start = "2021-05-28T16:00:00+03:00"
-end = "2021-05-28T16:30:00+03:00"
+start = "2021-05-28T16:30:00+03:00"
+end = "2021-05-28T17:00:00+03:00"
 event = """Optimizing Ruby's memory layout"""
 speaker = "Peter Zhu & Matthew Valentine-House"
 description = """
@@ -100,8 +100,8 @@ Join us as we explore how the variable width allocation project will change the 
 """
 
 [[schedules.events]]
-start = "2021-05-28T16:30:00+03:00"
-end = "2021-05-28T17:00:00+03:00"
+start = "2021-05-28T17:00:00+03:00"
+end = "2021-05-28T17:15:00+03:00"
 event = "End of day one stream"
 description = ""
 
