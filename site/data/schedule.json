@@ -38,8 +38,8 @@
         {
           "start": "2021-05-28T13:45:00+03:00",
           "end": "2021-05-28T14:15:00+03:00",
-          "event": "Talk",
-          "description": ""
+          "event": "Delivering fast and slow - Ethics of quality",
+          "description": "Lena Wiberg"
         },
         {
           "start": "2021-05-28T14:25:00+03:00",
@@ -61,8 +61,8 @@
         {
           "start": "2021-05-28T15:15:00+03:00",
           "end": "2021-05-28T15:45:00+03:00",
-          "event": "Talk",
-          "description": "TBA"
+          "event": "Lockdown: The Mother of Invention",
+          "description": "Amy Wall"
         },
         {
           "start": "2021-05-28T16:00:00+03:00",
@@ -126,8 +126,8 @@
         {
           "start": "2021-05-29T14:30:00+03:00",
           "end": "2021-05-29T15:00:00+03:00",
-          "event": "Delivering fast and slow - Ethics of quality",
-          "description": "Lena Wiberg"
+          "event": "Going native with FFI",
+          "description": "Juan Carlos Ruiz"
         },
         {
           "start": "2021-05-29T15:15:00+03:00",
@@ -138,7 +138,7 @@
         {
           "start": "2021-05-29T16:00:00+03:00",
           "end": "2021-05-29T16:45:00+03:00",
-          "event": "Closing keynote",
+          "event": "Keynote: Linda Liukas",
           "description": ""
         },
         {

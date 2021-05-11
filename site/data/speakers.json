@@ -76,6 +76,18 @@
       "url": "https://github.com/soutaro",
       "urlType": "web",
       "imageUrl": "images/speakers/Soutaro_Matsumoto.jpg"
+    },
+    {
+      "name": "Amy Wall",
+      "url": "https://twitter.com/amymariewall",
+      "urlType": "twitter",
+      "imageUrl": "images/speakers/Amy_Wall.jpg"
+    },
+    {
+      "name": "Juan Carlos Ruiz",
+      "url": "https://juancrg90.me/",
+      "urlType": "web",
+      "imageUrl": "images/speakers/Juan_Carlos_Ruiz.jpg"
     }
   ]
 }
