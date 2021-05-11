@@ -8,7 +8,7 @@ X-WR-CALNAME:Euruko 2021
 {{ range .events -}}
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:organisers@euruko.org
-SUMMARY:{{ .event }}
+SUMMARY:{{ .event }}{{ with .speaker }}({{.}}){{end}}
 UID:{{ (time .start).UTC.Unix }}@euruko2021.org
 SEQUENCE:{{ div (sub now.Unix (time "2019-06-21").Unix) 60 }}
 STATUS:CONFIRMED
@@ -16,7 +16,7 @@ DTSTAMP:{{ dateFormat "20060102T150405Z" (now).UTC }}
 DTSTART:{{ dateFormat "20060102T150405Z" (time .start).UTC }}
 DTEND:{{ dateFormat "20060102T150405Z" (time .end).UTC }}
 LOCATION:{{with .location}}{{.}}{{else}}Online{{end}}
-DESCRIPTION:{{with .description}}{{.}}{{else}}{{end}}
+DESCRIPTION:{{with .description}}{{ replace . "\n" "\\n"}}{{else}}{{end}}
 END:VEVENT
 {{end -}}
 {{end -}}

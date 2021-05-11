@@ -26,9 +26,9 @@
                 </time>
               </div>
               <div class="table__event">
-                {{ .event }}
+                {{ .event }} {{ with .speaker }}<span class="table__speaker">({{.}})</span>{{end}}
                 {{ if .description }}
-                <p class="table__description">{{ .description }}</p>
+                <div class="table__description">{{ markdownify .description }}</div>
                 {{ end }}
               </div>
             </div>

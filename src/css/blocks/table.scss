@@ -38,4 +38,11 @@
   &__description {
     font-weight: $regular;
   }
+  &__description p {
+    margin-bottom: 0.5rem;
+  }
+
+  &__speaker {
+    font-weight: $regular;
+  }
 }
