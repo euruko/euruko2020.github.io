@@ -53,11 +53,11 @@ Daily, we are pushing the boundaries of how fast we can deliver software. Consta
 Delivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.
 """
 
-[[schedules.events]]
-start = "2021-05-28T14:55:00+03:00"
-end = "2021-05-28T15:00:00+03:00"
-event = "TBA"
-description = ""
+# [[schedules.events]]
+# start = "2021-05-28T14:55:00+03:00"
+# end = "2021-05-28T15:00:00+03:00"
+# event = "TBA"
+# description = ""
 
 [[schedules.events]]
 start = "2021-05-28T15:00:00+03:00"
@@ -70,10 +70,10 @@ One day you decided to give GraphQL a try and implement an API of your new appli
 We’ll discuss how queries are executed and what makes processing slower. After that, we’ll learn how to measure performance in the GraphQL era and determine the part we should improve. Finally, we’ll discuss possible solutions and some advanced technics to keep your GraphQL app fast!
 """
 
-[[schedules.events]]
-start = "2021-05-28T15:45:00+03:00"
-end = "2021-05-28T15:50:15+03:00"
-event = "TBA"
+# [[schedules.events]]
+# start = "2021-05-28T15:45:00+03:00"
+# end = "2021-05-28T15:50:15+03:00"
+# event = "TBA"
 
 [[schedules.events]]
 start = "2021-05-28T15:50:00+03:00"
@@ -121,11 +121,11 @@ event = "Building a Ruby web app using the Ruby Standard Library"
 speaker = "Maple Ong"
 description = "Do you want to understand how a web application works without Rails magic? Let's go back to the basics of a web application and build one from the ground up using Ruby Standard Library. After this session, you'll appreciate Rails that much more."
 
-[[schedules.events]]
-start = "2021-05-29T11:45:00+03:00"
-end = "2021-05-29T12:00:00+03:00"
-event = "TBA"
-description = ""
+# [[schedules.events]]
+# start = "2021-05-29T11:45:00+03:00"
+# end = "2021-05-29T12:00:00+03:00"
+# event = "TBA"
+# description = ""
 
 [[schedules.events]]
 start = "2021-05-29T12:00:00+03:00"
@@ -146,11 +146,11 @@ end = "2021-05-29T13:30:00+03:00"
 event = "Lunch break"
 description = ""
 
-[[schedules.events]]
-start = "2021-05-29T13:30:00+03:00"
-end = "2021-05-29T13:35:00+03:00"
-event = "TBA"
-description = ""
+# [[schedules.events]]
+# start = "2021-05-29T13:30:00+03:00"
+# end = "2021-05-29T13:35:00+03:00"
+# event = "TBA"
+# description = ""
 
 [[schedules.events]]
 start = "2021-05-29T13:35:00+03:00"
