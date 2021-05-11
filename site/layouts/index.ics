@@ -15,7 +15,7 @@ STATUS:CONFIRMED
 DTSTAMP:{{ dateFormat "20060102T150405Z" (now).UTC }}
 DTSTART:{{ dateFormat "20060102T150405Z" (time .start).UTC }}
 DTEND:{{ dateFormat "20060102T150405Z" (time .end).UTC }}
-LOCATION:{{with .location}}{{.}}{{else}}Online{{end}}
+LOCATION:{{with .location}}{{.}}{{else}}{{end}}
 DESCRIPTION:{{with .description}}{{ replace . "\n" "\\n"}}{{else}}{{end}}
 END:VEVENT
 {{end -}}
