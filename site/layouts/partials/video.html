@@ -21,7 +21,7 @@
             {{ end }}
             {{ range.Site.Data.video.videos }}
             <div>
-              <lite-youtube videoid="{{.id}}" playlabel="{{.label}}"></lite-youtube>
+              <lite-youtube videoid="{{.id}}" playlabel="{{.label}}" {{ with .cover }}style="background-image: url('{{ (resources.Get . | resources.Fingerprint).RelPermalink }}');"{{end}}></lite-youtube>
             </div>
             {{ end }}
           </div>

@@ -1,12 +1,13 @@
 {
   "sectionName": "Livestream",
   "textContent": [
-    "The livestream will be available on the 28th and 29th of May 2021"
+    "The livestream will be available on the 28th and 29th of May 2021. Until then, please enjoy this video from 1973 of Finnish software engineers describing their work."
   ],
   "videos": [
     {
-      "id": "2g9R7PUCEXo",
-      "label": "RubyConf 2019 - Opening Keynote"
+      "id": "AxSdWhkMB_A",
+      "label": "Software developers describing their work in 1973",
+      "cover": "images/1973.jpg"
     }
   ]
 }
