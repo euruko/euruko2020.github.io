@@ -1,21 +1,21 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//euruko2020//schedule//EN
+PRODID:-//euruko2021//schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Euruko 2021
 {{ range .Site.Data.schedule.schedules -}}
 {{ range .events -}}
 BEGIN:VEVENT
-ORGANIZER;CN="Euruko 2021":mailto:contact@euruko2020.org
+ORGANIZER;CN="Euruko 2021":mailto:organisers@euruko.org
 SUMMARY:{{ .event }}
-UID:{{ (time .start).UTC.Unix }}@euruko2020.org
+UID:{{ (time .start).UTC.Unix }}@euruko2021.org
 SEQUENCE:{{ div (sub now.Unix (time "2019-06-21").Unix) 60 }}
 STATUS:CONFIRMED
 DTSTAMP:{{ dateFormat "20060102T150405Z" (now).UTC }}
 DTSTART:{{ dateFormat "20060102T150405Z" (time .start).UTC }}
 DTEND:{{ dateFormat "20060102T150405Z" (time .end).UTC }}
-LOCATION:{{with .location}}{{.}}{{else}}Savoy-teatteri, Kasarminkatu 46, Helsinki{{end}}
+LOCATION:{{with .location}}{{.}}{{else}}Online{{end}}
 DESCRIPTION:{{with .description}}{{.}}{{else}}{{end}}
 END:VEVENT
 {{end -}}
