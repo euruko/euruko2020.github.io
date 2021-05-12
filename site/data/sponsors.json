@@ -10,7 +10,8 @@
     {
       "name": "Kaiku Health",
       "url": "https://kaikuhealth.com",
-      "imageUrl": "images/kaiku.svg"
+      "imageUrl": "images/kaiku.svg",
+      "description": "Kaiku Health is a platform for digital health interventions. It provides patient-reported outcome monitoring and intelligent symptom tracking. The use of Kaiku Health helps cancer clinics provide optimised care through timely symptom management and improved workflow."
     }
   ],
   "organizer": {
