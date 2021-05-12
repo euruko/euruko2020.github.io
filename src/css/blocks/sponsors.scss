@@ -57,16 +57,23 @@
     }
 
     &--organizer {
+      align-items: flex-start;
+      
       .sponsors__link {
-        flex-basis: auto;
-        background: none;
-        padding: 20px;
-        border-radius: 256px;
+        padding: 20px 40px;
+        background: linear-gradient(rgba($blue-1, 0.1), rgba(0, 0, 0, 0.05));
+      }
+
+      .sponsors__tag {
+        background: $blue-1;
       }
 
       img {
-        margin-top: 0;
-        max-width: 400px;
+        max-width: 300px;
+      }
+
+      .sponsors__sponsor-description {
+        font-size: 16px;
       }
     }
 

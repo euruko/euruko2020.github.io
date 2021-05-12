@@ -2,7 +2,7 @@
   <div class="section__container">
     <div class="section__inner-container">
       <div class="section__columns">
-        <div class="section__small-column">
+        <div class="section__very-small-column">
           <h1
             id="heading-sponsors"
             class="section__heading section__heading--pink"
@@ -17,24 +17,30 @@
           </p>
           {{ end }}
         </div>
-        {{ range.Site.Data.sponsors.organizers }}
-          <div class="section__large-column">
-            <div class="sponsors__list sponsors__list--organizer">
-              <a
-                class="sponsors__link"
-                href="{{ .url }}"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
-                  alt="{{ .name }}"
-                  loading="lazy"
-                />
-              </a>
-            </div>
+        <div class="section__very-large-column">
+          <div class="sponsors__list sponsors__list--organizer">
+            {{ range.Site.Data.sponsors.organizers }}
+            <a
+              class="sponsors__link"
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="sponsors__tag">ORGANIZER</div>
+              <img
+                src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                alt="{{ .name }}"
+                loading="lazy"
+              />
+              {{ if .description }}
+                <div class="sponsors__sponsor-description">
+                  {{ .description }}
+                </div>
+              {{ end }}
+            </a>
+            {{ end }}
           </div>
-        {{ end }}
+        </div>
       </div>
       <div class="section__columns">
         <div class="section__very-small-column">
@@ -61,7 +67,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-            <div class="sponsors__tag">RUBY</div>
+              <div class="sponsors__tag">RUBY</div>
               <img
                 src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
                 alt="{{ .name }}"
