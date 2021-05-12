@@ -184,7 +184,13 @@ start = "2021-05-29T16:00:00+03:00"
 end = "2021-05-29T16:45:00+03:00"
 event = "Keynote"
 speaker = "Linda Liukas"
-description = ""
+description = """
+Food for thought: home-cooked software
+
+A palate is a spot on your tongue where you remember. A library of textures, taste and language to describe the world around us. What if we learned about computers, code and technology with the tip of our tongue? How might home-cooked software look like in the future?
+
+In this talk, children’s book author & illustrator Linda Liukas will stem, rind, pit and seed a piece of code. Through the process, she will develop a palate for code, and understanding of how we are entangled in our technology, natural world and human communities.
+"""
 
 [[schedules.events]]
 start = "2021-05-29T16:45:00+03:00"
