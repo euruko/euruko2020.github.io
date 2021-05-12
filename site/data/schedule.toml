@@ -1,6 +1,6 @@
 sectionName = "Draft Schedule"
 sectionDescription = [
-    "The schedule is subject to change.",
+    "The schedule is subject to change. The times are in EEST (in other words, UTC+03:00).",
 ]
 
 [[schedules]]
