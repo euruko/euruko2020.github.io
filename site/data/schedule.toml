@@ -1,6 +1,6 @@
-sectionName = "Draft Schedule"
+sectionName = "Schedule"
 sectionDescription = [
-    "The schedule is subject to change. The times are in EEST (in other words, UTC+03:00).",
+    "The times are in EEST (in other words, UTC+03:00). The schedule is now confirmed and there shouldn't be any major changes coming up.",
 ]
 
 [[schedules]]
@@ -56,8 +56,14 @@ description = ""
 
 [[schedules.events]]
 start = "2021-05-28T14:15:00+03:00"
-end = "2021-05-28T14:45:00+03:00"
+end = "2021-05-28T14:30:00+03:00"
 event = "Coffee break"
+description = ""
+
+[[schedules.events]]
+start = "2021-05-28T14:30:00+03:00"
+end = "2021-05-28T14:45:00+03:00"
+event = "Lightning talk"
 description = ""
 
 [[schedules.events]]
