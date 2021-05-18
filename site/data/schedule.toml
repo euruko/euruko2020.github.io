@@ -56,8 +56,14 @@ description = ""
 
 [[schedules.events]]
 start = "2021-05-28T14:15:00+03:00"
-end = "2021-05-28T14:45:00+03:00"
+end = "2021-05-28T14:30:00+03:00"
 event = "Coffee break"
+description = ""
+
+[[schedules.events]]
+start = "2021-05-28T14:30:00+03:00"
+end = "2021-05-28T14:45:00+03:00"
+event = "Lightning talk"
 description = ""
 
 [[schedules.events]]
