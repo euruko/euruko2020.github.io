@@ -73,6 +73,11 @@
       "name": "Taktsoft",
       "url": "https://www.taktsoft.com/",
       "imageUrl": "images/sponsors/taktsoft.svg"
+    },
+    {
+      "name": "Meister Labs",
+      "url": "https://www.meisterlabs.com/",
+      "imageUrl": "images/sponsors/meisterlabs.svg"
     }
   ]
 }
