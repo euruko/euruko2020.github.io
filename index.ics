@@ -8,9 +8,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Opening
 UID:1622185200@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T070000Z
 DTEND:20210528T071500Z
 LOCATION:
@@ -20,9 +20,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Keynote (Yukihiro Matsumoto)
 UID:1622186100@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T071500Z
 DTEND:20210528T081500Z
 LOCATION:
@@ -32,9 +32,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Don't Develop Just for Yourself - A Developer's Checklist to Accessibility (Eeva-Jonna Panula)
 UID:1622189700@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T081500Z
 DTEND:20210528T090000Z
 LOCATION:
@@ -42,47 +42,71 @@ DESCRIPTION:Developer, are you (unconsciously) developing sites for users just l
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:Lunch break
+SUMMARY:Lightning talk
 UID:1622192400@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T090000Z
-DTEND:20210528T100000Z
+DTEND:20210528T091500Z
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
+SUMMARY:Lunch break
+UID:1622193300@euruko2021.org
+SEQUENCE:1004307
+STATUS:CONFIRMED
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T091500Z
+DTEND:20210528T101500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:How to stop breaking other people's things (Lisa Karlin Curtis)
-UID:1622196000@euruko2021.org
-SEQUENCE:1004157
+UID:1622196900@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210528T100000Z
-DTEND:20210528T104500Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T101500Z
+DTEND:20210528T110000Z
 LOCATION:
 DESCRIPTION:Breaking changes are sad. We’ve all been there; someone else changes their API in a way you weren’t expecting, and now you have a live-ops incident you need to fix urgently to get your software working again. Of course, many of us are on the other side too: we build APIs that other people’s software relies on.
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:Delivering fast and slow - Ethics of quality (Lena Wiberg)
-UID:1622198700@euruko2021.org
-SEQUENCE:1004157
+SUMMARY:Fun Passing Blocks Around (sponsored) (Alan Wu, Shopify)
+UID:1622199600@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210528T104500Z
-DTEND:20210528T113000Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T110000Z
+DTEND:20210528T111500Z
 LOCATION:
-DESCRIPTION:Daily, we are pushing the boundaries of how fast we can deliver software. Constantly running on a knife’s edge between great success and horrible failure.\n\nDelivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.\n
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:Fun Passing Blocks Around (sponsored) (Alan Wu, Shopify)
-UID:1622201400@euruko2021.org
-SEQUENCE:1004157
+SUMMARY:Coffee break
+UID:1622200500@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T111500Z
+DTEND:20210528T113000Z
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
+SUMMARY:Lightning talk
+UID:1622201400@euruko2021.org
+SEQUENCE:1004307
+STATUS:CONFIRMED
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T113000Z
 DTEND:20210528T114500Z
 LOCATION:
@@ -90,35 +114,35 @@ DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:Coffee break
-UID:1622202300@euruko2021.org
-SEQUENCE:1004157
-STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210528T114500Z
-DTEND:20210528T120000Z
-LOCATION:
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Building high–performance GraphQL APIs (Dmitry Tsepelev)
-UID:1622203200@euruko2021.org
-SEQUENCE:1004157
+UID:1622202300@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210528T120000Z
-DTEND:20210528T124500Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T114500Z
+DTEND:20210528T123000Z
 LOCATION:
 DESCRIPTION:One day you decided to give GraphQL a try and implement an API of your new application using GraphQL. You deployed the app to production, but after a while, you realized, that responses are not super fast. How to find out what makes your GraphQL endpoint slow?\n\nWe’ll discuss how queries are executed and what makes processing slower. After that, we’ll learn how to measure performance in the GraphQL era and determine the part we should improve. Finally, we’ll discuss possible solutions and some advanced technics to keep your GraphQL app fast!\n
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
+SUMMARY:Lightning talk
+UID:1622205000@euruko2021.org
+SEQUENCE:1004307
+STATUS:CONFIRMED
+DTSTAMP:20210518T102701Z
+DTSTART:20210528T123000Z
+DTEND:20210528T124500Z
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Going native with FFI (Juan Carlos Ruiz)
 UID:1622205900@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T124500Z
 DTEND:20210528T133000Z
 LOCATION:
@@ -128,9 +152,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Optimizing Ruby's memory layout (Peter Zhu & Matthew Valentine-House)
 UID:1622208600@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T133000Z
 DTEND:20210528T141500Z
 LOCATION:
@@ -140,9 +164,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:End of day one stream
 UID:1622211300@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210528T141500Z
 DTEND:20210528T143000Z
 LOCATION:
@@ -152,9 +176,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Opening of day two
 UID:1622273400@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210529T073000Z
 DTEND:20210529T074500Z
 LOCATION:
@@ -164,9 +188,9 @@ BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Lockdown: The Mother of Invention (Amy Wall)
 UID:1622274300@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210529T074500Z
 DTEND:20210529T083000Z
 LOCATION:
@@ -174,109 +198,133 @@ DESCRIPTION:The last year has been hard on all of us. Cutting through the bad ne
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:IDE development with Ruby (Soutaro Matsumoto)
+SUMMARY:Lightning talk
 UID:1622277000@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210529T083000Z
-DTEND:20210529T091500Z
+DTEND:20210529T084500Z
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
+SUMMARY:IDE development with Ruby (Soutaro Matsumoto)
+UID:1622277900@euruko2021.org
+SEQUENCE:1004307
+STATUS:CONFIRMED
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T084500Z
+DTEND:20210529T093000Z
 LOCATION:
 DESCRIPTION:Integrated development environment (IDE) is one of the most frequently used tools for programming. It's a kind of text editor where you type and read the code, but it does more for you. On-the-fly error reporting, completion, go-to-definition, and more. These features help you writing and reading the code and make the tools more valuable than simple text editors.\n\nI have been working for IDE development to support Ruby programming with a static type checker. It is based on the Language Server Protocol (LSP) and implemented in Ruby.\n\nI want to share my experience. What is the protocol? How can the LSP features be implemented? You will get to know the under-the-hood of IDEs, and the tools will become more familiar to you.\n
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:TBA (Smartly)
-UID:1622279700@euruko2021.org
-SEQUENCE:1004157
+UID:1622280600@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T091500Z
-DTEND:20210529T093000Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T093000Z
+DTEND:20210529T094500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Lunch break
-UID:1622280600@euruko2021.org
-SEQUENCE:1004157
+UID:1622281500@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T093000Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T094500Z
 DTEND:20210529T104500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
-SUMMARY:Lightning talks
+SUMMARY:Delivering fast and slow - Ethics of quality (Lena Wiberg)
 UID:1622285100@euruko2021.org
-SEQUENCE:1004157
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
+DTSTAMP:20210518T102701Z
 DTSTART:20210529T104500Z
-DTEND:20210529T113000Z
+DTEND:20210520T113000Z
+LOCATION:
+DESCRIPTION:Daily, we are pushing the boundaries of how fast we can deliver software. Constantly running on a knife’s edge between great success and horrible failure.\n\nDelivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.\n
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
+SUMMARY:Lightning talk
+UID:1622287800@euruko2021.org
+SEQUENCE:1004307
+STATUS:CONFIRMED
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T113000Z
+DTEND:20210529T114500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Building a Ruby web app using the Ruby Standard Library (Maple Ong)
-UID:1622287800@euruko2021.org
-SEQUENCE:1004157
+UID:1622288700@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T113000Z
-DTEND:20210529T121500Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T114500Z
+DTEND:20210529T123000Z
 LOCATION:
 DESCRIPTION:Do you want to understand how a web application works without Rails magic? Let's go back to the basics of a web application and build one from the ground up using Ruby Standard Library. After this session, you'll appreciate Rails that much more.
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Coffee break
-UID:1622290500@euruko2021.org
-SEQUENCE:1004157
+UID:1622291400@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T121500Z
-DTEND:20210529T123000Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T123000Z
+DTEND:20210529T124500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Why a Diverse Team is Crucial to Startup Success (Melissa Jurkoic)
-UID:1622291400@euruko2021.org
-SEQUENCE:1004157
+UID:1622292300@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T123000Z
-DTEND:20210529T131500Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T124500Z
+DTEND:20210529T133000Z
 LOCATION:
 DESCRIPTION:Team diversity refers to differences between members of startup team. Those differences can include demographic differences (like age, race, sex, ethnicity), personality (extrovert, introvert, and differing Myers-Briggs types) and functional (as in skill sets, like engineering, design, copywriting, and marketing).\n\nHow does team diversity impact your customers' experience from the moment they learn about you through their journey with you?\nYou will attract and relate to customers how look like you. They will understand your messaging and you will understand their needs. If you don't represent the right dimensions of diversity, you are leaving an amazing experience behind.\n
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:Keynote (Linda Liukas)
-UID:1622294100@euruko2021.org
-SEQUENCE:1004157
+UID:1622295000@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T131500Z
-DTEND:20210529T141500Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T133000Z
+DTEND:20210529T143000Z
 LOCATION:
 DESCRIPTION:Food for thought: home-cooked software\n\nA palate is a spot on your tongue where you remember. A library of textures, taste and language to describe the world around us. What if we learned about computers, code and technology with the tip of our tongue? How might home-cooked software look like in the future?\n\nIn this talk, children’s book author & illustrator Linda Liukas will stem, rind, pit and seed a piece of code. Through the process, she will develop a palate for code, and understanding of how we are entangled in our technology, natural world and human communities.\n
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Euruko 2021":mailto:no-reply@euruko.org
 SUMMARY:End of Euruko 2021
-UID:1622297700@euruko2021.org
-SEQUENCE:1004157
+UID:1622298600@euruko2021.org
+SEQUENCE:1004307
 STATUS:CONFIRMED
-DTSTAMP:20210518T075740Z
-DTSTART:20210529T141500Z
-DTEND:20210529T143000Z
+DTSTAMP:20210518T102701Z
+DTSTART:20210529T143000Z
+DTEND:20210529T144500Z
 LOCATION:
 DESCRIPTION:
 END:VEVENT
