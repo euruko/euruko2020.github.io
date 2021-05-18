@@ -31,44 +31,38 @@ Many projects have automated accessibility checkers, and that is a good start. H
 
 [[schedules.events]]
 start = "2021-05-28T12:00:00+03:00"
-end = "2021-05-28T13:00:00+03:00"
+end = "2021-05-28T12:15:00+03:00"
+event = "Lightning talk"
+
+[[schedules.events]]
+start = "2021-05-28T12:15:00+03:00"
+end = "2021-05-28T13:15:00+03:00"
 event = "Lunch break"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-28T13:00:00+03:00"
-end = "2021-05-28T13:45:00+03:00"
+start = "2021-05-28T13:15:00+03:00"
+end = "2021-05-28T14:00:00+03:00"
 event = """How to stop breaking other people's things"""
 speaker = "Lisa Karlin Curtis"
 description = """Breaking changes are sad. We’ve all been there; someone else changes their API in a way you weren’t expecting, and now you have a live-ops incident you need to fix urgently to get your software working again. Of course, many of us are on the other side too: we build APIs that other people’s software relies on."""
 
 [[schedules.events]]
-start = "2021-05-28T13:45:00+03:00"
-end = "2021-05-28T14:30:00+03:00"
-event = "Delivering fast and slow - Ethics of quality"
-speaker = "Lena Wiberg"
-description = """
-Daily, we are pushing the boundaries of how fast we can deliver software. Constantly running on a knife’s edge between great success and horrible failure.
-
-Delivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.
-"""
-
-[[schedules.events]]
-start = "2021-05-28T14:30:00+03:00"
-end = "2021-05-28T14:45:00+03:00"
+start = "2021-05-28T14:00:00+03:00"
+end = "2021-05-28T14:15:00+03:00"
 event = "Fun Passing Blocks Around (sponsored)"
 speaker = "Alan Wu, Shopify"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-28T14:45:00+03:00"
-end = "2021-05-28T15:00:00+03:00"
+start = "2021-05-28T14:15:00+03:00"
+end = "2021-05-28T14:45:00+03:00"
 event = "Coffee break"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-28T15:00:00+03:00"
-end = "2021-05-28T15:45:00+03:00"
+start = "2021-05-28T14:45:00+03:00"
+end = "2021-05-28T15:30:00+03:00"
 event = "Building high–performance GraphQL APIs"
 speaker = "Dmitry Tsepelev"
 description = """
@@ -76,6 +70,11 @@ One day you decided to give GraphQL a try and implement an API of your new appli
 
 We’ll discuss how queries are executed and what makes processing slower. After that, we’ll learn how to measure performance in the GraphQL era and determine the part we should improve. Finally, we’ll discuss possible solutions and some advanced technics to keep your GraphQL app fast!
 """
+
+[[schedules.events]]
+start = "2021-05-28T15:30:00+03:00"
+end = "2021-05-28T15:45:00+03:00"
+event = "Lightning talk"
 
 [[schedules.events]]
 start = "2021-05-28T15:45:00+03:00"
@@ -127,7 +126,13 @@ I will also share my own experience with staying busy, including my adventure bu
 
 [[schedules.events]]
 start = "2021-05-29T11:30:00+03:00"
-end = "2021-05-29T12:15:00+03:00"
+end = "2021-05-29T11:45:00+03:00"
+event = "Lightning talk"
+description = ""
+
+[[schedules.events]]
+start = "2021-05-29T11:45:00+03:00"
+end = "2021-05-29T12:30:00+03:00"
 event = "IDE development with Ruby"
 speaker = "Soutaro Matsumoto"
 description = """
@@ -139,40 +144,51 @@ I want to share my experience. What is the protocol? How can the LSP features be
 """
 
 [[schedules.events]]
-start = "2021-05-29T12:15:00+03:00"
-end = "2021-05-29T12:30:00+03:00"
+start = "2021-05-29T12:30:00+03:00"
+end = "2021-05-29T12:45:00+03:00"
 event = "TBA" # Smartly talk
 speaker = "Smartly"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-29T12:30:00+03:00"
+start = "2021-05-29T12:45:00+03:00"
 end = "2021-05-29T13:45:00+03:00"
 event = "Lunch break"
 description = ""
 
 [[schedules.events]]
 start = "2021-05-29T13:45:00+03:00"
-end = "2021-05-29T14:30:00+03:00"
-event = "Lightning talks"
-description = ""
+end = "2021-05-20T14:30:00+03:00"
+event = "Delivering fast and slow - Ethics of quality"
+speaker = "Lena Wiberg"
+description = """
+Daily, we are pushing the boundaries of how fast we can deliver software. Constantly running on a knife’s edge between great success and horrible failure.
+
+Delivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.
+"""
 
 [[schedules.events]]
 start = "2021-05-29T14:30:00+03:00"
-end = "2021-05-29T15:15:00+03:00"
+end = "2021-05-29T14:45:00+03:00"
+event = "Lightning talk"
+description = ""
+
+[[schedules.events]]
+start = "2021-05-29T14:45:00+03:00"
+end = "2021-05-29T15:30:00+03:00"
 event = "Building a Ruby web app using the Ruby Standard Library"
 speaker = "Maple Ong"
 description = "Do you want to understand how a web application works without Rails magic? Let's go back to the basics of a web application and build one from the ground up using Ruby Standard Library. After this session, you'll appreciate Rails that much more."
 
 [[schedules.events]]
-start = "2021-05-29T15:15:00+03:00"
-end = "2021-05-29T15:30:00+03:00"
+start = "2021-05-29T15:30:00+03:00"
+end = "2021-05-29T15:45:00+03:00"
 event = "Coffee break"
 description = ""
 
 [[schedules.events]]
-start = "2021-05-29T15:30:00+03:00"
-end = "2021-05-29T16:15:00+03:00"
+start = "2021-05-29T15:45:00+03:00"
+end = "2021-05-29T16:30:00+03:00"
 event = "Why a Diverse Team is Crucial to Startup Success"
 speaker = "Melissa Jurkoic"
 description = """
@@ -183,8 +199,8 @@ You will attract and relate to customers how look like you. They will understand
 """
 
 [[schedules.events]]
-start = "2021-05-29T16:15:00+03:00"
-end = "2021-05-29T17:15:00+03:00"
+start = "2021-05-29T16:30:00+03:00"
+end = "2021-05-29T17:30:00+03:00"
 event = "Keynote"
 speaker = "Linda Liukas"
 description = """
@@ -196,7 +212,7 @@ In this talk, children’s book author & illustrator Linda Liukas will stem, rin
 """
 
 [[schedules.events]]
-start = "2021-05-29T17:15:00+03:00"
-end = "2021-05-29T17:30:00+03:00"
+start = "2021-05-29T17:30:00+03:00"
+end = "2021-05-29T17:45:00+03:00"
 event = "End of Euruko 2021"
 description = ""
