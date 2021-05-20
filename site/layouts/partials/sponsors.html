@@ -121,6 +121,23 @@
               </a>
             {{ end }}
           </div>
+          <div class="sponsors__list sponsors__list--small sponsors__list--topaz">
+            {{ range.Site.Data.sponsors.sponsorsTopaz }}
+            <a
+              class="sponsors__link"
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <div class="sponsors__tag">TOPAZ</div>
+              <img
+                src="{{ (resources.Get .imageUrl | resources.Fingerprint).RelPermalink }}"
+                alt="{{ .name }}"
+                loading="lazy"
+              />
+            </a>
+            {{ end }}
+          </div>
           <div class="sponsors__list sponsors__list--small">
             {{ range.Site.Data.sponsors.sponsorsOther }}
             <a

@@ -63,6 +63,13 @@
       "description": "Woolman helps European brands succeed in global commerce. We do it by utilising global cloud-services and using our strong commerce experience. Woolman is an eCommerce Agency with offices in various locations in Finland, Stockholm and Amsterdam. The team consists of 40 designers, programmers and eCommerce specialists being the largest Shopify Plus agency in mainland Europe."
     }
   ],
+  "sponsorsTopaz": [
+    {
+      "name": "Forest Admin",
+      "url": "https://www.forestadmin.com/",
+      "imageUrl": "images/sponsors/forestadmin.svg"
+    }
+  ],
   "sponsorsOther": [
     {
       "name": "Orbit",

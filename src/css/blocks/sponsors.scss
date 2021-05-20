@@ -85,6 +85,11 @@
       }
     }
 
+    &--topaz {
+      .sponsors__tag {
+        background: $orange;
+      }
+    }
     &--platform {
       .sponsors__link {
         background: linear-gradient(rgba($green-2, 0.15), rgba(0, 0, 0, 0.05));
