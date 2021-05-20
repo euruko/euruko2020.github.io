@@ -33,6 +33,22 @@
       ]
     },
     {
+      "companyName": "Smartly",
+      "companyLogo": "images/sponsors/smartly.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Backend Developer (Helsinki)",
+          "jobDescription": "As part of our team you’ll contribute to the core view of Smartly.io app and build data-heavy integrations with modern backend technologies operating our data pipelines and reporting infrastructure.",
+          "jobLink": "https://grnh.se/c9ee6ade4us"
+        },
+        {
+          "jobTitle": "Fullstack Engineer (remote | Helsinki or Berlin)",
+          "jobDescription": "We are looking for a Fullstack engineer to develop our Asset Library, a service built for storing and optimizing media assets, fonts, rendered images and videos. ",
+          "jobLink": "https://grnh.se/b214b8464us"
+        }
+      ]
+    },
+    {
       "companyName": "Woolman",
       "companyLogo": "images/sponsors/woolman.svg",
       "companyJobs": [
