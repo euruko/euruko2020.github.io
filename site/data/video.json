@@ -1,13 +1,16 @@
 {
   "sectionName": "Livestream",
   "textContent": [
-    "The livestream will be available on the 28th and 29th of May 2021. Until then, please enjoy this video from 1973 of Finnish software engineers describing their work."
+    "The livestream will be available on the 28th and 29th of May 2021"
   ],
   "videos": [
     {
-      "id": "AxSdWhkMB_A",
-      "label": "Software developers describing their work in 1973",
-      "cover": "images/1973.jpg"
+      "id": "ZcbTlNvNGbs",
+      "label": "Friday"
+    },
+    {
+      "id": "sPLZStp1K0c",
+      "label": "Saturday"
     }
   ]
 }
