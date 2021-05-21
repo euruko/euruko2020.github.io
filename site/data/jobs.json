@@ -85,6 +85,17 @@
           "jobLink": "https://orbit.love/careers/software-engineer/"
         }
       ]
+    },
+    {
+      "companyName": "Meisterlabs",
+      "companyLogo": "images/sponsors/meisterlabs.svg",
+      "companyJobs": [
+        {
+          "jobTitle": "Back-End Developer (f/m/d)",
+          "jobDescription": "In our backend position, expect challenging projects as you help to develop new features, make technological updates and design and implement integrations with 3rd party tools. You will work closely with both our front-end and other back-end developers.",
+          "jobLink": "https://www.meisterlabs.com/jobs/backend-developer-2/"
+        }
+      ]
     }
   ]
 }
