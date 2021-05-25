@@ -65,17 +65,17 @@
   ],
   "sponsorsTopaz": [
     {
+      "name": "Orbit",
+      "url": "https://orbit.love",
+      "imageUrl": "images/sponsors/orbit.svg"
+    },
+    {
       "name": "Forest Admin",
       "url": "https://www.forestadmin.com/",
       "imageUrl": "images/sponsors/forestadmin.svg"
     }
   ],
   "sponsorsOther": [
-    {
-      "name": "Orbit",
-      "url": "https://orbit.love",
-      "imageUrl": "images/sponsors/orbit.svg"
-    },
     {
       "name": "Taktsoft",
       "url": "https://www.taktsoft.com/",
