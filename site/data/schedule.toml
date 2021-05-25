@@ -32,7 +32,17 @@ Many projects have automated accessibility checkers, and that is a good start. H
 [[schedules.events]]
 start = "2021-05-28T12:00:00+03:00"
 end = "2021-05-28T12:15:00+03:00"
-event = "Lightning talk"
+event = "Lightning talk: State of the PDF"
+speaker = "Thomas Leitner"
+description = """
+What are your options when dealing with PDFs in Ruby? Are you creating PDFs? Then you are likely using wkhtmltopdf or Prawn.
+
+What if you need to manipulate PDF files? Are you resorting to calling command line tools like pdftk? Or chaining multiple libraries/CLI tools together?
+
+Have you tried HexaPDF? It is a relatively new PDF library for Ruby which unites all PDF manipulation and creation facilities under one pure-Ruby roof. It is fast with low memory usage and a very Ruby-esque API interface.
+
+The lightning talk will give a short introduction into the available libraries and then focus on the current state of HexaPDF and what it brings to the table.
+"""
 
 [[schedules.events]]
 start = "2021-05-28T12:15:00+03:00"
@@ -56,14 +66,8 @@ description = ""
 
 [[schedules.events]]
 start = "2021-05-28T14:15:00+03:00"
-end = "2021-05-28T14:30:00+03:00"
-event = "Coffee break"
-description = ""
-
-[[schedules.events]]
-start = "2021-05-28T14:30:00+03:00"
 end = "2021-05-28T14:45:00+03:00"
-event = "Lightning talk"
+event = "Coffee break"
 description = ""
 
 [[schedules.events]]
@@ -80,7 +84,11 @@ We’ll discuss how queries are executed and what makes processing slower. After
 [[schedules.events]]
 start = "2021-05-28T15:30:00+03:00"
 end = "2021-05-28T15:45:00+03:00"
-event = "Lightning talk"
+event = "Lightning talk: Adding byebug to the Professional Puts Debugger Tool Set"
+speaker = "Zhi Ren Guoy"
+description = """
+A crash course on getting started with the 'byebug' debugger.
+"""
 
 [[schedules.events]]
 start = "2021-05-28T15:45:00+03:00"
@@ -133,8 +141,13 @@ I will also share my own experience with staying busy, including my adventure bu
 [[schedules.events]]
 start = "2021-05-29T11:30:00+03:00"
 end = "2021-05-29T11:45:00+03:00"
-event = "Lightning talk"
-description = ""
+event = "Lightning talk: The 6 Characters That Could Bring Down Your App"
+speaker = "Moncef Belyamani"
+description = """
+This is a true story about how using the wrong method caused the app to hang for our users, and how it increased our database CPU usage by up to 10 times!
+
+You probably are using this same method in your app right now. Find out what you should use instead.
+"""
 
 [[schedules.events]]
 start = "2021-05-29T11:45:00+03:00"
