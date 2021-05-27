@@ -189,8 +189,15 @@ Delivering something new, better, faster than our competition can mean incredibl
 [[schedules.events]]
 start = "2021-05-29T14:30:00+03:00"
 end = "2021-05-29T14:45:00+03:00"
-event = "Snack break"
-description = ""
+event = "Lightning talk: Shipping Ruby and Rails apps as native Linux packages"
+speaker = "Cyril Rohr"
+description = """
+Ruby and Rails applications are notoriously difficult to package in the native formats (.deb, .rpm) used by the main Linux distributions.
+
+Although Docker has allowed to ship applications almost anywhere, native packages remain relevant in constrained environments (banks, etc.), or when distributing an app or CLI to end users that may not have or want to use Docker.
+
+In this presentation you’ll learn how to package a Rails application for the main Linux distributions available. You’ll also learn how to host the resulting packages, and apply the same recipe to package a Ruby CLI that can be shipped to users.
+"""
 
 [[schedules.events]]
 start = "2021-05-29T14:45:00+03:00"
