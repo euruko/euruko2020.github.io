@@ -177,7 +177,7 @@ description = ""
 
 [[schedules.events]]
 start = "2021-05-29T13:45:00+03:00"
-end = "2021-05-20T14:30:00+03:00"
+end = "2021-05-29T14:30:00+03:00"
 event = "Delivering fast and slow - Ethics of quality"
 speaker = "Lena Wiberg"
 description = """
