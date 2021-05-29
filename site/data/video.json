@@ -1,16 +1,7 @@
 {
-  "sectionName": "Livestream",
+  "sectionName": "Videos",
   "textContent": [
-    "The livestream will be available on the 28th and 29th of May 2021"
+    "The conference videos will be available later."
   ],
-  "videos": [
-    {
-      "id": "ZcbTlNvNGbs",
-      "label": "Friday"
-    },
-    {
-      "id": "sPLZStp1K0c",
-      "label": "Saturday"
-    }
-  ]
+  "videos": []
 }
