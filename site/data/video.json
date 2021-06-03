@@ -1,7 +1,80 @@
 {
   "sectionName": "Videos",
   "textContent": [
-    "The conference videos will be available later."
+    "The conference videos are now available on the [Euruko YouTube channel](https://www.youtube.com/channel/UCgXsZr2e0AgUJMZm5t03WVw)."
   ],
-  "videos": []
+  "videos": [
+    {
+      "id": "Dp12a3KGNFw",
+      "label": "Keynote: Beyond Ruby 3.0 (Yukihiro Matsumoto)"
+    },
+    {
+      "id": "s8F1Qar4SkA",
+      "label": "Don't Develop Just for Yourself - A Developer's Checklist to Accessibility (Eeva-Jonna Panula)"
+    },
+    {
+      "id": "UpwSpQAm-Rc",
+      "label": "Lightning talk: State of the PDF (Thomas Leitner)"
+    },
+    {
+      "id": "eEFcS_cmusQ",
+      "label": "How to stop breaking other people's things (Lisa Karlin Curtis)"
+    },
+    {
+      "id": "MOfqH8euU58",
+      "label": "Fun Passing Blocks Around (sponsored) (Alan Wu, Shopify)"
+    },
+    {
+      "id": "kIJdauCgBC8",
+      "label": "Building high–performance GraphQL APIs (Dmitry Tsepelev)"
+    },
+    {
+      "id": "YibyXazjnII",
+      "label": "Lightning talk: Adding byebug to the Professional Puts Debugger Tool Set (Zhi Ren Guoy)"
+    },
+    {
+      "id": "75bAbaUu5jI",
+      "label": "Going native with FFI (Juan Carlos Ruiz)"
+    },
+    {
+      "id": "x_YhDCNeFQ8",
+      "label": "Optimizing Ruby's memory layout (Peter Zhu & Matthew Valentine-House)"
+    },
+    {
+      "id": "9zEkCM2MElY",
+      "label": "Lockdown: The Mother of Invention (Amy Wall)"
+    },
+    {
+      "id": "XgA_2pJtJEM",
+      "label": "Lightning talk: The 6 Characters That Could Bring Down Your App (Moncef Belyamani)"
+    },
+    {
+      "id": "l_G4_qTqrGQ",
+      "label": "IDE development with Ruby (Soutaro Matsumoto)"
+    },
+    {
+      "id": "lEedrF7ZNZU",
+      "label": "Streaming data transformations with Ruby (sponsored) (Ville Lautanala, Smartly)"
+    },
+    {
+      "id": "Yj4oSyRVz9A",
+      "label": "Delivering fast and slow - Ethics of quality (Lena Wiberg)"
+    },
+    {
+      "id": "VK65X8fyqVM",
+      "label": "Lightning talk: Shipping Ruby and Rails apps as native Linux packages (Cyril Rohr)"
+    },
+    {
+      "id": "lxczDssLYKA",
+      "label": "Building a Ruby web app using the Ruby Standard Library (Maple Ong)"
+    },
+    {
+      "id": "08wUjbh4RoQ",
+      "label": "Why a Diverse Team is Crucial to Startup Success (Melissa Jurkoic)"
+    },
+    {
+      "id": "ICu0mVWU7Y8",
+      "label": "Q&A with Linda Liukas"
+    }
+  ]
 }
