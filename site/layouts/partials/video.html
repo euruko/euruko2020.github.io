@@ -19,12 +19,14 @@
             {{ range.Site.Data.video.textContent }}
             <p>{{ markdownify . }}</p>
             {{ end }}
-            {{ range.Site.Data.video.videos }}
-            <div class="video__container">
-              <p class="video__label">{{.label}}</p>
-              <lite-youtube videoid="{{.id}}" playlabel="{{.label}}" {{ with .cover }}style="background-image: url('{{ (resources.Get . | resources.Fingerprint).RelPermalink }}');"{{end}}></lite-youtube>
+            <div class="video__grid">
+              {{ range.Site.Data.video.videos }}
+              <div class="video__container">
+                <p class="video__label">{{.label}}</p>
+                <lite-youtube videoid="{{.id}}" playlabel="{{.label}}" {{ with .cover }}style="background-image: url('{{ (resources.Get . | resources.Fingerprint).RelPermalink }}');"{{end}}></lite-youtube>
+              </div>
+              {{ end }}
             </div>
-            {{ end }}
           </div>
         </div>
       </div>
