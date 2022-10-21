@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Euruko 2021"
-baseURL = "https://euruko2021.org/"
+baseURL = "https://2021.euruko.org/"
 
 disableHugoGeneratorInject = true
 
