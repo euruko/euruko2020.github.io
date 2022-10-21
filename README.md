@@ -10,7 +10,7 @@ The site uses [Hugo](https://gohugo.io/) as a static site generator and [Webpack
 
 ## Deployments
 
-⚠️ The `master` branch is deployed automatically! If you make changes to the `master` branch, they *WILL* go live on the internet.
+⚠️ The `main` branch is deployed automatically! If you make changes to the `main` branch, they *WILL* go live on the internet.
 
 ## Usage
 
