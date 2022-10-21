@@ -25,21 +25,21 @@ jobs:
         name: site-build-${{github.sha}}
         path: dist
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/download-artifact@master
-      with:
-        name: site-build-${{github.sha}}
-        path: dist/
-    - run: ls -lh dist/
-    - run: echo ${{github.ref}}
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        EXTERNAL_REPOSITORY: euruko/euruko2020.github.io
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
-      if: github.ref == 'refs/heads/master' && success()
+  # deploy:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/download-artifact@master
+  #     with:
+  #       name: site-build-${{github.sha}}
+  #       path: dist/
+  #   - run: ls -lh dist/
+  #   - run: echo ${{github.ref}}
+  #   - name: Deploy
+  #     uses: peaceiris/actions-gh-pages@v2
+  #     env:
+  #       ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+  #       EXTERNAL_REPOSITORY: euruko/euruko2020.github.io
+  #       PUBLISH_BRANCH: gh-pages
+  #       PUBLISH_DIR: ./dist
+  #     if: github.ref == 'refs/heads/master' && success()
